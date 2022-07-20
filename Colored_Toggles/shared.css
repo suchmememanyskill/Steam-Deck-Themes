@@ -68,10 +68,10 @@ div .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
 	color: var(--friends-text-color);
 }
 
+/* New to library text. Does not support animations */
 .appportrait_AppPortraitBanner_N8aJr {
-	background-color: var(--main-color); 
+	background-color: var(--static-color); 
 	color: var(--friends-text-color);
-	animation: var(--animation);
   }
 
 .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
