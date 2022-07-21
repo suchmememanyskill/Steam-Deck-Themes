@@ -2,6 +2,7 @@
      "name": "SDH-ClassicTheme",
      "version": "v0.2",
      "author": "NegativeI0N",
+     "target": "System-Wide",
      "inject": {
          "shared.css": [
              "SP", "MainMenu", "QuickAccess"

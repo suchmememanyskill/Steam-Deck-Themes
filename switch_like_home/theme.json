@@ -2,6 +2,7 @@
     "name": "Switch Like Home",
     "version": "v1.0",
     "author": "SuchMeme",
+    "target": "Home",
     "inject": {
         "shared.css": [
             "SP"

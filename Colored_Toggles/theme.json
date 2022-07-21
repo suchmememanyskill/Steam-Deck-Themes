@@ -2,6 +2,7 @@
     "name": "Colored Toggles",
     "version": "v1.2",
     "author": "SuchMeme",
+    "target": "System-Wide",
     "inject": {
         "shared.css": [
             "QuickAccess", "SP", "MainMenu"

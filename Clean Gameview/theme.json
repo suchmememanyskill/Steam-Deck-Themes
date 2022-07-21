@@ -1,6 +1,7 @@
 {
     "name": "Clean Gameview",
     "author": "SuchMeme",
+    "target": "Library",
     "inject": {
         "shared.css": ["SP"]
     }
