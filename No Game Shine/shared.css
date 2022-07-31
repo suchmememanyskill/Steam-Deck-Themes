@@ -1,0 +1,3 @@
+.BasicUI .appportrait_LibraryItemBox_WYgDg:focus::after {
+    animation: none !important;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "No QAM Blur",
+    "version": "v1.0",
+    "author": "SuchMeme",
+    "target": "System-Wide",
+    "inject": {
+        "shared.css": [
+            "SP", "MainMenu"
+        ] 
+    }
+}

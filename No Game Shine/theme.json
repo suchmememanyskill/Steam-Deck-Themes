@@ -1,0 +1,11 @@
+{
+    "name": "No Game Shine",
+    "version": "v1.0",
+    "author": "SuchMeme",
+    "target": "System-Wide",
+    "inject": {
+        "shared.css": [
+            "SP"
+        ] 
+    }
+}
