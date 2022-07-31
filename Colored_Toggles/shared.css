@@ -74,9 +74,9 @@ div .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
 	color: var(--friends-text-color);
   }
 
+/* Progress bar at the bottom of installing games in the home menu. Animations and gradients seemingly unsupported */
 .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
-	background-color: var(--main-color);
-	animation: var(--animation);
+	background-color: var(--static-color);
 }
 
 /* Download bar in the top header. Animations and gradients seemingly unsupported */
