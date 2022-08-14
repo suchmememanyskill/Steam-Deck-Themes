@@ -3,6 +3,7 @@
     "version": "v1.0",
     "author": "SuchMeme",
     "target": "System-Wide",
+    "description": "Removes the shiny effect on games when they are selected",
     "inject": {
         "shared.css": [
             "SP"

@@ -1,0 +1,12 @@
+{
+    "name": "No Home Filter",
+    "target": "Home",
+    "author": "SuchMeme",
+    "description": "Removes the background filter on the home menu that desaturates images",
+    "version": "v1.0",
+    "inject": {
+        "shared.css": [
+            "SP"
+        ] 
+    }
+}

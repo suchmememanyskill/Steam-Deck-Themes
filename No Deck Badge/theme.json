@@ -1,0 +1,25 @@
+{
+    "name": "No Deck Badge",
+    "version": "v1.0",
+    "author": "SuchMeme",
+    "target": "Library",
+    "manifest_version": 2,
+    "description": "Removes the deck icon next to the verified status badge. Also has the option to remove the verified status badges entirely",
+    "inject": {
+        "shared.css": [
+            "SP"
+        ] 
+    },
+    "patches": {
+        "No Badges": {
+            "default": "No",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "NoBadgeAtAll.css": ["SP"]
+                }
+            }
+        }
+    }
+}

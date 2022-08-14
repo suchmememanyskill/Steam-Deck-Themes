@@ -3,6 +3,7 @@
     "version": "v1.0",
     "author": "SuchMeme",
     "target": "System-Wide",
+    "description": "Removes the blur and darken effect when opening the Quick Access menu or the Steam menu",
     "inject": {
         "shared.css": [
             "SP", "MainMenu"
