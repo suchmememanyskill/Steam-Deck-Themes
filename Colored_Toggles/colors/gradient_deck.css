@@ -1,8 +1,8 @@
 :root {
-	--main-color: linear-gradient(138deg, #009fff, #ff1965, #b9b500);
-    --friends-text-color: white !important;
-    --static-color: #009fff !important;
-    --animation: gradient 20s ease infinite forwards !important;
+	--colored-toggles-main-color: linear-gradient(138deg, #009fff, #ff1965, #b9b500);
+    --colored-toggles-friends-text-color: white !important;
+    --colored-toggles-static-color: #009fff !important;
+    --colored-toggles-animation: gradient 20s ease infinite forwards !important;
 }
 
 @keyframes gradient {

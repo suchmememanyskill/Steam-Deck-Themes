@@ -12,12 +12,24 @@
     "patches": {
         "Theme Color": {
             "default": "Orange",
+            "Red": {
+                "colors/red.css": ["QuickAccess", "SP", "MainMenu"]
+            },
             "Orange": {},
+            "Yellow": {
+                "colors/yellow.css": ["QuickAccess", "SP", "MainMenu"]
+            },
+            "Green": {
+                "colors/green.css": ["QuickAccess", "SP", "MainMenu"]
+            },
             "Lime": {
                 "colors/lime.css": ["QuickAccess", "SP", "MainMenu"]
             },
-            "Red": {
-                "colors/red.css": ["QuickAccess", "SP", "MainMenu"]
+            "Blue": {
+                "colors/blue.css": ["QuickAccess", "SP", "MainMenu"]
+            },
+            "Indigo": {
+                "colors/indigo.css": ["QuickAccess", "SP", "MainMenu"]
             },
             "Magenta": {
                 "colors/magenta.css": ["QuickAccess", "SP", "MainMenu"]
@@ -27,6 +39,12 @@
             },
             "Gradient Deck": {
                 "colors/gradient_deck.css": ["QuickAccess", "SP", "MainMenu"]
+            },
+            "Gray": {
+                "colors/gray.css": ["QuickAccess", "SP", "MainMenu"]
+            },
+            "White": {
+                "colors/white.css": ["QuickAccess", "SP", "MainMenu"]
             }
         }
     }
