@@ -1,0 +1,12 @@
+{
+    "name": "Test Theme Please Ignore",
+    "version": "v1.0",
+    "author": "SuchMeme",
+    "target": "Home",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "dependencies": {
+        "Static Background": {}
+    }
+}
