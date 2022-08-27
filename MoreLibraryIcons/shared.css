@@ -7,3 +7,8 @@
 .cssgrid_Container_DGRkX.Panel.Focusable {
     height: fit-content !important;
 }
+
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    z-index: 99 !important;
+    margin-top: -16px;
+}
