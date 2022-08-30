@@ -2,8 +2,21 @@
     "name": "Clean Gameview",
     "author": "SuchMeme",
     "target": "Library",
+    "manifest_version": 2,
     "description": "Makes the game view less cluttered, and shows more of the game's art",
     "inject": {
         "shared.css": ["SP"]
+    },
+    "patches": {
+        "Show Steam Cloud": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "steamcloud.css": ["SP"]
+                },
+                "No": {}
+            }
+        }
     }
 }
