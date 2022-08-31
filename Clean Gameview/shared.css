@@ -1,9 +1,24 @@
-.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_TopCapsule_2meE3 {
-    height: 48.5vw;
+:root {
+    --CGV-top-panel-height: 48.5vw;
+    --CGV-image-height: 119%;
+    --CGV-play-anim-height: 58vw;
 }
 
-.BasicUI .sharedappdetailsheader_ImgSrc__dije {
-    height: 119%;
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {
+    height: var(--CGV-top-panel-height);
+}
+
+.sharedappdetailsheader_HeaderBackgroundImage_1sarA {
+    height: var(--CGV-image-height);
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterStart_P7eLv {
+    animation-name: makethinggodown;
+    animation-duration: 1s;
+}
+
+.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_FullscreenEnterDone_1PRtu {
+    height: var(--CGV-play-anim-height);
 }
 
 .sharedappdetailsheader_BoxSizer_30GVp {
@@ -25,4 +40,9 @@
 
 .basicappdetailssectionstyler_PlaySection_3scbH {
     background: rgba(14,20,27,.33);
+}
+
+@keyframes makethinggodown {
+    from {height: var(--CGV-top-panel-height);}
+    to {height: var(--CGV-play-anim-height);}
 }

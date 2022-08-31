@@ -1,9 +1,6 @@
-.BasicUI .sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_TopCapsule_2meE3 {
-    height: 46.5vw;
-}
-
-.BasicUI .sharedappdetailsheader_ImgSrc__dije {
-    height: 124.5%;
+:root {
+    --CGV-top-panel-height: 46.5vw;
+    --CGV-image-height: 124.5%;
 }
 
 .appdetailsplaysection_CloudStatusRow_QvHky.Panel.Focusable {
