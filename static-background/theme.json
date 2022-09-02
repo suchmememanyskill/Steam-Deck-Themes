@@ -1,8 +1,9 @@
 {
     "name": "Static Background",
-    "version": "v1.0",
+    "version": "v1.1",
     "author": "SuchMeme",
     "target": "Home",
+    "description": "Injects a custom background into the steam ui home page",
     "inject": {
         "shared.css": ["SP"]
     }
