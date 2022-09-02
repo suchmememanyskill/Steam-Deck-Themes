@@ -1,0 +1,11 @@
+:root {
+    --test-main-color: #000
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C {
+    background: var(--test-main-color)
+}
+
+.quickaccessmenu_Title_34nl5 {
+    box-shadow: none;
+}

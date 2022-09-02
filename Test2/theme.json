@@ -1,0 +1,26 @@
+{
+    "name": "Test2",
+    "author": "SuchMeme",
+    "manifest_version": 2,
+    "target": "System-Wide",
+    "patches": {
+        "Enable": {
+            "type": "none",
+            "values": {
+                "Yes": {
+                    "shared.css": ["QuickAccess"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Bg Picker",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#000",
+                    "css_variable": "test-main-color",
+                    "tabs": ["QuickAccess"]
+                }
+            ]
+        }
+    }
+}
