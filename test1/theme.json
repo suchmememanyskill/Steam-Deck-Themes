@@ -1,7 +1,7 @@
 {
     "name": "Test1",
     "author": "SuchMeme",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "target": "System-Wide",
     "dependencies": {
         "Switch Like Home": {
