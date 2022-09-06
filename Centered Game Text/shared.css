@@ -1,19 +1,21 @@
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA,
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
-    transform: translate(-50%, 0);
     width: fit-content;
+    margin: 0 auto 0 auto;
 }
 
-.BasicUI .appportrait_PortraitMessage_3gwMk {
+.basicgamecarousel_CarouselGameLabel_3CKji {
     width: 0;
-    margin: 0 auto 0 auto;
-    overflow: visible;
+    max-width: 0;
+    margin: 0 auto 0 auto !important;
+    overflow: visible !important;
 }
 
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
     width: auto !important;
 }
 
-.basicgamecarousel_CarouselGameLabel_3CKji {
+.basicgamecarousel_CarouselGameLabel_3CKji > .appportrait_PortraitMessage_3gwMk {
     overflow: visible !important;
+    transform: translate(-50%, 0);
 }
