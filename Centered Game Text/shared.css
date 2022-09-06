@@ -1,0 +1,19 @@
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA,
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
+    transform: translate(-50%, 0);
+    width: fit-content;
+}
+
+.BasicUI .appportrait_PortraitMessage_3gwMk {
+    width: 0;
+    margin: 0 auto 0 auto;
+    overflow: visible;
+}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+    width: auto !important;
+}
+
+.basicgamecarousel_CarouselGameLabel_3CKji {
+    overflow: visible !important;
+}
