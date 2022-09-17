@@ -88,15 +88,16 @@ div .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
 }
 
 /* Download bar underneath the download button. */
-div .BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
+.BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
 	background: var(--colored-toggles-main-color);
 	animation: var(--colored-toggles-animation);
 }
 
 /* Continue download button on downloads screen. */
-div .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+.BasicUI .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
 	background: var(--colored-toggles-main-color);
 	animation: var(--colored-toggles-animation);
+	color: var(--colored-toggles-friends-text-color);
 }
 
 /* Download text above download bar. Animations and gradients seemingly unsupported */
