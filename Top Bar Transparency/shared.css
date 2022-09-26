@@ -1,0 +1,7 @@
+:root {
+    --top_bar_transparency: rgba(0, 0, 0, 0.5);
+}
+
+.header_Header_1E_SL::before {
+    background-color: var(--top_bar_transparency);
+}

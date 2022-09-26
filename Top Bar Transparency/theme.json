@@ -1,0 +1,66 @@
+{
+    "name": "Top Bar Transparency",
+    "author": "SuchMeme",
+    "manifest_version": 3,
+    "target": "Tweak",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "patches": {
+        "Transparency": {
+            "type": "slider",
+            "default": ".5",
+            "values": {
+                ".0": {
+                    "Transparency/0.0.css": ["SP"]
+                },
+                ".1": {
+                    "Transparency/0.1.css": ["SP"]
+                },
+                ".2": {
+                    "Transparency/0.2.css": ["SP"]
+                },
+                ".3": {
+                    "Transparency/0.3.css": ["SP"]
+                },
+                ".4": {
+                    "Transparency/0.4.css": ["SP"]
+                },
+                ".5": {},
+                ".6": {
+                    "Transparency/0.6.css": ["SP"]
+                },
+                ".7": {
+                    "Transparency/0.7.css": ["SP"]
+                },
+                ".8": {
+                    "Transparency/0.8.css": ["SP"]
+                },
+                ".9": {
+                    "Transparency/0.9.css": ["SP"]
+                },
+                "C": {}
+            },
+            "components": [
+                {
+                    "name": "Top Bar Color",
+                    "type": "color-picker",
+                    "on": "C",
+                    "default": "#000",
+                    "css_variable": "top_bar_transparency",
+                    "tabs": ["SP"]
+                }
+            ]
+        },
+        "Always Add Transparency": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "always_apply.css": ["SP"]
+                },
+                "No": {}
+            }
+        }
+    }
+}

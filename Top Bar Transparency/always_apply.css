@@ -1,0 +1,7 @@
+.header_Header_1E_SL {
+    background-color: var(--top_bar_transparency);
+}
+
+.header_Header_1E_SL::before {
+    background-color: transparent;
+}
