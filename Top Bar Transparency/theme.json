@@ -3,6 +3,7 @@
     "author": "SuchMeme",
     "manifest_version": 3,
     "target": "Tweak",
+    "description": "Turns the top bar transparent instead of solid black. Also has the option to input your own color for a top bar",
     "inject": {
         "shared.css": ["SP"]
     },
