@@ -2,7 +2,7 @@
     "name": "No Deck Badge",
     "version": "v1.0",
     "author": "SuchMeme",
-    "target": "Library",
+    "target": "Tweak",
     "manifest_version": 2,
     "description": "Removes the deck icon next to the verified status badge. Also has the option to remove the verified status badges entirely",
     "inject": {

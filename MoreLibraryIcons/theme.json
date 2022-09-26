@@ -2,7 +2,7 @@
     "name": "More Library Icons",
     "version": "v1.1",
     "author": "SuchMeme",
-    "target": "Library",
+    "target": "Tweak",
     "description": "Changes the amount of games displayed in the library from 5 games per row to 6 games per row",
     "inject": {
         "shared.css": [

@@ -3,7 +3,7 @@
     "author": "SuchMeme",
     "manifest_version": 3,
     "description": "Centers the text on top of a game, rather than left aligning it with the game",
-    "target": "Home",
+    "target": "Tweak",
     "inject": {
         "shared.css": ["SP"]
     }

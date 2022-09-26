@@ -2,7 +2,7 @@
     "name": "No Game Shine",
     "version": "v1.0",
     "author": "SuchMeme",
-    "target": "System-Wide",
+    "target": "Tweak",
     "description": "Removes the shiny effect on games when they are selected",
     "inject": {
         "shared.css": [
