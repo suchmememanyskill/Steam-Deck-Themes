@@ -1,0 +1,7 @@
+:root {
+    --fta-transition-duration: 200ms
+}
+
+.topleveltransitionswitch_EnterActive_Cpk9b, .topleveltransitionswitch_ExitActive_SoGsJ {
+    transition-duration: var(--fta-transition-duration) !important;
+}
