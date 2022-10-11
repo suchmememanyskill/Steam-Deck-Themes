@@ -1,14 +1,9 @@
-:root {
-	--sbg-background: url(https://i.imgur.com/kYW2H5C.jpg);
-}
-
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt {
 	position: absolute;
     top: 0;
-    background-image: var(--sbg-background);
+    background-image: var(--sbg-global-img-filter), var(--sbg-home-background);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt > * {

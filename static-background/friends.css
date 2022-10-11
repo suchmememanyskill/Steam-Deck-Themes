@@ -1,0 +1,9 @@
+.friendslist_FriendsChatsContainer_2Ze6b {
+    background-image: var(--sbg-global-img-filter), var(--sbg-friends-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.friendslist_FriendsChatsContainer_2Ze6b .FriendsListSteamDeckTopSection {
+    background-color: transparent !important;
+}
