@@ -1,11 +1,17 @@
-div .basicgamecarousel_BasicGameCarousel_3MdH5 {
-    padding-top: 158px;
-    height: 100% !important;
-    padding-bottom: 0px;
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    /* Screen Height - (Header + Footer) - header padding - friend bar */
+    height: calc(100vh - 80px - 14px - 58px);
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 .basicgamecarousel_BasicGameCarousel_3MdH5 {
+    bottom: 0px;
+    position: absolute !important;
 }
 
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    margin-top: -265px;
+    position: absolute;
+    top: -52px;
+    padding-top: 0;
 }
 
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
