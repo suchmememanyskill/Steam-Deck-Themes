@@ -1,10 +1,10 @@
 {
     "name": "Switch Like Home",
-    "version": "v1.1",
-    "author": "SuchMeme",
+    "version": "v1.2",
+    "author": "SuchMeme, Scyu_",
     "target": "Home",
 	"manifest_version": 2,
-	"description": "Bottom alligns the recent games list, removes the 'recent games' text and moves the game name above the selected game",
+	"description": "Bottom aligns the recent games list, removes the 'recent games' text and moves the game name above the selected game",
     "inject": {
         "shared.css": [
             "SP"

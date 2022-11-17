@@ -1,6 +1,6 @@
 :root {
-    --CGV-top-panel-height: 48.5vw;
-    --CGV-image-height: 119%;
+    --CGV-top-panel-height: calc(100vh - 80px - 40px);
+    --CGV-image-height: calc(100vh - 40px);
     --CGV-play-anim-height: 58vw;
 }
 
@@ -36,6 +36,7 @@
     padding-left: 24px;
     padding-bottom: 16px;
     margin-bottom: -6px;
+    width: 100%;
 }
 
 .basicappdetailssectionstyler_PlaySection_3scbH {
