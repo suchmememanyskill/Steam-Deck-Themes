@@ -18,6 +18,16 @@
                 },
                 "No": {}
             }
+        },
+        "Use Blur": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "blur.css": ["SP"]
+                },
+                "No": {}
+            }
         }
     }
 }
