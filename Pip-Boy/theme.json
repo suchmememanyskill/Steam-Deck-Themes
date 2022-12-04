@@ -1,0 +1,87 @@
+{
+    "name": "Pip-Boy",
+    "author": "SuchMeme, Emerson-Biggons",
+    "version": "v1.0",
+    "manifest_version": 4,
+    "inject": {
+        "All.css": ["All"]
+    },
+    "dependencies": {
+        "Colored Toggles": {},
+        "No Home Edge Fade": {},
+        "Colored Compatibility Icons": {}
+    },
+    "patches": {
+        "Fullscreen Modals": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "FullscreenModals.css": ["SP"]
+                },
+                "No": {}
+            }
+        },
+        "Font": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "Font.css": ["All"]
+                },
+                "No": {}
+            }
+        },
+        "Quick Access": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "QuickAccess.css": ["QuickAccess"]
+                },
+                "No": {}
+            }
+        },
+        "Main Menu": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "MainMenu.css": ["MainMenu"]
+                },
+                "No": {}
+            }
+        },
+        "Components": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "Components.css": ["SP"]
+                },
+                "No": {}
+            }
+        },
+        "Patches": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "Custom.css": ["SP"]
+                },
+                "No": {}
+            }
+        },
+        "Override Color": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {}
+            },
+            "components": [
+                {
+                    "name": "Color Override",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#1BFF80",
+                    "css_variable": "pip-boy-accent",
+                    "tabs": ["QuickAccess", "SP", "MainMenu"]
+                }
+            ]
+        }
+    }
+}

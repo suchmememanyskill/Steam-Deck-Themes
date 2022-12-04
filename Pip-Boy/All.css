@@ -1,0 +1,13 @@
+:root {
+  --pip-boy-accent: #1bff80;
+  --pip-boy-dark-accent: linear-gradient(0deg, #000C, #000C), var(--pip-boy-accent);
+  --pip-boy-bg: #000;
+  /* Overriding color of colored toggles */
+  --colored-toggles-main-color: var(--pip-boy-accent) !important;
+  --colored-toggles-friends-text-color: var(--pip-boy-bg) !important;
+  --custom-compat-icons-deck: var(--pip-boy-accent) !important;
+  --custom-compat-icons-verified: var(--pip-boy-accent) !important;
+  --custom-compat-icons-playable: var(--pip-boy-accent) !important;
+  --custom-compat-icons-unsupported: var(--pip-boy-accent) !important;
+  --custom-compat-icons-unknown: var(--pip-boy-accent) !important;
+}

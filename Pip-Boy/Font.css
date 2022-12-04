@@ -1,0 +1,8 @@
+@font-face {
+    font-family: pip-boy-font;
+    src: url("/themes_custom/Pip-Boy/font.ttf");
+  }
+
+* {
+    font-family: pip-boy-font !important;
+}

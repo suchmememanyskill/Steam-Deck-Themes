@@ -1,0 +1,181 @@
+/* --- */
+/* Fullscreen Options Menu */
+/* --- */
+
+/* Header */
+.basiccontextmenu_BasicContextMenuHeader_2nHKK {
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    display: inherit;
+}
+
+/* Text */
+.basiccontextmenu_contextMenuItem_3PqLg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
+    background: transparent;
+    color: var(--pip-boy-accent);
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/* Highlighted Text */ 
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D {
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+}
+
+/* Text Title/Description */
+.BasicUIContextMenu .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .dropdownlabel_DropDownLabelDescription_1JPcb
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase;
+}
+
+/* Highlighted Text Title/Description */
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.BasicUIContextMenu .gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb
+{
+    color: var(--pip-boy-bg);
+}
+
+/* Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic .SVGIcon_DownArrowContextMenu
+{
+    fill: var(--pip-boy-accent);
+}
+
+/* Highlighted Submenu Arrow */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic.gpfocus .SVGIcon_DownArrowContextMenu 
+{
+    fill: var(--pip-boy-bg);
+}
+
+/* Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
+    border-left: solid 5px;
+    border-right: solid 5px;
+}
+
+/* Highlighted Selected Item */
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg {
+    border-left: none;
+    border-right: none;
+}
+
+/* Submenu allign to top */
+.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child) {
+    align-self: end;
+    margin-left: 10%;
+}
+
+/* Allign menu to left */
+.basiccontextmenu_BasicContextMenuContainer_2dUDj {
+    justify-content: left;
+    padding-left: 10px;
+}
+
+/* Remove huge chunk of space */
+.basiccontextmenu_BasicContextMenuContainer_2dUDj::before, 
+.basiccontextmenu_BasicContextMenuContainer_2dUDj::after {
+    flex-grow: 0;
+}
+
+/* Allign menu to left */
+.basiccontextmenu_contextMenuItem_3PqLg,
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
+    justify-content: left;
+}
+
+/* --- */
+/* Modal Menu */
+/* --- */
+
+.ModalOverlayContent .gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk.GenericConfirmDialog {
+    background: transparent;
+    border-color: var(--pip-boy-accent);
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout {
+    display: block;
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton {
+    margin: auto;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase;
+}
+
+.ModalOverlayContent .GenericConfirmDialog ._DialogColLayout > .DialogButton.gpfocus {
+    color: var(--pip-boy-bg) !important;
+    background: var(--pip-boy-accent) !important;
+}
+
+.ModalOverlayContent .GenericConfirmDialog .DialogHeader,
+.ModalOverlayContent .GenericConfirmDialog .DialogBodyText,
+.ModalOverlayContent .mediapage_Title_3QFEe
+{
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.ModalOverlayContent .GenericConfirmDialog .DialogBodyText {
+    font-size: 12px;
+}
+
+/* Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled
+{
+    background: var(--pip-boy-dark-accent);
+    color: var(--pip-boy-accent);
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/* Highlighted Button */
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.ModalOverlayContent .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton.gpfocus,
+.ModalOverlayContent button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus
+{
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+}
+
+/* Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La,
+.ModalOverlayContent .gamepaddialog_FieldLabel_3b0U-,
+.ModalOverlayContent .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_LabelFieldValue_5Mylh
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase;
+}
+
+/* Selected Menu Element */
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin 
+{
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+    animation: none;
+}
+
+/* Selected menu Element Text */
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.ModalOverlayContent .gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh
+{
+    color: var(--pip-boy-bg);
+}

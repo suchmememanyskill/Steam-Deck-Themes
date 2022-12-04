@@ -1,0 +1,36 @@
+.mainmenu_Menu_23IDi {
+    background-size: 100%;
+    background-repeat: repeat;
+    background: url(/themes_custom/Pip-Boy/bg.png);
+}
+
+.mainmenu_ItemLabel_3x-ZK,
+.mainmenu_ItemIcon_3xZ3Z {
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase;
+}
+
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemLabel_3x-ZK {
+    color: var(--pip-boy-bg) !important;
+}
+
+.mainmenu_Item_2w9Tp.gpfocus {
+    background: var(--pip-boy-accent) !important;
+    animation: none;
+    transform: none;
+}
+
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z {
+    filter: brightness(0%);
+}
+
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    height: 8px !important;
+    width: 8px !important;
+    margin-left: 12px;
+    border-radius: 0 !important;
+}
+
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ActiveDot_1uLVH {
+    background: var(--pip-boy-bg) !important;
+}

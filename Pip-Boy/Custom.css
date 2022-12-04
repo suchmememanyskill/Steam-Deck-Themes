@@ -1,0 +1,257 @@
+.header_HeaderItem_2HnVd,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
+    color: var(--pip-boy-accent);
+}
+
+.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
+    color: var(--pip-boy-bg);
+    background: var(--pip-boy-accent);
+}
+
+.searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js,
+.BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36
+{
+    background-color: var(--pip-boy-accent);
+}
+
+.searchbar_SearchBox_2a1-s.searchbar_Visible_1bLfc.searchbar_WhiteBackground_1l8js::placeholder {
+    color: var(--pip-boy-bg);
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m,
+.appdetailsoverview_Container_27RcN {
+    background-size: 100%;
+    background-repeat: repeat;
+    background: url(/themes_custom/Pip-Boy/bg.png);
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7, /* What's new event background */
+.recentlycompleted_BottomSection_3LyF6,
+.recentlycompleted_RecentlyCompletedItem_3OC7i,
+.gamepadhomefriends_FavoriteFriend_3SLpz, .gamepadhomefriends_GoToFriends_MVc_6,
+.gamepadhomefriends_FavoriteFriend_3SLpz:focus, .gamepadhomefriends_GoToFriends_MVc_6:focus,
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq,
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh,
+.comment_thread_ActivityCommentThread_39nna,
+.BasicUI .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI, /* Game Activity Played Previously */
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2, /* Game Activity Post Activity Message */
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq:focus,
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus, /* Focused Game Activity Post Activity Message */
+.BasicUI .appdetailssection_Highlight_38t1m, /* You've unlocked 1/9 (11%)  */
+.gamepadhomefriends_InGameGame_KLo2n:focus,
+.gamepadhomefriends_InGameGame_KLo2n
+{
+    background: var(--pip-boy-dark-accent);
+}
+
+.gamepadhome_TabbedContent_cE1Sa,
+.BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
+    background: transparent !important;
+}
+
+
+
+/* What's new event background highlighted */
+/*
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
+    background: var(--pip-boy-bg);
+}
+*/
+
+/* What's new event background */
+/*
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY .gamepadhomewhatsnew_EventInfo_6TGe7 > *,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY .gamepadhomewhatsnew_EventInfo_6TGe7 .localdateandtime_RightSideTitles_3sPON,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY .gamepadhomewhatsnew_EventInfo_6TGe7 .localdateandtime_ShortDateAndTime_4K3Bl,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY .gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
+    color: var(--pip-boy-bg);
+    text-transform: uppercase !important;
+}
+*/
+
+/* What's new event selected */
+/*
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 > *,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 .localdateandtime_RightSideTitles_3sPON,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 .localdateandtime_ShortDateAndTime_4K3Bl,
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
+    color: var(--pip-boy-accent);
+}
+*/
+
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    box-shadow: none;
+}
+
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ {
+    border-radius: unset;
+}
+
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY,
+.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W-, 
+.localdateandtime_ShortDateAndTime_4K3Bl,
+.localdateandtime_RightSideTitles_3sPON,
+.marquee_Content_2ADpT,
+.gamepadhomerecentgames_RecentGamesHeader_35iRe,
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo,
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_HeadlineGameName_Gy1Y7,
+.appdetailsfriendssection_FriendsSectionSubHeading_30EfX, /* x Friends have played previously */
+.appdetailsfriendssection_AvatarAndLabel_1GCZA .appdetailsfriendssection_PlaytimeStatus_1xGH4 /* x Hrs played recently */
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase !important;
+}
+
+.gamepadhomewhatsnew_EventType_1f0dZ,
+.marketingmessages_Header_1QCdV,
+.homestorecarousel_Header_xpRXv,
+.recentlycompleted_Header_NhBU2,
+.gamepadhomefriends_FriendsHeader_1Ejje,
+.appdetailssectionheader_LabelText_3i0ko,
+.gamepadhomerecommended_PlayNextCarouselTitle_2r7cQ,
+.gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW,
+.recentlycompleted_GameName_1EIQL,
+.recentlycompleted_Bytes_TH3M8,
+.recentlycompleted_DownloadInfo_1wLpm,
+.recentlycompleted_PatchNotes_2_b6L,
+.personanameandstatus_playerName_r62qz,
+.personanameandstatus_gameName_2wpap,
+.gamepadhomefriends_Title_EZ-F-,
+.appactivityday_AppActivityDate_19LfM,
+.appdetailsachievementssection_Name_39Y0,
+.appdetailsachievementssection_Desc_2gLHb,
+.comment_thread_CommentText_3Xbao,
+.appdetailsachievementssection_Name_39Y01,
+.appactivityday_StoreGameCapsule_1OYOt,
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG,
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2, /* Game Activity Post Activity Message */
+.BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2::placeholder,
+.appdetailsplaysection_CloudStatusRow_QvHky > *, /* Steam Cloud Status */
+.appdetailsplaysection_CloudStatusRow_QvHky:not(.gpfocus) .appdetailsplaysection_CloudStatusIcon_1Prjv > svg /* Steam Cloud Status Icon */
+{
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase !important;
+}
+
+.personanameandstatus_gameName_2wpap 
+{
+    font-size: 10px;
+}
+
+.gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
+    background: var(--pip-boy-accent);
+}
+
+.salepreviewwidgets_StoreSalePriceBox_Wh0L8,
+.BasicUI .salepreviewwidgets_StoreOriginalPrice_1EKGZ, 
+.BasicUI .salepreviewwidgets_StoreSaleDiscountedPriceCtn_3GLeQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 
+{
+    color: var(--pip-boy-bg);
+}
+
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj- 
+{
+    color: var(--pip-boy-accent);
+    background-color: var(--pip-boy-bg);
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe,
+.gamepadsearch_GamepadSearch_P_AlE,
+.mediapage_MediaPage_gG1JN,
+.BasicUI .basicappdetailssectionstyler_AppActionButton_QsZdW /* Play button BG */
+{
+    background: none;
+}
+
+.gamepadsearch_ResultTemplateDescriptionRow_19p6s > * 
+{
+    color: var(--pip-boy-accent) !important;
+}
+
+/* --- */
+/* Game Play View */
+/* --- */
+
+/* Game launch menu buttons */
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX,
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ
+{
+    border-radius: 0;
+    background: var(--pip-boy-dark-accent) !important;
+    animation: none !important;
+    transition: none !important;
+}
+/* Game launch menu buttons labels */
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX svg,
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ > svg
+{
+    text-transform: uppercase !important;
+    color: var(--pip-boy-accent);
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Highlighted game launch menu buttons */
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus,
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus
+{
+    background: var(--pip-boy-accent) !important;
+}
+/* Highlighted game launch menu buttons labels */
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus .appactionbutton_ButtonText_33cnX,
+.BasicUI .appactionbutton_PlayButtonContainer_1FnJ6 .appactionbutton_ButtonChild_2AzIX.gpfocus svg,
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.gpfocus > svg
+{
+    color: var(--pip-boy-bg) !important;
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky::before, /* Steam Cloud Status before */
+.appdetailsplaysection_CloudStatusRow_QvHky::after /* Steam Cloud Status After */ 
+{
+    background-color: var(--pip-boy-accent);
+}
+
+/* --- */
+/* Home */
+/* --- */
+
+.salepreviewwidgets_Discounted_35-Ub {
+    background: var(--pip-boy-accent);
+}
+
+/* --- */
+/* Controller */
+/* --- */
+
+/* Remove Background from Controller config menu */
+.controllerconfigurator_BottomSection_3RsRf,
+.controllerconfigurator_TopSection_20sN9,
+.controllerconfigurator_ControllerConfiguratorMain_APY6j
+{
+    background: transparent;
+}
+
+/* Theme buttons in top bar */
+.controllerconfigurator_TopSection_20sN9 .DialogButton,
+.controllerconfigurator_CommunityConfigsCallout_1xfC8
+{
+    border-radius: 0 !important;
+    background: var(--pip-boy-dark-accent) !important;
+    color: var(--pip-boy-accent) !important;
+}
+
+/* Hover on buttons in top bar */
+.controllerconfigurator_TopSection_20sN9 .DialogButton.gpfocus
+{
+    background: var(--pip-boy-accent) !important;
+    color: var(--pip-boy-bg) !important;
+}
+
+/* Add color to the rest of the labels */
+.controllerconfigurator_TopSection_20sN9 .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_TopSection_20sN9 .controllerconfigurator_SubTitle_2-E4i,
+.controllerconfigurator_QuickSettingsHeader_3gVR5 
+{
+    color: var(--pip-boy-accent) !important;
+}

@@ -1,0 +1,122 @@
+.quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C {
+    background-size: 100%;
+    background-repeat: repeat;
+    background: url(/themes_custom/Pip-Boy/bg.png);
+}
+
+.quickaccessmenu_Title_34nl5 {
+    box-shadow: none;
+}
+
+.quickaccesscontrols_Text_1hJkB, 
+.quickaccessmenu_Title_34nl5, 
+.gamepaddialog_FieldLabel_3b0U-, 
+.perf_Text_3gY4m,
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.gamepadslider_Icon_21uKi,
+.quickaccessmenu_Tab_1S76C svg {
+    color: var(--pip-boy-accent);
+    text-transform: uppercase !important;
+}
+
+.gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu svg {
+    color: var(--pip-boy-bg);
+}
+
+.quickaccesscontrols_BatteryProjectedValue_1mTo6 {
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase !important;
+}
+
+.gamepaddialog_Button_1kn70 {
+    background: var(--pip-boy-accent) !important;
+    color: var(--pip-boy-bg) !important;
+    text-transform: uppercase !important;
+}
+
+/* --- */
+/* Highlights */
+/* --- */
+
+/* Bg highlight */
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+    background: var(--pip-boy-accent);
+    animation: none;
+}
+
+/* Label, Description highlight, PerfProfSetting text, BatteryText */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.gamepaddialog_Field_S-_La.gpfocuswithin .perf_Text_3gY4m,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryProjectedValue_1mTo6,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryProjectedLabel_4hS40,
+.gamepaddialog_Field_S-_La.gpfocuswithin .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_Icon_21uKi
+{
+    color: var(--pip-boy-bg) !important;
+}
+
+/* Dropdown, Button highlight */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddropdown_DropDownControlButton_28bny,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_Button_1kn70
+{
+    background: var(--pip-boy-bg) !important;
+    color: var(--pip-boy-accent) !important;
+    text-transform: uppercase !important;
+}
+
+/* Slider tick text */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchLabel_u_sH1 {
+    color: var(--pip-boy-bg) !important;
+}
+
+/* Slider tick deactivated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht {
+    background-color: var(--pip-boy-accent);
+}
+
+/* Slider tick activated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background-color: var(--pip-boy-bg);
+}
+
+/* Slider empty area */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N {
+    background: var(--pip-boy-accent);
+}
+
+/* Slider filled area */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N::before {
+    background: var(--pip-boy-bg);
+}
+
+/* Side highlight */
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu
+{
+    animation: none;
+    background: var(--pip-boy-dark-accent);
+}
+
+/* Focused Side highlight */
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
+    background: var(--pip-boy-accent);
+}
+
+/* Side icon highlight */
+.gpfocus.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu::before {
+    filter: brightness(0);
+}
+
+/* Override small decky buttons */
+.quickaccessmenu_Title_34nl5 .gamepaddialog_Button_1kn70
+{
+    color: var(--pip-boy-accent) !important;
+    background: var(--pip-boy-dark-accent) !important;
+}
+
+.quickaccessmenu_Title_34nl5 .gpfocuswithin.gamepaddialog_Button_1kn70
+{
+    color: var(--pip-boy-bg) !important;
+    background: var(--pip-boy-accent) !important;
+}

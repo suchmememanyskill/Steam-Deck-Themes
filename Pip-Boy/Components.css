@@ -1,0 +1,170 @@
+/* --- */
+/* Horizontal Tab Menu */
+/* --- */
+
+/* Hover Highlighted Text */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus .gamepadtabbedpage_TabTitle_1nq0i,
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus .gamepadtabbedpage_TabCount_1ui4I
+{
+    color: var(--pip-boy-bg);
+}
+
+/* Hover Highlighted Bg */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b.gpfocus
+{
+    background: var(--pip-boy-accent);
+}
+
+/* Highlighted Bg */
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b 
+{
+    background: var(--pip-boy-dark-accent);
+}
+
+/* Selection Tab */
+.gamepadtabbedpage_Tab_3eEbS
+{
+    border-radius: unset;
+}
+
+/* Text */
+.gamepadtabbedpage_TabTitle_1nq0i,
+.gamepadtabbedpage_TabCount_1ui4I
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase !important;
+}
+
+/* --- */
+/* Vertical Tab Menu */
+/* --- */
+
+/* Background */
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o,
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+    background: transparent;
+    border-right: none;
+}
+
+/* Left Tab */
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r,
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase;
+}
+
+/* Selected Left Tab */
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB,
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus
+{
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+    animation: none;
+    transform: none;
+}
+
+/* Separator line on left section */
+.gamepadpagedsettings_Separator_3vV7l 
+{
+    background: var(--pip-boy-accent);
+}
+
+/* --- */
+/* Menu Elements */
+/* --- */
+
+/* Menu Element */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_FieldLabel_3b0U-,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_FieldDescription_2OJfk,
+.gamepadpagedsettings_ContentTransition_NCmol .appproperties_Title_3zuIC,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_FieldLabel_3b0U-,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_FieldDescription_2OJfk,
+.controllerconfigurator_BottomSection_3RsRf .appproperties_Title_3zuIC
+{
+    color: var(--pip-boy-accent);
+    text-transform: uppercase;
+}
+
+/* Selected Menu Element */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin 
+{
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+    animation: none;
+}
+
+/* Selected menu Element Text */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-, 
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk
+{
+    color: var(--pip-boy-bg);
+}
+
+/* Slider tick text */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchLabel_u_sH1 {
+    color: var(--pip-boy-bg) !important;
+}
+
+/* Slider tick deactivated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht {
+    background: var(--pip-boy-accent);
+}
+
+/* Slider tick activated */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background: var(--pip-boy-bg);
+}
+
+/* Slider empty area */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N {
+    background: var(--pip-boy-accent);
+}
+
+/* Slider filled area */
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N::before {
+    background: var(--pip-boy-bg);
+}
+
+/* Button */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .DialogCheckbox_Container,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.Primary:enabled,
+.controllerconfigurator_BottomSection_3RsRf .DialogCheckbox_Container
+{
+    background: var(--pip-boy-accent);
+    color: var(--pip-boy-bg);
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/* Highlighted Button */
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus:enabled,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus.Primary:enabled
+{
+    background: var(--pip-boy-bg);
+    color: var(--pip-boy-accent);
+}
+
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton .dropdownlabel_DropDownLabelTitle_uDBZW 
+{
+    color: var(--pip-boy-bg);
+}
+
+.gamepadpagedsettings_ContentTransition_NCmol .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW,
+.controllerconfigurator_BottomSection_3RsRf .gamepaddialog_Field_S-_La .gamepaddialog_FieldChildren_14_HB .DialogButton.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW 
+{
+    color: var(--pip-boy-accent);
+}
