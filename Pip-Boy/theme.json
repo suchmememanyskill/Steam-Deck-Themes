@@ -3,6 +3,7 @@
     "author": "SuchMeme, Emerson-Biggons",
     "version": "v1.0",
     "manifest_version": 4,
+    "target": "System-Wide",
     "inject": {
         "All.css": ["All"]
     },
