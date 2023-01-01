@@ -1,0 +1,98 @@
+div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf::before, div.gamepadhomerecentgames_RecentGamesBackground_1SRox::before, div.gamepadhomewhatsnew_EventImageWrapper_XLJ9p::before, div.sharedappdetailsheader_ImgContainer_3VFZB::before, .gamecapsule_GameCapsule_fXdhj .libraryassetimage_Container_1R9r2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1);
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_PortraitImage_2IYf7::before {
+    transform: scale(1.05, 1.04) translateX(-0.2px);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+    color: var(--pip-boy-accent);
+    background-color: var(--pip-boy-dark-accent);
+    box-shadow: none;
+}
+
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    filter: blur(3px);
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
+    filter: saturate(1) brightness(0.3);
+}
+
+div.gamepadhomewhatsnew_Darkener_1n_1X {
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: brightness(0.5) contrast(100) grayscale(1);
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m::before, .appdetailsoverview_Container_27RcN::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0);
+}
+
+.gamepadtabbedpage_Glyphs_N-f57 {
+    position: relative;
+}
+
+.gamepadtabbedpage_Glyphs_N-f57 img {
+    filter: brightness(0.15);
+}
+
+.gamepadtabbedpage_Glyphs_N-f57::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: var(--pip-boy-accent);
+    transform: scale(0.8, 0.6);
+    z-index: -1;
+}
+
+.footer_BasicFooter_3T1iF .footer_FooterLegend_2JJDH {
+    position: relative;
+}
+
+.footer_FooterLegend_2JJDH::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: var(--pip-boy-accent);
+    mix-blend-mode: multiply;
+    backdrop-filter: contrast(2);
+    z-index: 1;
+}
+
+.appgrid_CompatFooterIcons_3wP0R {
+    position: relative;
+    z-index: 2;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus, .focusring_FocusRing_1IZrQ {
+    outline: 2px dashed var(--pip-boy-accent);
+    animation: none;
+}
+
+.gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+    outline-offset: 4px;
+}

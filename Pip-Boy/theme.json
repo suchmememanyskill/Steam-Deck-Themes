@@ -67,6 +67,15 @@
                 "No": {}
             }
         },
+        "Hardcore Pip": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "HardcorePip.css": ["All"]
+                },
+                "No": {}
+            }
+        },
         "Override Color": {
             "type": "checkbox",
             "values": {
