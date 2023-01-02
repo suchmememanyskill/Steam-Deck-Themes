@@ -142,7 +142,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     position: relative;
 }
 
-.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before, .appdetailstradingcardssection_CardContainer_2DUDv::before, .appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before {
+.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before, .appdetailstradingcardssection_CardContainer_2DUDv::before, .appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before, .appdetailsworkshopsection_FeaturedItem_1W34W::before {
     content: "";
     position: absolute;
     top: 0;
@@ -153,6 +153,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     backdrop-filter: contrast(100) grayscale(1);
     mix-blend-mode: multiply;
     z-index: 0;
+    pointer-events: none;
 }
 
 .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .appdetailstradingcardssection_CardContainer_2DUDv::before {
@@ -163,7 +164,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     z-index: 2;
 }
 
-.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
+div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementssection_NotAchieved_3llpb) > .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
     width: calc(100% - 5px);
 }
 
@@ -175,6 +176,21 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     width: calc(100% - 10px);
 }
 
+.appdetailsworkshopsection_FeaturedItem_1W34W::before {
+    width: 100px;
+    height: 100px;
+}
+
+.appdetailstradingcardssection_TradingCardCarouselItem_CoQxi .appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv::before {
+    backdrop-filter: contrast(100) grayscale(1) brightness(3) invert(1);
+}
+
+.appdetailstradingcardssection_TradingCardCarouselItem_CoQxi .appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv img {
+    filter: none!important;
+    opacity: 1 !important;
+}
+
+
 .appactivityday_MediumImageContainer_ddB5G {
     overflow: hidden;
 }
@@ -183,7 +199,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     background: var(--pip-boy-dark-accent);
 }
 
-.appactivityday_Event_UVeN0 svg path {
+.appactivityday_Event_UVeN0 svg path, .appdetailsworkshopsection_FeaturedItemHideButton_aZc8R svg path {
     fill: var(--pip-boy-accent);
 }
 
@@ -195,7 +211,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     color: var(--pip-boy-accent);
 }
 
-.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appdetailsachievementssection_AchievementCarouselItem_mbFSn {
     border-image: none;
     border: none;
     background: var(--pip-boy-dark-accent);
@@ -209,7 +225,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     background: linear-gradient(to right, black 75%, transparent 100%);
 }
 
-.discoveryqueuewidget_WidgetHeaderCtn_3u5R_ > div {
+.discoveryqueuewidget_WidgetHeaderCtn_3u5R_ > div, .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ {
     color: var(--pip-boy-accent);
 }
 
@@ -228,4 +244,14 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
 
 .mainmenu_Menu_23IDi {
     background: none;
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:not(.gpfocus) {
+    color: black;
+    background: var(--pip-boy-accent);
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY.gpfocus {
+    color: var(--pip-boy-accent);
+    background: black;
 }
