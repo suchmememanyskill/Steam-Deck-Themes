@@ -176,9 +176,17 @@ div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementsse
     width: calc(100% - 10px);
 }
 
+.BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
+    width: calc(100% - 5px);
+}
+
 .appdetailsworkshopsection_FeaturedItem_1W34W::before {
     width: 100px;
     height: 100px;
+}
+
+.appdetailscommunityfeed_CommunityContentContainer_A6G1l .steamavatar_avatarHolder_1YGAH::before {
+    display: none;
 }
 
 .appdetailstradingcardssection_TradingCardCarouselItem_CoQxi .appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv::before {
@@ -211,7 +219,7 @@ div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementsse
     color: var(--pip-boy-accent);
 }
 
-.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appdetailsachievementssection_AchievementCarouselItem_mbFSn {
+.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appdetailsachievementssection_AchievementCarouselItem_mbFSn, .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
     border-image: none;
     border: none;
     background: var(--pip-boy-dark-accent);
@@ -231,6 +239,68 @@ div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementsse
 
 .gamecapsule_Remainder_1RyQj {
     background: var(--pip-boy-dark-accent);
+}
+
+.BasicUI .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1, .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Association_-9icu .appdetailsgameinfopanel_Name_2j8Xh, .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei, .BasicUI .appdetailsgameinfopanel_CompatToolContainer_2UN73, .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Date_izVv8, .basicappdetailssectionstyler_CollectionsHeader_3hW5F {
+    color: var(--pip-boy-accent);
+    opacity: 1;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+    background: var(--pip-boy-dark-accent);
+}
+
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2, .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Label_1VoVz, .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.basicappdetailssectionstyler_CollectionsHeader_3hW5F {
+    margin-top: 8px;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 {
+    position: relative;
+}
+
+.appdetailsfeatureicon_Container_1SIa8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1) brightness(0.5);
+    mix-blend-mode: multiply;
+    z-index: 2;
+    pointer-events: none;
+    width: 32px;
+    height: 20px;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 img.appdetailsfeatureicon_Icon_2RwHE {
+    background: black;
+    opacity: 1;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA {
+    background: var(--pip-boy-accent);
+    color: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+    background: var(--pip-boy-accent);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w:focus {
+    background: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w:focus .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--pip-boy-accent);
 }
 
 .backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
