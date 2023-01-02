@@ -54,7 +54,7 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
     color: var(--pip-boy-accent);
-    background-color: var(--pip-boy-dark-accent);
+    background: var(--pip-boy-dark-accent);
     box-shadow: none;
 }
 
@@ -142,7 +142,7 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     position: relative;
 }
 
-.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before {
+.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before, .appdetailstradingcardssection_CardContainer_2DUDv::before, .appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before {
     content: "";
     position: absolute;
     top: 0;
@@ -155,12 +155,54 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     z-index: 0;
 }
 
-.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before {
+.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .appdetailstradingcardssection_CardContainer_2DUDv::before {
     z-index: 1;
+}
+
+.appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before {
+    z-index: 2;
 }
 
 .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
     width: calc(100% - 5px);
+}
+
+.appactivityday_ImageContainer_1XpBI::before {
+    width: calc(100% - 16px); 
+}
+
+.appactivityday_MediumImageContainer_ddB5G::before {
+    width: calc(100% - 10px);
+}
+
+.appactivityday_MediumImageContainer_ddB5G {
+    overflow: hidden;
+}
+
+.appactivityday_PartnerEventTextOnly_3QRf- {
+    background: var(--pip-boy-dark-accent);
+}
+
+.appactivityday_Event_UVeN0 svg path {
+    fill: var(--pip-boy-accent);
+}
+
+.appactivityday_LeftSideMajorUpdateBar_3oMUS {
+    display: none;
+}
+
+.appactivityday_PartnerEventType_1ujzu, .appactivityday_PartnerEventType_1ujzu, .appactivityday_PartnerEventTextOnly_Summary_3ZUP3, .comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn, .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+    color: var(--pip-boy-accent);
+}
+
+.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+    border-image: none;
+    border: none;
+    background: var(--pip-boy-dark-accent);
+}
+
+.appactivityday_PartnerEventLargeImage_Image_fGDsm.appactivityday_Blur_3cX_v {
+    display: none;
 }
 
 .discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 .discoveryqueuewidget_WidgetHeaderCtn_3u5R_ {
