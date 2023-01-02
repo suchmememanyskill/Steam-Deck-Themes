@@ -1,4 +1,4 @@
-div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf::before, div.gamepadhomerecentgames_RecentGamesBackground_1SRox::before, div.gamepadhomewhatsnew_EventImageWrapper_XLJ9p::before, div.sharedappdetailsheader_ImgContainer_3VFZB::before, .gamecapsule_GameCapsule_fXdhj .libraryassetimage_Container_1R9r2::before {
+div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf::before, div.gamepadhomerecentgames_RecentGamesBackground_1SRox::before, div.gamepadhomewhatsnew_EventImageWrapper_XLJ9p::before, div.sharedappdetailsheader_ImgContainer_3VFZB::before, .gamecapsule_GameCapsule_fXdhj .libraryassetimage_Container_1R9r2::before, .BasicUI .libraryassetimage_GreyBackground_2E7G8::before {
     content: "";
     position: absolute;
     top: 0;
@@ -8,11 +8,48 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
     background-color: var(--pip-boy-accent);
     backdrop-filter: contrast(100) grayscale(1);
     mix-blend-mode: multiply;
+    z-index: 2;
+}
+
+.appportrait_PortraitImage_2IYf7 .libraryassetimage_Title_13fGP {
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(/themes_custom/Pip-Boy/vaultboy.png);
+    background-size: 80%;
+    background-position: 175% 290%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    text-shadow: 1px 1px 2px black;
+}
+
+.basicgamecarousel_Play_12eKc.basicgamecarousel_SubMessage_1BtXg {
+    color: var(--pip-boy-accent);
+}
+
+.basicgamecarousel_ActionIcon_25Qbo svg path {
+    fill: var(--pip-boy-accent);
 }
 
 .gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_PortraitImage_2IYf7::before {
     transform: scale(1.05, 1.04) translateX(-0.2px);
+}
+
+.localdateandtime_ActiveEvent_2ZcVE .localdateandtime_ActiveEventCallOut__y2DQ {
+    background: var(--pip-boy-accent);
+    border-radius: 0;
+    margin-bottom: 4px;
+}
+
+.BasicUI .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+    background: var(--pip-boy-dark-accent);
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
@@ -65,6 +102,10 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
     z-index: -1;
 }
 
+.recentlycompleted_PatchNotes_2_b6L .recentlycompleted_EventType_1Xl95.recentlycompleted_EventType13_PyrxQ {
+    color: var(--pip-boy-accent);
+}
+
 .footer_BasicFooter_3T1iF .footer_FooterLegend_2JJDH {
     position: relative;
 }
@@ -95,4 +136,54 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
 
 .gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
     outline-offset: 4px;
+}
+
+.steamavatar_avatarHolder_1YGAH, .recentlycompleted_GameIcon_DqP6r, .BasicUI .appdetailsachievementssection_AchievementHoverContainer_2CK1m {
+    position: relative;
+}
+
+.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1);
+    mix-blend-mode: multiply;
+    z-index: 0;
+}
+
+.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before {
+    z-index: 1;
+}
+
+.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
+    width: calc(100% - 5px);
+}
+
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 .discoveryqueuewidget_WidgetHeaderCtn_3u5R_ {
+    background: linear-gradient(to right, black 75%, transparent 100%);
+}
+
+.discoveryqueuewidget_WidgetHeaderCtn_3u5R_ > div {
+    color: var(--pip-boy-accent);
+}
+
+.gamecapsule_Remainder_1RyQj {
+    background: var(--pip-boy-dark-accent);
+}
+
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+    backdrop-filter: contrast(100) brightness(0.4) blur(4px);
+}
+
+
+.quickaccessmenu_QuickAccessMenu_V0cr-, .quickaccessmenu_Title_34nl5, .quickaccessmenu_Tab_1S76C {
+    background: none;
+}
+
+.mainmenu_Menu_23IDi {
+    background: none;
 }
