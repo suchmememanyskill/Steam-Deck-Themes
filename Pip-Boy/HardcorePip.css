@@ -1,3 +1,16 @@
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchIconLeft_2Ya83 path {
+    fill: var(--pip-boy-accent);
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js path {
+    fill: black;
+}
+
 div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf::before, div.gamepadhomerecentgames_RecentGamesBackground_1SRox::before, div.gamepadhomewhatsnew_EventImageWrapper_XLJ9p::before, div.sharedappdetailsheader_ImgContainer_3VFZB::before, .gamecapsule_GameCapsule_fXdhj .libraryassetimage_Container_1R9r2::before, .BasicUI .libraryassetimage_GreyBackground_2E7G8::before {
     content: "";
     position: absolute;
@@ -8,7 +21,7 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
     background-color: var(--pip-boy-accent);
     backdrop-filter: contrast(100) grayscale(1);
     mix-blend-mode: multiply;
-    z-index: 2;
+    z-index: 4;
 }
 
 .appportrait_PortraitImage_2IYf7 .libraryassetimage_Title_13fGP {
@@ -32,6 +45,7 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
 
 .basicgamecarousel_Play_12eKc.basicgamecarousel_SubMessage_1BtXg {
     color: var(--pip-boy-accent);
+    opacity: 0.6;
 }
 
 .basicgamecarousel_ActionIcon_25Qbo svg path {
@@ -158,6 +172,19 @@ div.gamepadhomewhatsnew_Darkener_1n_1X {
 
 .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .appdetailstradingcardssection_CardContainer_2DUDv::before {
     z-index: 1;
+}
+
+.appdetailsachievementssection_UnlockedLabel_3jC8o, .appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Description_3212r, .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeName_3ca2d, .appactivityday_PartnerEventMediumImage_Title_1gljE, .appactivityday_PartnerEventLargeImage_Title_3fsjz {
+    color: var(--pip-boy-accent);
+}
+
+.appdetailsachievementssection_UnlockedLabelPercent_14kZV, .appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementssection_LockedAchievementsLabel_1F8Ry, .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM, .appdetailstradingcardssection_CardsLeft_2H1Mi, .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoRecent_1XRnA, .appdetailsreviewsection_PlayedForTime_BDa6l, .appactivityday_SpanEvent_3Nxqy > span, .appdetailsactivitysection_ViewLastNews_1EC1x, .appactivityday_PartnerEventMediumImage_Summary_Ru7OB, .appactivityday_PartnerEventLargeImage_Summary_3zwBR  {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
+    border-color: var(--pip-boy-accent);
 }
 
 .appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before {
@@ -300,6 +327,66 @@ div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementsse
 }
 
 .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w:focus .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--pip-boy-accent);
+}
+
+.BasicUI .allcollections_Collection_3IWn-, .BasicUI .allcollections_Collection_3IWn-:focus {
+    background: black;
+    overflow: hidden;
+}
+
+.libraryassetimage_Container_1R9r2.libraryassetimage_GreyBackground_2E7G8.libraryassetimage_PortraitImage_3Ehhd.allcollections_BackgroundImage_2I7jw .libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
+    opacity: 0;
+}
+
+.libraryassetimage_Container_1R9r2.libraryassetimage_GreyBackground_2E7G8.libraryassetimage_PortraitImage_3Ehhd.allcollections_BackgroundImage_2I7jw::before {
+    display: none;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
+    filter: none;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CollectionBG_akZKn {
+    opacity: 0;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
+    box-shadow: -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent);
+    border-color: var(--pip-boy-accent);
+    border: none;
+    outline: 2px solid var(--pip-boy-accent);
+    outline-offset: -1px;
+}
+
+.BasicUI .allcollections_Collection_3IWn-:focus .allcollections_CapsuleImage_2zbkb {
+    box-shadow: -1px 1px 0px 1px var(--pip-boy-accent), -1px 1px 0px 2px var(--pip-boy-accent), -2px 2px 0px 2px var(--pip-boy-accent), -2px 2px 0px 2px var(--pip-boy-accent);
+}
+
+.BasicUI .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ, .BasicUI .allcollections_Collection_3IWn-:focus .allcollections_CollectionLabel_1J1LQ {
+    color: var(--pip-boy-accent);
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.gamepadlibrary_CollectionHeader_1UuM8 {
+    color: var(--pip-boy-accent);
+}
+
+.appgrid_AppGridSectionLabel_2hvQb {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.BasicUI .appdetailsplaysection_PlayBarLabel_34lrt, .spotlightgameplaysummary_EventHeaderBlock_1jiiO, .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
+    color: var(--pip-boy-accent);
+    opacity: 0.6; 
+}
+
+.BasicUI .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
     color: var(--pip-boy-accent);
 }
 
