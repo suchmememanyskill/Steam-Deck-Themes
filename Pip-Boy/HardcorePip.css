@@ -242,6 +242,15 @@ div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementsse
     background: none;
 }
 
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl {
+    background: black;
+}
+
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl #Footer {
+    background: black;
+}
+
+
 .mainmenu_Menu_23IDi {
     background: none;
 }
