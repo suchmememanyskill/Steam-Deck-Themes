@@ -69,6 +69,7 @@
         },
         "Hardcore Pip": {
             "type": "checkbox",
+            "default": "No",
             "values": {
                 "Yes": {
                     "HardcorePip.css": ["All"]

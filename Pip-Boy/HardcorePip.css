@@ -24,7 +24,7 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
     z-index: 4;
 }
 
-.appportrait_PortraitImage_2IYf7 .libraryassetimage_Title_13fGP {
+/* .appportrait_PortraitImage_2IYf7 .libraryassetimage_Title_13fGP {
     z-index: 1;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleB
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
     text-shadow: 1px 1px 2px black;
-}
+} */
 
 .basicgamecarousel_Play_12eKc.basicgamecarousel_SubMessage_1BtXg {
     color: var(--pip-boy-accent);
