@@ -1,0 +1,423 @@
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchIconLeft_2Ya83 path {
+    fill: var(--pip-boy-accent);
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js path {
+    fill: black;
+}
+
+div.appportrait_PortraitImage_2IYf7::before, .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf::before, div.gamepadhomerecentgames_RecentGamesBackground_1SRox::before, div.gamepadhomewhatsnew_EventImageWrapper_XLJ9p::before, div.sharedappdetailsheader_ImgContainer_3VFZB::before, .gamecapsule_GameCapsule_fXdhj .libraryassetimage_Container_1R9r2::before, .BasicUI .libraryassetimage_GreyBackground_2E7G8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1);
+    mix-blend-mode: multiply;
+    z-index: 4;
+}
+
+/* .appportrait_PortraitImage_2IYf7 .libraryassetimage_Title_13fGP {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(/themes_custom/Pip-Boy/vaultboy.png);
+    background-size: 80%;
+    background-position: 175% 290%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    text-shadow: 1px 1px 2px black;
+} */
+
+.basicgamecarousel_Play_12eKc.basicgamecarousel_SubMessage_1BtXg {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.basicgamecarousel_ActionIcon_25Qbo svg path {
+    fill: var(--pip-boy-accent);
+}
+
+.gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_PortraitImage_2IYf7::before {
+    transform: scale(1.05, 1.04) translateX(-0.2px);
+}
+
+.localdateandtime_ActiveEvent_2ZcVE .localdateandtime_ActiveEventCallOut__y2DQ {
+    background: var(--pip-boy-accent);
+    border-radius: 0;
+    margin-bottom: 4px;
+}
+
+.BasicUI .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+    background: var(--pip-boy-dark-accent);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+    color: var(--pip-boy-accent);
+    background: var(--pip-boy-dark-accent);
+    box-shadow: none;
+}
+
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    filter: blur(3px);
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
+    filter: saturate(1) brightness(0.3);
+}
+
+div.gamepadhomewhatsnew_Darkener_1n_1X {
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: brightness(0.5) contrast(100) grayscale(1);
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m::before, .appdetailsoverview_Container_27RcN::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0);
+}
+
+.gamepadtabbedpage_Glyphs_N-f57 {
+    position: relative;
+}
+
+.gamepadtabbedpage_Glyphs_N-f57 img {
+    filter: brightness(0.15);
+}
+
+.gamepadtabbedpage_Glyphs_N-f57::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: var(--pip-boy-accent);
+    transform: scale(0.8, 0.6);
+    z-index: -1;
+}
+
+.recentlycompleted_PatchNotes_2_b6L .recentlycompleted_EventType_1Xl95.recentlycompleted_EventType13_PyrxQ {
+    color: var(--pip-boy-accent);
+}
+
+.footer_BasicFooter_3T1iF .footer_FooterLegend_2JJDH {
+    position: relative;
+}
+
+.footer_FooterLegend_2JJDH::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: var(--pip-boy-accent);
+    mix-blend-mode: multiply;
+    backdrop-filter: contrast(2);
+    z-index: 1;
+}
+
+.appgrid_CompatFooterIcons_3wP0R {
+    position: relative;
+    z-index: 2;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus, .focusring_FocusRing_1IZrQ {
+    outline: 2px dashed var(--pip-boy-accent);
+    animation: none;
+}
+
+.gamepadtabbedpage_TabContentsScroll_1X4dt .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+    outline-offset: 4px;
+}
+
+.steamavatar_avatarHolder_1YGAH, .recentlycompleted_GameIcon_DqP6r, .BasicUI .appdetailsachievementssection_AchievementHoverContainer_2CK1m {
+    position: relative;
+}
+
+.steamavatar_avatarHolder_1YGAH::before, .recentlycompleted_GameIcon_DqP6r::before, .gamepadhomewhatsnew_GameIcon_2RrB8::before, .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .discoveryqueuewidget_AppCapsuleCtn_2dIBN::before, .appdetailstradingcardssection_CardContainer_2DUDv::before, .appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before, .appdetailsworkshopsection_FeaturedItem_1W34W::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1);
+    mix-blend-mode: multiply;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.appdetailsachievementssection_AchievementHoverContainer_2CK1m::before, .appdetailsachievementssection_Remainder_2gISW::before, .appdetailstradingcardssection_CardContainer_2DUDv::before {
+    z-index: 1;
+}
+
+.appdetailsachievementssection_UnlockedLabel_3jC8o, .appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Description_3212r, .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeName_3ca2d, .appactivityday_PartnerEventMediumImage_Title_1gljE, .appactivityday_PartnerEventLargeImage_Title_3fsjz {
+    color: var(--pip-boy-accent);
+}
+
+.appdetailsachievementssection_UnlockedLabelPercent_14kZV, .appdetailsachievementssection_AchivementCarouselItemDetails_1ckvQ .appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementssection_LockedAchievementsLabel_1F8Ry, .appdetailstradingcardssection_BadgeInfo_3QrX3 .appdetailstradingcardssection_BadgeLevel_2PMlM, .appdetailstradingcardssection_CardsLeft_2H1Mi, .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoRecent_1XRnA, .appdetailsreviewsection_PlayedForTime_BDa6l, .appactivityday_SpanEvent_3Nxqy > span, .appdetailsactivitysection_ViewLastNews_1EC1x, .appactivityday_PartnerEventMediumImage_Summary_Ru7OB, .appactivityday_PartnerEventLargeImage_Summary_3zwBR  {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
+    border-color: var(--pip-boy-accent);
+}
+
+.appactivityday_ImageContainer_1XpBI::before, .appactivityday_MediumImageContainer_ddB5G::before {
+    z-index: 2;
+}
+
+div:not(.appdetailsachievementssection_Achieved_MGoYU, .appdetailsachievementssection_NotAchieved_3llpb) > .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
+    width: calc(100% - 5px);
+}
+
+.appactivityday_ImageContainer_1XpBI::before {
+    width: calc(100% - 16px); 
+}
+
+.appactivityday_MediumImageContainer_ddB5G::before {
+    width: calc(100% - 10px);
+}
+
+.BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI .appdetailsachievementssection_AchievementHoverContainer_2CK1m::before {
+    width: calc(100% - 5px);
+}
+
+.appdetailsworkshopsection_FeaturedItem_1W34W::before {
+    width: 100px;
+    height: 100px;
+}
+
+.appdetailscommunityfeed_CommunityContentContainer_A6G1l .steamavatar_avatarHolder_1YGAH::before {
+    display: none;
+}
+
+.appdetailstradingcardssection_TradingCardCarouselItem_CoQxi .appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv::before {
+    backdrop-filter: contrast(100) grayscale(1) brightness(3) invert(1);
+}
+
+.appdetailstradingcardssection_TradingCardCarouselItem_CoQxi .appdetailstradingcardssection_Unowned_1A6NC .appdetailstradingcardssection_CardContainer_2DUDv img {
+    filter: none!important;
+    opacity: 1 !important;
+}
+
+
+.appactivityday_MediumImageContainer_ddB5G {
+    overflow: hidden;
+}
+
+.appactivityday_PartnerEventTextOnly_3QRf- {
+    background: var(--pip-boy-dark-accent);
+}
+
+.appactivityday_Event_UVeN0 svg path, .appdetailsworkshopsection_FeaturedItemHideButton_aZc8R svg path {
+    fill: var(--pip-boy-accent);
+}
+
+.appactivityday_LeftSideMajorUpdateBar_3oMUS {
+    display: none;
+}
+
+.appactivityday_PartnerEventType_1ujzu, .appactivityday_PartnerEventType_1ujzu, .appactivityday_PartnerEventTextOnly_Summary_3ZUP3, .comment_thread_RatingBar_1yWgP .comment_thread_LikeCount_3grvn, .comment_thread_RatingBar_1yWgP .comment_thread_CommentCount_2RkIc, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionCount_1S3Q9 {
+    color: var(--pip-boy-accent);
+}
+
+.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_PartnerEventLargeImage_Container_Libri, .appactivityday_PartnerEventMediumImage_By7D9, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appdetailsachievementssection_AchievementCarouselItem_mbFSn, .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+    border-image: none;
+    border: none;
+    background: var(--pip-boy-dark-accent);
+}
+
+.appactivityday_PartnerEventLargeImage_Image_fGDsm.appactivityday_Blur_3cX_v {
+    display: none;
+}
+
+.discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 .discoveryqueuewidget_WidgetHeaderCtn_3u5R_ {
+    background: linear-gradient(to right, black 75%, transparent 100%);
+}
+
+.discoveryqueuewidget_WidgetHeaderCtn_3u5R_ > div, .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ {
+    color: var(--pip-boy-accent);
+}
+
+.gamecapsule_Remainder_1RyQj {
+    background: var(--pip-boy-dark-accent);
+}
+
+.BasicUI .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1, .appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Association_-9icu .appdetailsgameinfopanel_Name_2j8Xh, .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei, .BasicUI .appdetailsgameinfopanel_CompatToolContainer_2UN73, .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Date_izVv8, .basicappdetailssectionstyler_CollectionsHeader_3hW5F {
+    color: var(--pip-boy-accent);
+    opacity: 1;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+    background: var(--pip-boy-dark-accent);
+}
+
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2, .appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Label_1VoVz, .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.basicappdetailssectionstyler_CollectionsHeader_3hW5F {
+    margin-top: 8px;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 {
+    position: relative;
+}
+
+.appdetailsfeatureicon_Container_1SIa8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--pip-boy-accent);
+    backdrop-filter: contrast(100) grayscale(1) brightness(0.5);
+    mix-blend-mode: multiply;
+    z-index: 2;
+    pointer-events: none;
+    width: 32px;
+    height: 20px;
+}
+
+.appdetailsfeatureicon_Container_1SIa8 img.appdetailsfeatureicon_Icon_2RwHE {
+    background: black;
+    opacity: 1;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA {
+    background: var(--pip-boy-accent);
+    color: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+    background: var(--pip-boy-accent);
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w:focus {
+    background: black;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w:focus .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--pip-boy-accent);
+}
+
+.BasicUI .allcollections_Collection_3IWn-, .BasicUI .allcollections_Collection_3IWn-:focus {
+    background: black;
+    overflow: hidden;
+}
+
+.libraryassetimage_Container_1R9r2.libraryassetimage_GreyBackground_2E7G8.libraryassetimage_PortraitImage_3Ehhd.allcollections_BackgroundImage_2I7jw .libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
+    opacity: 0;
+}
+
+.libraryassetimage_Container_1R9r2.libraryassetimage_GreyBackground_2E7G8.libraryassetimage_PortraitImage_3Ehhd.allcollections_BackgroundImage_2I7jw::before {
+    display: none;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
+    filter: none;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CollectionBG_akZKn {
+    opacity: 0;
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionImage_2ERAQ .allcollections_CapsuleImage_2zbkb {
+    box-shadow: -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent), -0px 0px 0px 0px var(--pip-boy-accent);
+    border-color: var(--pip-boy-accent);
+    border: none;
+    outline: 2px solid var(--pip-boy-accent);
+    outline-offset: -1px;
+}
+
+.BasicUI .allcollections_Collection_3IWn-:focus .allcollections_CapsuleImage_2zbkb {
+    box-shadow: -1px 1px 0px 1px var(--pip-boy-accent), -1px 1px 0px 2px var(--pip-boy-accent), -2px 2px 0px 2px var(--pip-boy-accent), -2px 2px 0px 2px var(--pip-boy-accent);
+}
+
+.BasicUI .allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ, .BasicUI .allcollections_Collection_3IWn-:focus .allcollections_CollectionLabel_1J1LQ {
+    color: var(--pip-boy-accent);
+}
+
+.allcollections_Collection_3IWn- .allcollections_CollectionLabel_1J1LQ .allcollections_CollectionLabelCount_36QQL {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.gamepadlibrary_CollectionHeader_1UuM8 {
+    color: var(--pip-boy-accent);
+}
+
+.appgrid_AppGridSectionLabel_2hvQb {
+    color: var(--pip-boy-accent);
+    opacity: 0.6;
+}
+
+.BasicUI .appdetailsplaysection_PlayBarLabel_34lrt, .spotlightgameplaysummary_EventHeaderBlock_1jiiO, .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Stats_VKo9p {
+    color: var(--pip-boy-accent);
+    opacity: 0.6; 
+}
+
+.BasicUI .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
+    color: var(--pip-boy-accent);
+}
+
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL {
+    backdrop-filter: contrast(100) brightness(0.4) blur(4px);
+}
+
+
+.quickaccessmenu_QuickAccessMenu_V0cr-, .quickaccessmenu_Title_34nl5, .quickaccessmenu_Tab_1S76C {
+    background: none;
+}
+
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl {
+    background: black;
+}
+
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl #Footer {
+    background: black;
+}
+
+
+.mainmenu_Menu_23IDi {
+    background: none;
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:not(.gpfocus) {
+    color: black;
+    background: var(--pip-boy-accent);
+}
+
+.BasicUI button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY.gpfocus {
+    color: var(--pip-boy-accent);
+    background: black;
+}
