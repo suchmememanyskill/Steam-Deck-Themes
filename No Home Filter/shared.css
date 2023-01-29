@@ -6,62 +6,62 @@
 
     to {
         transform: translateX(0);
-        opacity: var(--filter-opacity)
+        opacity: var(--filter-opacity);
     }
 }
 
 @keyframes gamepadhomerecentgames_InLeft2_1-Jey {
     0% {
         transform: translateX(0);
-        opacity: var(--filter-opacity)
+        opacity: var(--filter-opacity);
     }
 
     to {
         transform: translateX(32px);
-        opacity: 0
+        opacity: 0;
     }
 }
 
 @keyframes gamepadhomerecentgames_InRight_1HKCB {
     0% {
         transform: translateX(32px);
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         transform: translateX(0);
-        opacity: var(--filter-opacity)
+        opacity: var(--filter-opacity);
     }
 }
 
 @keyframes gamepadhomerecentgames_InRight2_Ji84a {
     0% {
         transform: translateX(0);
-        opacity: var(--filter-opacity)
+        opacity: var(--filter-opacity);
     }
 
     to {
         transform: translateX(-32px);
-        opacity: 0
+        opacity: 0;
     }
 }
 
 .root {
-    --filter-opacity: 1
-    --animation-duration: .5s
+    --filter-opacity: 1;
+    --animation-duration: .5s;
 }
 
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
-    opacity: 1!important;
-    filter: none!important
+    opacity: 1 !important;
+    filter: none !important;
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveLeft_30M_n:not(.gamepadhomerecentgames_OffScreen_Yk-I2),.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveRight_3dyds:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
-    opacity: var(--filter-opacity)
+    opacity: var(--filter-opacity);
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
-animation-duration:var(--animation-duration);
-opacity:var(--filter-opacity);
-transition-duration:var(--animation-duration);
+    animation-duration: var(--animation-duration);
+    opacity: var(--filter-opacity);
+    transition-duration: var(--animation-duration);
 }
