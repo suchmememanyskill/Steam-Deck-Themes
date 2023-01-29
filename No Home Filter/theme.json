@@ -57,7 +57,7 @@
 					]
 				},
 				"90": {
-					"--my-css-var": [
+					"--filter-opacity": [
 						"0.9",
 						"SP",
 						"MainMenu",
