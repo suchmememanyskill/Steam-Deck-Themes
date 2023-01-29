@@ -1,9 +1,10 @@
 {
+	"id": "8438ce21-800c-4615-af14-96395d74704d",
 	"name": "No Home Filter",
 	"author": "SuchMeme, Met",
 	"target": "Tweak",
 	"description": "Removes the background filter on the home menu that desaturates images",
-	"version": "v1.1",
+	"version": "v1.15",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -67,6 +68,29 @@
 				"100": {
 					"--filter-opacity": [
 						"1",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"Hero Change Animation": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"--animation-duration": [
+						".5s",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {
+					"--animation-duration": [
+						".0s",
 						"SP",
 						"MainMenu",
 						"QuickAccess"
