@@ -1,4 +1,22 @@
+.root{
+--filter-opacity: 1;
+}
+
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
     opacity: 1 !important;
     filter: none !important;
+}
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveLeft_30M_n:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
+opacity:var(--filter-opacity)
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R.gamepadhomerecentgames_MoveRight_3dyds:not(.gamepadhomerecentgames_OffScreen_Yk-I2) {
+opacity:var(--filter-opacity)
+}
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
+animation-duration:.05s;
+animation-timing-function:cubic-bezier(.17,.45,.14,.83);
+opacity:var(--filter-opacity);
+transition-duration:.05s;
+transition-timing-function:cubic-bezier(.17,.45,.14,.83);
 }
