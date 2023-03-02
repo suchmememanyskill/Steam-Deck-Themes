@@ -3,7 +3,8 @@
 /* --- */
 
 /* Header */
-.basiccontextmenu_BasicContextMenuHeader_2nHKK {
+.basiccontextmenu_BasicContextMenuHeader_2nHKK,
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
     background: var(--pip-boy-accent);
     color: var(--pip-boy-bg);
     text-transform: uppercase;
@@ -14,16 +15,21 @@
 
 /* Text */
 .basiccontextmenu_contextMenuItem_3PqLg,
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.contextMenuItem,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
     background: transparent;
     color: var(--pip-boy-accent);
     justify-content: center;
     text-transform: uppercase;
+    justify-content: left; /* Allign menu to left */
 }
 
 /* Highlighted Text */ 
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg,
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D {
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D,
+.contextMenuItem.gpfocus,
+.contextMenuItem.gpfocus.gamepadcontextmenu_Destructive_3aIFv {
     background: var(--pip-boy-accent);
     color: var(--pip-boy-bg);
 }
@@ -44,51 +50,53 @@
 }
 
 /* Submenu Arrow */
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic .SVGIcon_DownArrowContextMenu
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN .SVGIcon_DownArrowContextMenu
 {
     fill: var(--pip-boy-accent);
 }
 
 /* Highlighted Submenu Arrow */
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic.gpfocus .SVGIcon_DownArrowContextMenu 
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_SubMenu_3O4Ic.gpfocus .SVGIcon_DownArrowContextMenu,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gpfocus .SVGIcon_DownArrowContextMenu 
 {
     fill: var(--pip-boy-bg);
 }
 
 /* Selected Item */
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET {
     border-left: solid 5px;
     border-right: solid 5px;
 }
 
 /* Highlighted Selected Item */
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg {
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr.basiccontextmenu_Focused_3t3Zg,
+.contextMenuItem.gamepadcontextmenu_Selected_1PnET.gpfocus {
     border-left: none;
     border-right: none;
 }
 
 /* Submenu allign to top */
-.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child) {
+.basiccontextmenu_contextMenuContents_TBSbv:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child),
+.gamepadcontextmenu_contextMenuContents_sIgB-:not(.basiccontextmenu_hasSubMenu_1Mql2):not(:first-child) {
     align-self: end;
     margin-left: 10%;
 }
 
 /* Allign menu to left */
-.basiccontextmenu_BasicContextMenuContainer_2dUDj {
+.basiccontextmenu_BasicContextMenuContainer_2dUDj,
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6 {
     justify-content: left;
     padding-left: 10px;
 }
 
 /* Remove huge chunk of space */
 .basiccontextmenu_BasicContextMenuContainer_2dUDj::before, 
-.basiccontextmenu_BasicContextMenuContainer_2dUDj::after {
+.basiccontextmenu_BasicContextMenuContainer_2dUDj::after,
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6::before, 
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6::after {
     flex-grow: 0;
-}
-
-/* Allign menu to left */
-.basiccontextmenu_contextMenuItem_3PqLg,
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Selected_iWaEr {
-    justify-content: left;
 }
 
 /* --- */
