@@ -49,6 +49,7 @@
 .root {
     --filter-opacity: 1;
     --animation-duration: .5s;
+    --capsule-glow-visibility: visible;
 }
 
 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
@@ -67,5 +68,5 @@
 }
 
 .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    display: none;
+    visibility: var(--capsule-glow-visibility);
 }

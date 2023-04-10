@@ -98,6 +98,29 @@
 				}
 			},
 			"components": []
+		},
+		"Capsule Glow": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"--capsule-glow-visibility": [
+						"visible",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {
+					"--capsule-glow-visibility": [
+						"hidden",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
 		}
 	}
 }
