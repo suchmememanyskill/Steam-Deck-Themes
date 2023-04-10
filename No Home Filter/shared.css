@@ -65,3 +65,7 @@
     opacity: var(--filter-opacity);
     transition-duration: var(--animation-duration);
 }
+
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    display: none;
+}
