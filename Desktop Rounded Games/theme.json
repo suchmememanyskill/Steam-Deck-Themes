@@ -1,0 +1,33 @@
+{
+    "name": "Desktop Rounded Games",
+    "manifest_version": 6,
+    "author": "SuchMeme",
+    "target": "Desktop",
+    "description": "Rounds game corners in the desktop Steam library",
+    "inject": {
+        "shared.css": ["SteamLibraryWindow"]
+    },
+    "patches": {
+        "Border Radius": {
+            "default": "10px",
+            "type": "slider",
+            "values": {
+                "5px": {
+                    "--desktopgb": ["5px", "SteamLibraryWindow"]
+                },
+                "10px": {
+                    "--desktopgb": ["10px", "SteamLibraryWindow"]
+                },
+                "15px": {
+                    "--desktopgb": ["15px", "SteamLibraryWindow"]
+                },
+                "20px": {
+                    "--desktopgb": ["20px", "SteamLibraryWindow"]
+                },
+                "25px": {
+                    "--desktopgb": ["25px", "SteamLibraryWindow"]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Desktop Background",
+    "manifest_version": 6,
+    "author": "SuchMeme",
+    "target": "Desktop",
+    "description": "Change the background color of the game library, friends list and chat in desktop Steam",
+    "patches": {
+        "Library": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "library.css": ["SteamLibraryWindow"]
+                },
+                "No": {}
+            }
+        },
+        "Friends List": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "friends.css": ["Friends List"]
+                },
+                "No": {}
+            }
+        },
+        "Friends Chat": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "chat.css": ["~about:blank?createflags=18&minwidth=400&minheight=400~"]
+                },
+                "No": {}
+            }
+        },
+        "Color": {
+            "type": "none",
+            "values": {
+                "_": {}
+            },
+            "components": [
+                {
+                    "name": "Color",
+                    "type": "color-picker",
+                    "on": "_",
+                    "default": "#000",
+                    "css_variable": "desktop-bg",
+                    "tabs": ["SteamLibraryWindow", "Friends List", "~about:blank?createflags=18&minwidth=400&minheight=400~"]
+                }
+            ]
+        }
+    }
+}
