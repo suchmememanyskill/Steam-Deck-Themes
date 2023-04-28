@@ -15,11 +15,20 @@
                 "No": {}
             }
         },
-        "Top Bar": {
+        "Nav Bar": {
             "type": "checkbox",
             "values": {
                 "Yes": {
-                    "topbar.css": ["SteamLibraryWindow|Steam"]
+                    "navbar.css": ["SteamLibraryWindow|Steam"]
+                },
+                "No": {}
+            }
+        },
+        "Download Bar": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "dlbar.css": ["SteamLibraryWindow|Steam"]
                 },
                 "No": {}
             }
