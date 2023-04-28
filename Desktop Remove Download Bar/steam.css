@@ -1,0 +1,34 @@
+.steamdesktop_OuterFrame_3mz8w {
+    flex-direction: column-reverse;
+}
+
+.steamdesktop_TopBar_3Z7VQ {
+    order: 1;
+}
+
+.bottombar_BottomBar_3vCzS {
+    flex: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -32px;
+    z-index: 999;
+    box-shadow: none;
+    background: transparent;
+    padding: 0px 8px;
+    height: 32px;
+}
+
+.bottombar_Text_3OhUx,
+.bottombar_Queue_3wJnT,
+.bottombar_Text_3OhUx 
+{
+    display: none;
+}
+
+.bottombar_BottomBar_3vCzS > div {
+    margin: 0 10px;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3 {
+    margin-right: 0px;
+}

@@ -3,6 +3,7 @@
     "manifest_version": 6,
     "author": "SuchMeme",
     "target": "Desktop",
+    "version": "v1.1",
     "description": "Change the background color of the game library, friends list and chat in desktop Steam",
     "patches": {
         "Library": {
@@ -10,6 +11,15 @@
             "values": {
                 "Yes": {
                     "library.css": ["SteamLibraryWindow|Steam"]
+                },
+                "No": {}
+            }
+        },
+        "Top Bar": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "topbar.css": ["SteamLibraryWindow|Steam"]
                 },
                 "No": {}
             }
