@@ -5,7 +5,7 @@
     "target": "Desktop",
     "description": "Rounds game corners in the desktop Steam library",
     "inject": {
-        "shared.css": ["SteamLibraryWindow"]
+        "shared.css": ["SteamLibraryWindow|Steam"]
     },
     "patches": {
         "Border Radius": {
@@ -13,19 +13,19 @@
             "type": "slider",
             "values": {
                 "5px": {
-                    "--desktopgb": ["5px", "SteamLibraryWindow"]
+                    "--desktopgb": ["5px", "SteamLibraryWindow|Steam"]
                 },
                 "10px": {
-                    "--desktopgb": ["10px", "SteamLibraryWindow"]
+                    "--desktopgb": ["10px", "SteamLibraryWindow|Steam"]
                 },
                 "15px": {
-                    "--desktopgb": ["15px", "SteamLibraryWindow"]
+                    "--desktopgb": ["15px", "SteamLibraryWindow|Steam"]
                 },
                 "20px": {
-                    "--desktopgb": ["20px", "SteamLibraryWindow"]
+                    "--desktopgb": ["20px", "SteamLibraryWindow|Steam"]
                 },
                 "25px": {
-                    "--desktopgb": ["25px", "SteamLibraryWindow"]
+                    "--desktopgb": ["25px", "SteamLibraryWindow|Steam"]
                 }
             }
         }

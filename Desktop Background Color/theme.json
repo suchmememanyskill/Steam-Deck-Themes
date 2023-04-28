@@ -9,7 +9,7 @@
             "type": "checkbox",
             "values": {
                 "Yes": {
-                    "library.css": ["SteamLibraryWindow"]
+                    "library.css": ["SteamLibraryWindow|Steam"]
                 },
                 "No": {}
             }
@@ -44,7 +44,7 @@
                     "on": "_",
                     "default": "#000",
                     "css_variable": "desktop-bg",
-                    "tabs": ["SteamLibraryWindow", "Friends List", "~about:blank?createflags=18&minwidth=400&minheight=400~"]
+                    "tabs": ["SteamLibraryWindow|Steam", "Friends List", "~about:blank?createflags=18&minwidth=400&minheight=400~"]
                 }
             ]
         }
