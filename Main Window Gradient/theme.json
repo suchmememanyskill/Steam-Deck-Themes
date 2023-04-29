@@ -4,7 +4,7 @@
     "author": "SuchMeme",
     "target": "Desktop",
     "version": "v1.0",
-    "description": "Change the background color of the game library, friends list and chat in desktop Steam",
+    "description": "Change the background color of the main steam window! Gradient style is fully configurable",
     "inject": {
         "library.css": ["SteamLibraryWindow|Steam"]
     },
