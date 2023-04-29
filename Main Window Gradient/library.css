@@ -1,0 +1,37 @@
+.libraryhome_InnerContainer_2AUVZ,
+.libraryhome_LibraryHome_3Sb2o,
+.gamelistbar_Container_3x1Hk,
+.gamelistbar_GameListHomeAndSearch_2TKEa,
+.libraryhome_UpdatesContainer_17uEB,
+.appdetailsoverview_Container_27RcN,
+.appdetailsoverview_BackdropGlass_Jbe--,
+.appdetails_InnerContainer_1Svpj,
+.library_LibraryWindowDivider_276E6,
+.libraryhome_Container_2gSXC,
+.library_AppDetailsTransitionGroup_2Dd4T,
+.steamdesktop_Wrapper_1ENHE,
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416,
+.collectionview_OuterContainer_2sNr7
+{
+    background: transparent;
+}
+
+.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
+    display: none;
+}
+
+.steamdesktop_FocusNavigationRoot_27qas {
+    background: linear-gradient(var(--desktop-grad-rot), var(--desktop-grad-one), var(--desktop-grad-dist), var(--desktop-grad-two));
+}
+
+.library_LeftListSizableContainer_9sPoV {
+    background: var(--desktop-grad-left-absolute-color);
+}
+
+.library_MainPanel_3BFcm {
+    background: var(--desktop-grad-main-absolute-color);
+}
+
+.gamelistsectionheader_Container_2sYIg {
+    background: linear-gradient(to right, #0008 40%, rgba(62, 78, 105, 0) 100%);
+}
