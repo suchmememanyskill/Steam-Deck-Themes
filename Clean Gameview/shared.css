@@ -1,7 +1,6 @@
 :root {
-    --CGV-top-panel-height: calc(100vh - 80px - 40px);
-    --CGV-image-height: calc(100vh - 40px);
-    --CGV-play-anim-height: 58vw;
+    --CGV-top-panel-height: calc(100vh - 80px - var(--CGV-footer-height));
+    --CGV-image-height: calc(100vh - var(--CGV-footer-height));
 }
 
 .BasicUI .sharedappdetailsheader_TopCapsule_2meE3 {

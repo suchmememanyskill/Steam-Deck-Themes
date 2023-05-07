@@ -28,6 +28,20 @@
                 },
                 "No": {}
             }
+        },
+        "Ignore Footer": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "--CGV-footer-height": ["0px", "SP"],
+                    "--CGV-play-anim-height": ["100vh", "SP"]
+                },
+                "No": {
+                    "--CGV-footer-height": ["40px", "SP"],
+                    "--CGV-play-anim-height": ["58vw", "SP"]
+                }
+            }
         }
     }
 }
