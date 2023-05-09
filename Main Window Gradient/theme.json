@@ -242,7 +242,7 @@
         },
         "Distribution 2nd Color": {
             "type": "dropdown",
-            "default": "40%",
+            "default": "70%",
             "values": {
                 "10%": {
                     "--desktop-grad-dist-two": ["10%", "SteamLibraryWindow|Steam"]
