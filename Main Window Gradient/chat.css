@@ -1,6 +1,0 @@
-.chatWindow,
-.chatWindow .chatEntry,
-.titleBarContainer.ChatTabs
-{
-    background: var(--desktop-bg);
-}

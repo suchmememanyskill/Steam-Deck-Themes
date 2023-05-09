@@ -11,20 +11,26 @@
 .library_AppDetailsTransitionGroup_2Dd4T,
 .steamdesktop_Wrapper_1ENHE,
 .appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416,
-.collectionview_OuterContainer_2sNr7
+.collectionview_OuterContainer_2sNr7,
+.downloads_DownloadsPage_1bq4x,
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL,
+.allcollections_ScrollContainer_u1xD3
 {
     background: transparent;
+}
+
+.downloads_Active_IbePL .downloads_SectionList_OINnO
+{
+    border: none;
+    background: rgba(0,0,0,0.2);
 }
 
 .sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
     display: none;
 }
 
-.steamdesktop_FocusNavigationRoot_27qas {
-    background: linear-gradient(var(--desktop-grad-rot), var(--desktop-grad-one), var(--desktop-grad-dist), var(--desktop-grad-two));
-}
-
-.library_LeftListSizableContainer_9sPoV {
+.library_LeftListSizableContainer_9sPoV,
+.library_LibraryWindowDivider_276E6 {
     background: var(--desktop-grad-left-absolute-color);
 }
 

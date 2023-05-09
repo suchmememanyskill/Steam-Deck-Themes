@@ -3,7 +3,7 @@
     "manifest_version": 6,
     "author": "SuchMeme",
     "target": "Desktop",
-    "version": "v1.0",
+    "version": "v1.1",
     "description": "Change the background color of the main steam window! Gradient style is fully configurable",
     "inject": {
         "library.css": ["SteamLibraryWindow|Steam"]
@@ -216,6 +216,60 @@
                 },
                 "90%": {
                     "--desktop-grad-dist": ["90%", "SteamLibraryWindow|Steam"]
+                }
+            }
+        },
+        "Use 3 Colors": {
+            "type": "checkbox",
+            "values": {
+                "No": {
+                    "background-2-colors.css": ["SteamLibraryWindow|Steam"]
+                },
+                "Yes": {
+                    "background-3-colors.css": ["SteamLibraryWindow|Steam"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Gradient Color 3",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#000",
+                    "css_variable": "desktop-grad-three",
+                    "tabs": ["SteamLibraryWindow|Steam"]
+                }
+            ]
+        },
+        "Distribution 2nd Color": {
+            "type": "dropdown",
+            "default": "40%",
+            "values": {
+                "10%": {
+                    "--desktop-grad-dist-two": ["10%", "SteamLibraryWindow|Steam"]
+                },
+                "20%": {
+                    "--desktop-grad-dist-two": ["20%", "SteamLibraryWindow|Steam"]
+                },
+                "30%": {
+                    "--desktop-grad-dist-two": ["30%", "SteamLibraryWindow|Steam"]
+                },
+                "40%": {
+                    "--desktop-grad-dist-two": ["40%", "SteamLibraryWindow|Steam"]
+                },
+                "50%": {
+                    "--desktop-grad-dist-two": ["50%", "SteamLibraryWindow|Steam"]
+                },
+                "60%": {
+                    "--desktop-grad-dist-two": ["60%", "SteamLibraryWindow|Steam"]
+                },
+                "70%": {
+                    "--desktop-grad-dist-two": ["70%", "SteamLibraryWindow|Steam"]
+                },
+                "80%": {
+                    "--desktop-grad-dist-two": ["80%", "SteamLibraryWindow|Steam"]
+                },
+                "90%": {
+                    "--desktop-grad-dist-two": ["90%", "SteamLibraryWindow|Steam"]
                 }
             }
         }
