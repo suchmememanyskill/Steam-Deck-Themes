@@ -1,0 +1,141 @@
+{
+    "name": "Main Window Image",
+    "manifest_version": 6,
+    "author": "SuchMeme",
+    "target": "Desktop",
+    "version": "v1.1",
+    "description": "Change the background of the main steam window with an image!",
+    "inject": {
+        "library.css": ["SteamLibraryWindow|Steam"]
+    },
+    "patches": {
+        "Library Left Panel Transparency": {
+            "type": "dropdown",
+            "default": "60%",
+            "values": {
+                "Transparent": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0)", "SteamLibraryWindow|Steam"]
+                },
+                "90%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.1)", "SteamLibraryWindow|Steam"]
+                },
+                "80%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.2)", "SteamLibraryWindow|Steam"]
+                },
+                "70%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.3)", "SteamLibraryWindow|Steam"]
+                },
+                "60%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.4)", "SteamLibraryWindow|Steam"]
+                },
+                "50%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.5)", "SteamLibraryWindow|Steam"]
+                },
+                "40%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.6)", "SteamLibraryWindow|Steam"]
+                },
+                "30%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.7)", "SteamLibraryWindow|Steam"]
+                },
+                "20%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.8)", "SteamLibraryWindow|Steam"]
+                },
+                "10%": {
+                    "--desktop-grad-left-absolute-color": ["rgba(0,0,0,0.9)", "SteamLibraryWindow|Steam"]
+                },
+                "Absolute Color": {}
+            },
+            "components": [
+                {
+                    "name": "Main Panel Absolute Color",
+                    "type": "color-picker",
+                    "on": "Absolute Color",
+                    "default": "#000",
+                    "css_variable": "desktop-grad-main-absolute-color",
+                    "tabs": ["SteamLibraryWindow|Steam"]
+                }
+            ]
+        },
+        "Library Main Panel Transparency": {
+            "type": "dropdown",
+            "default": "80%",
+            "values": {
+                "Transparent": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0)", "SteamLibraryWindow|Steam"]
+                },
+                "90%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.1)", "SteamLibraryWindow|Steam"]
+                },
+                "80%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.2)", "SteamLibraryWindow|Steam"]
+                },
+                "70%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.3)", "SteamLibraryWindow|Steam"]
+                },
+                "60%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.4)", "SteamLibraryWindow|Steam"]
+                },
+                "50%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.5)", "SteamLibraryWindow|Steam"]
+                },
+                "40%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.6)", "SteamLibraryWindow|Steam"]
+                },
+                "30%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.7)", "SteamLibraryWindow|Steam"]
+                },
+                "20%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.8)", "SteamLibraryWindow|Steam"]
+                },
+                "10%": {
+                    "--desktop-grad-main-absolute-color": ["rgba(0,0,0,0.9)", "SteamLibraryWindow|Steam"]
+                },
+                "Absolute Color": {}
+            },
+            "components": [
+                {
+                    "name": "Left Panel Absolute Color",
+                    "type": "color-picker",
+                    "on": "Absolute Color",
+                    "default": "#000",
+                    "css_variable": "desktop-grad-left-absolute-color",
+                    "tabs": ["SteamLibraryWindow|Steam"]
+                }
+            ]
+        },
+        "Show on Nav": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "navbar.css": ["SteamLibraryWindow|Steam"]
+                },
+                "No": {}
+            }
+        },
+        "Show on Download Bar": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "dlbar.css": ["SteamLibraryWindow|Steam"]
+                },
+                "No": {}
+            }
+        },
+        "Image": {
+            "type": "none",
+            "values": {
+                "_": {}
+            },
+            "components": [
+                {
+                    "name": "Background Image",
+                    "type": "image-picker",
+                    "on": "_",
+                    "default": "Main Window Image/default.png",
+                    "css_variable": "desktop-img",
+                    "tabs": ["SteamLibraryWindow|Steam"]
+                }
+            ]
+        }
+    }
+}
