@@ -46,7 +46,7 @@
             },
             "components": [
                 {
-                    "name": "Main Panel Absolute Color",
+                    "name": "Left Panel Absolute Color",
                     "type": "color-picker",
                     "on": "Absolute Color",
                     "default": "#000",
@@ -93,7 +93,7 @@
             },
             "components": [
                 {
-                    "name": "Left Panel Absolute Color",
+                    "name": "Main Panel Absolute Color",
                     "type": "color-picker",
                     "on": "Absolute Color",
                     "default": "#000",
