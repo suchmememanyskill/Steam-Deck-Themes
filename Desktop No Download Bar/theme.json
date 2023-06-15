@@ -1,7 +1,7 @@
 {
     "name": "Desktop No Download Bar",
     "author": "SuchMeme",
-    "version": "v1.0",
+    "version": "v1.1",
     "target": "Desktop",
     "description": "Ever thought the bottom bar of steam with 3 buttons took up too much space? Today's your day, as this theme moves all those buttons to the top right",
     "inject": {
