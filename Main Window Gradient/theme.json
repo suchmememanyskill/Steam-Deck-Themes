@@ -3,7 +3,7 @@
     "manifest_version": 6,
     "author": "SuchMeme",
     "target": "Desktop",
-    "version": "v1.1",
+    "version": "v1.2",
     "description": "Change the background color of the main steam window! Gradient style is fully configurable",
     "inject": {
         "library.css": ["SteamLibraryWindow|Steam"]
@@ -46,11 +46,11 @@
             },
             "components": [
                 {
-                    "name": "Main Panel Absolute Color",
+                    "name": "Left Panel Absolute Color",
                     "type": "color-picker",
                     "on": "Absolute Color",
                     "default": "#000",
-                    "css_variable": "desktop-grad-main-absolute-color",
+                    "css_variable": "desktop-grad-left-absolute-color",
                     "tabs": ["SteamLibraryWindow|Steam"]
                 }
             ]
@@ -93,11 +93,11 @@
             },
             "components": [
                 {
-                    "name": "Left Panel Absolute Color",
+                    "name": "Main Panel Absolute Color",
                     "type": "color-picker",
                     "on": "Absolute Color",
                     "default": "#000",
-                    "css_variable": "desktop-grad-left-absolute-color",
+                    "css_variable": "desktop-grad-main-absolute-color",
                     "tabs": ["SteamLibraryWindow|Steam"]
                 }
             ]
