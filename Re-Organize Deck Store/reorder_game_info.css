@@ -1,0 +1,76 @@
+
+
+
+
+
+/*
+html.tablet .purchase_options_content_tablet {
+    padding-right: 10px;
+    padding-left: 12px;
+}
+
+html.tablet #tabletGrid {
+    padding-left: 10px;
+}
+
+html.tablet .page_content_ctn {
+    width: calc( 100% - var(--gpPurchaseOptionsWidth) + var(--gpSpace-Gutter) - 10px );
+}
+
+html.tablet #appHubAppName_responsive {
+    display: none !important;
+}
+*/
+
+html.tablet .game_description_snippet, html.tablet .game_area_description {
+    font-size: small;
+}
+
+/* New Stuff */
+
+html.tablet .responsive_page_header_img,
+html.tablet #reviewsHeader_responsive {
+    display: none !important;
+}
+
+html.tablet .app_header_grid_container > div:nth-child(1),
+html.tablet .app_header_grid_container > div:nth-child(3),
+html.tablet .app_header_grid_container > div:nth-child(4) {
+    display: none !important;
+}
+
+html.tablet .app_header_grid_container > .grid_label.grid_date {
+    clear: none;
+}
+
+html.tablet #glanceCtnResponsiveRight > .responsive_block_header {
+    display: none;
+}
+
+html.tablet #appHeaderGridContainer {
+    margin-top: 0;
+}
+
+html.tablet #gameHeaderImageCtn {
+    margin-bottom: 0;
+}
+
+html.tablet .block_content.page_content,
+html.tablet .glance_ctn {
+    display: flex;
+    flex-direction: column;
+}
+
+html.tablet .glance_tags_ctn .glance_tags .app_tag {
+    padding: 1px 3px;
+}
+
+html.tablet .glance_ctn .game_description_snippet {
+    order: 999;
+}
+
+html.tablet #userReviews_responsive {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 1em;
+}

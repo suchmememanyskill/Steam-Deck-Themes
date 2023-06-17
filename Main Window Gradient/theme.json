@@ -2,7 +2,7 @@
     "name": "Main Window Gradient",
     "manifest_version": 6,
     "author": "SuchMeme",
-    "target": "Desktop",
+    "target": "Desktop-Library",
     "version": "v1.2",
     "description": "Change the background color of the main steam window! Gradient style is fully configurable",
     "inject": {

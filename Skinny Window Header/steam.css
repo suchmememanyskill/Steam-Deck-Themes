@@ -1,0 +1,152 @@
+
+@keyframes steam-show-menu {
+    from { 
+        width: fit-content;
+        background-color: rgba(0,0,0,0.9);
+        padding-right: 10px;
+        padding-left: 4px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+    to {
+        width: fit-content;
+        background-color: rgba(0,0,0,0.9);
+        padding-right: 10px;
+        padding-left: 4px;
+        margin-left: 5px;
+        border-radius: 5px;
+    }
+}
+
+.rootmenu_RootMenuBar_1Ky59.steamdesktop_RootMenuBar_3s0lk {
+    width: 35px;
+    z-index: 999;
+}
+
+.rootmenu_RootMenuBar_1Ky59.steamdesktop_RootMenuBar_3s0lk:hover {
+    width: fit-content;
+    background-color: rgba(0,0,0,0.9);
+    padding-right: 10px;
+    padding-left: 4px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.rootmenu_RootMenuBar_1Ky59.steamdesktop_RootMenuBar_3s0lk:not(:hover) {
+    animation-name: steam-show-menu;
+    animation-duration: .5s;
+}
+
+.menu_MenuWrapper_2Lu3d.rootmenu_RootMenuButton_2UyOB {
+    color: white;
+}
+
+.menu_MenuWrapper_2Lu3d.rootmenu_RootMenuButton_2UyOB:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.steamdesktop_SuperNavBar_3Z3oh {
+    position: fixed;
+    top: 5px;
+    left: 35px;
+}
+
+.supernav_MenuButton_19axK::after {
+    margin-top: -30px;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+    height: 6px;
+}
+
+/* No Download Bar */
+.steamdesktop_OuterFrame_3mz8w {
+    flex-direction: column-reverse;
+}
+
+.steamdesktop_TopBar_3Z7VQ {
+    order: 1;
+}
+
+.bottombar_BottomBar_3vCzS {
+    flex: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -32px;
+    z-index: 999;
+    box-shadow: none !important;
+    background: transparent;
+    padding: 0px 8px;
+    height: 32px;
+    margin-right: 90px;
+}
+
+.bottombar_Text_3OhUx,
+.bottombar_Queue_3wJnT,
+.bottombar_Text_3OhUx 
+{
+    display: none;
+}
+
+.bottombar_BottomBar_3vCzS > div {
+    margin: 0 2px;
+    margin-top: 5px;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ .bottombar_Icon_1KrJ3 {
+    margin-right: 0px;
+}
+
+
+.titlebarcontrols_TitleBarControls_3cykd.steamdesktop_TitleBarControls_1-9si {
+    margin-right: 100px;
+}
+
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3 .titlebarcontrols_Icon_34bQc {
+    color: black;
+    border-radius: 1px;
+    background: #67707b;
+    padding: 1px;
+    height: 14px;
+    width: 14px;
+    margin-top: 1px;
+}
+
+.TitleBar.title-area {
+    margin-top: 5px;
+}
+
+.titlebarcontrols_NotificationsButton_RtSv3,
+.titlebarcontrols_AnnouncementsButton_5wILZ {
+    padding: 0;
+}
+
+/* Download Icon becomes it's own download bar */
+.bottombar_ProgressBarWrapper_2_Fom {
+    position: absolute;
+}
+
+.bottombar_ProgressBarWrapper_2_Fom .bottombar_StatusLine_1xCcF {
+    display: none;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq {
+    width: fit-content;
+}
+
+.progressbar_ProgressBar_yZ55N {
+    width: 26px;
+    margin-top: 30px;
+    z-index: 999;
+}
+
+.bottombar_DetailedDownloadProgress_2VtAq {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ {
+    margin-top: -1px;
+}

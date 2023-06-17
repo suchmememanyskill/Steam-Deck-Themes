@@ -2,7 +2,7 @@
     "name": "Desktop Background Color",
     "manifest_version": 6,
     "author": "SuchMeme",
-    "target": "Desktop",
+    "target": "Desktop-Library",
     "version": "v1.1",
     "description": "Change the background color of the game library, friends list and chat in desktop Steam",
     "patches": {

@@ -1,0 +1,37 @@
+{
+    "name": "Re-Organize Deck Store",
+    "author": "SuchMeme",
+    "manifest_version": 7,
+    "version": "v1.0",
+    "target": "Store",
+    "description": "Re-organizes the deck steam store to show more information at once by removing some padding, and re-ordering some game info",
+    "patches": {
+        "Small Store Header": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "small_header.css": ["~https://store.steampowered.com~"]
+                },
+                "No": {}
+            }
+        },
+        "Collapsed Compat Info": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "small_verification_badge.css": ["~https://store.steampowered.com~"]
+                },
+                "No": {}
+            }
+        },
+        "Collapsed Game Info Showcase": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "reorder_game_info.css": ["~https://store.steampowered.com~"]
+                },
+                "No": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Skinny Window Header",
+    "version": "v1.0",
+    "target": "Desktop-Library",
+    "author": "SuchMeme",
+    "manifest_version": 6,
+    "description": "Compacts the top bar of Steam Desktop",
+    "inject": {
+        "steam.css": ["Steam"]
+    }
+}

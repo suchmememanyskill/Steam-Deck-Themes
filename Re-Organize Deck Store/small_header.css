@@ -1,0 +1,22 @@
+html.tablet .tablet_header_menu_ctn {
+    height: fit-content
+}
+
+html.tablet .pill_tab_menu_ctn {
+    padding: 0.3em;
+    -webkit-mask-image: none;
+}
+
+html.tablet .pill_tab_menu_item {
+    padding: 4px 8px;
+}
+
+html.tablet .pill_tab_menu_ctn {
+    padding: 0;
+}
+
+html.tablet .tablet_header_menu_ctn {
+    padding-bottom: 4px;
+    margin-bottom: .5em;
+    background-color: black;
+}

@@ -1,0 +1,34 @@
+html.tablet .deckverified_BannerHeader_1IgJ0 {
+    display: none;
+}
+
+
+html.tablet .deckverified_BannerContent_1B2KF > div:nth-child(2) {
+    margin-right: auto;
+}
+
+html.tablet .deckverified_LearnMore_1Vhpn {
+    padding: 1px 4px;
+}
+
+html.tablet .deckverified_LearnMore_1Vhpn {
+    font-size: small;
+}
+
+html.tablet .deckverified_LearnMore_1Vhpn:not(.gpfocus) {
+    background: transparent;
+    border: transparent;
+    box-shadow: none;
+    margin-bottom: -3px;
+}
+
+
+html.tablet .deckverified_BannerContainer_2b4eh {
+    padding: 6px 0;
+}
+
+
+html.tablet .deckverified_BannerContent_1B2KF {
+    background: transparent;
+    padding: 0;
+}
