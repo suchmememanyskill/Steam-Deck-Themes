@@ -1,11 +1,25 @@
 {
     "name": "Skinny Window Header",
-    "version": "v1.0",
+    "version": "v1.1",
     "target": "Desktop-Library",
     "author": "SuchMeme",
-    "manifest_version": 6,
+    "manifest_version": 7,
     "description": "Compacts the top bar of Steam Desktop",
+    "tabs": {
+        "default": ["Steam"]
+    },
     "inject": {
-        "steam.css": ["Steam"]
+        "steam.css": []
+    },
+    "patches": {
+        "Use Custom Icons": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "custom_icons.css": []
+                },
+                "No": {}
+            }
+        }
     }
 }

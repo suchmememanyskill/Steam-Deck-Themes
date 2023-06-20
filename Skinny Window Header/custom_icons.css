@@ -1,0 +1,58 @@
+:root {
+    --skinny-header-icon-color: #67707b;
+    --skinny-header-icon-hover-color: #FFF;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ > .bottombar_Icon_1KrJ3 svg,
+.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3 svg,
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3 svg,
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3 svg {
+    display: none;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ > .bottombar_Icon_1KrJ3,
+.bottombar_DownloadStatusContent_ip-YZ > .bottombar_Status_1sCy-,
+.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3,
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3,
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3
+{
+    background-color: var(--skinny-header-icon-color);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.bottombar_DownloadStatusContent_ip-YZ:hover > .bottombar_Icon_1KrJ3,
+.bottombar_DownloadStatusContent_ip-YZ:hover > .bottombar_Status_1sCy-,
+.bottombar_FriendsButton_1TdaA:hover .bottombar_Icon_1KrJ3,
+.bottombar_AddGameButton_2foCk:hover .bottombar_Icon_1KrJ3,
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3:hover
+{
+    background-color: var(--skinny-header-icon-hover-color);
+}
+
+/* Online download icon */
+.bottombar_DownloadStatusContent_ip-YZ > .bottombar_Icon_1KrJ3 {
+    -webkit-mask-image: url(/themes_custom/Skinny%20Window%20Header/icons/download-solid.svg);
+}
+
+/* Offline download icon */
+.bottombar_DownloadStatusContent_ip-YZ > .bottombar_Status_1sCy- {
+    color: transparent;
+    -webkit-mask-image: url(/themes_custom/Skinny%20Window%20Header/icons/plane-up-solid.svg);
+}
+
+.bottombar_FriendsButton_1TdaA .bottombar_Icon_1KrJ3 {
+    -webkit-mask-image: url(/themes_custom/Skinny%20Window%20Header/icons/user-group-solid.svg);
+}
+
+.bottombar_AddGameButton_2foCk .bottombar_Icon_1KrJ3 {
+    -webkit-mask-image: url(/themes_custom/Skinny%20Window%20Header/icons/folder-plus-solid.svg);
+}
+
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_GamepadUIToggle_3LKQ3 {
+    -webkit-mask-image: url(/themes_custom/Skinny%20Window%20Header/icons/tv-solid.svg);
+    width: 0px;
+    min-width: 18px; 
+    margin-right: 8px;
+    margin-top: 1px;
+}
