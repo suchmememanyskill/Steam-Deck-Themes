@@ -16,7 +16,7 @@
     padding: calc(12px + 1.4vw) 2.8vw;
 }
 
-.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
     display: none;
 }
 
@@ -61,14 +61,14 @@
 }
 
 .gamepadpagedsettings_Separator_3vV7l {
-    height: 0%;
+    height: 0;
 }
 
-.DialogBody > button:first-child {
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .DialogBody > button:first-child {
     top: 5px !important;
     left: 5px;
 }
 
-.DialogBody:not(:first-child) {
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle .DialogBody:not(:first-child) {
     margin-top: 20px;
 }

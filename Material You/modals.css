@@ -1,11 +1,20 @@
+/* Menu Modals */
+
 .gamepadcontextmenu_contextMenuContents_sIgB- {
     padding: 0 20px;
     border-radius: 20px;
     background: var(--md-sys-color-surface-container-high);
+    margin-top: 5px;
 }
 
-.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6:not(:first-child) .gamepadcontextmenu_contextMenuContents_sIgB-:first-child {
-    padding-top: 40px;
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6:not(:first-child) .gamepadcontextmenu_contextMenuContents_sIgB-:only-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -3px;
+}
+
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6:not(:first-child) .gamepadcontextmenu_contextMenuContents_sIgB-:not(:only-child):last-child {
+    margin-left: 5px;
 }
 
 .gamepadcontextmenu_contextMenuItem_1sdvo,
@@ -40,10 +49,15 @@
 }
 
 .gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+    background: var(--md-sys-color-surface-container-high);
     color: var(--md-sys-color-on-surface-variant);
-    font-size: 1.75em;
-    margin-bottom: -45px;
-    z-index: 999;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 20px 3px 20px;
+    margin-top: 5px;
+    width: 280px;
+
     /* text-align: left; */
     /* margin-left: calc(50% - 126px); */
 }
@@ -70,4 +84,42 @@
     background-color: var(--md-sys-color-tertiary);
     content: '';
     margin-left: auto;
+    position: absolute;
+    right: 0;
+}
+
+/* Yes/No Prompts */
+
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
+    background: var(--md-sys-color-surface-container-high);
+    border: none;
+    border-radius: 20px;
+}
+
+.GenericConfirmDialog .DialogTwoColLayout {
+    justify-content: flex-end;
+}
+
+.GenericConfirmDialog .DialogTwoColLayout button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+    width: fit-content;
+    min-width: 0px;
+    flex: 0;
+    flex-basis: auto;
+    background: transparent;
+    color: var(--md-sys-color-primary);
+}
+
+.GenericConfirmDialog .DialogTwoColLayout button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+.DialogHeader,
+.notificationssettings_NotificationDescription_1ifM6 {
+    color: var(--md-sys-color-on-surface);
+}
+
+.DialogBodyText,
+.gamepaddialog_GamepadDialogContent_3joNk .DialogBodyText {
+    color: var(--md-sys-color-on-surface-variant);
 }

@@ -68,7 +68,8 @@
 .gamepaddialog_FieldLabel_3b0U-,
 .gamepaddialog_FieldLabel_3b0U-,
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
-.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
+.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,
+.gamepadslider_Icon_21uKi {
     color: var(--md-sys-color-on-surface);
 }
 
@@ -180,6 +181,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
     width: 3px;
     min-width: 3px;
     margin-top: -13.5px;
+    margin-bottom: 10px;
     z-index: 100;
     border-radius: 25px;
     background: var(--md-sys-color-outline) !important;
@@ -244,4 +246,38 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 
 .appproperties_Title_3zuIC {
     color: var(--md-sys-color-on-surface);
+}
+
+/* Radio Group */
+
+.radio_Group_2qYC3 {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.radio_Group_2qYC3 > .radio_Button_3lwcR {
+    margin: 0;
+    border-radius: 0;
+    border-right: 2px solid var(--md-sys-color-outline);
+    border-top: 2px solid var(--md-sys-color-outline);
+    border-bottom: 2px solid var(--md-sys-color-outline);
+    color: var(--md-sys-color-on-surface);
+    background: transparent;
+}
+
+.radio_Group_2qYC3 > .radio_Button_3lwcR.radio_Active_3ZBFo {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+
+.radio_Group_2qYC3 > .radio_Button_3lwcR:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.radio_Group_2qYC3 > .radio_Button_3lwcR:first-child {
+    border-left: 2px solid var(--md-sys-color-outline);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
