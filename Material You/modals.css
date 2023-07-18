@@ -1,0 +1,73 @@
+.gamepadcontextmenu_contextMenuContents_sIgB- {
+    padding: 0 20px;
+    border-radius: 20px;
+    background: var(--md-sys-color-surface-container-high);
+}
+
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6:not(:first-child) .gamepadcontextmenu_contextMenuContents_sIgB-:first-child {
+    padding-top: 40px;
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Selected_1PnET {
+    background: transparent;
+    color: var(--md-sys-color-on-surface);
+    border-radius: 5px;
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x {
+    background: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-on-secondary) !important;
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.gamepadcontextmenu_contextMenuItem_1sdvo.gpfocus .dropdownlabel_DropDownLabelDescription_1JPcb {
+    color: var(--md-sys-color-on-secondary-variant) !important;
+}
+
+.gamepadcontextmenu_Arrow_2EDBb > svg {
+    fill: var(--md-sys-color-outline);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Destructive_3aIFv.gpfocus {
+    background: var(--md-sys-color-error);
+    color: var(--md-sys-color-on-error);
+}
+
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 1.75em;
+    margin-bottom: -45px;
+    z-index: 999;
+    /* text-align: left; */
+    /* margin-left: calc(50% - 126px); */
+}
+
+.gamepadcontextmenu_ContextMenuSeparator_1KL6n {
+    background: var(--md-sys-color-outline-variant);
+    margin: 5px;
+    width: 200%;
+    margin-left: -20px;
+}
+/*
+.gamepadcontextmenu_BasicContextMenuContainer_2ZDB6 {
+    justify-content: left;
+    margin-left: calc(50% - 160px);
+}
+*/
+
+.gamepadcontextmenu_Selected_1PnET:not(.gpfocus)::after {
+    -webkit-mask-image: url(/themes_custom/Material%20You/icons/check-solid.svg);
+    height: 20px;
+    width: 20px;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    background-color: var(--md-sys-color-tertiary);
+    content: '';
+    margin-left: auto;
+}

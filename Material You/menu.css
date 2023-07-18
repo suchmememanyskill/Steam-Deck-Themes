@@ -1,0 +1,74 @@
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o,
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK,
+.gamepadui_Content_1FxmN {
+    background: var(--md-sys-color-surface-container);
+    border: none;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle{
+    background: var(--md-sys-color-surface);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: var(--basicui-header-height);
+}
+
+.DialogContent.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO {
+    padding: calc(12px + 1.4vw) 2.8vw;
+}
+
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+    display: none;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
+    transform: none;
+    padding: 2px 0;
+    margin: 0;
+    animation: none;
+    background: transparent;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.gamepadpagedsettings_PageListItem_Title_2PPLv {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Title_2PPLv {
+    padding: 15px 10px;
+    margin: 0 calc(2px + 1.4vw);
+    background: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary);
+    border-radius: 5px;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB > .gamepadpagedsettings_PageListItem_Icon_1F_5Q {
+    margin-right: -5px;
+    margin-left: 23px;
+}
+
+.gamepadpagedsettings_PageListItem_Icon_1F_5Q,
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+    color: var(--md-sys-color-on-surface);
+}
+
+.customizationsettings_StartupMoviesSelectionDesc_gfecK,
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader,
+.remoteplaysettings_TableHeader_1HL6K {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepadpagedsettings_Separator_3vV7l {
+    height: 0%;
+}
+
+.DialogBody > button:first-child {
+    top: 5px !important;
+    left: 5px;
+}
+
+.DialogBody:not(:first-child) {
+    margin-top: 20px;
+}

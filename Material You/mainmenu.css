@@ -1,0 +1,43 @@
+.mainmenu_Item_2w9Tp,
+.mainmenu_Item_2w9Tp:hover {
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 16px;
+    padding-left: 8px;
+    margin-right: 16px;
+    transform: none !important;
+    background: transparent;
+}
+
+.mainmenu_Item_2w9Tp .marquee_Content_2ADpT, 
+.mainmenu_Item_2w9Tp .mainmenu_ItemIcon_3xZ3Z,
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
+    color: var(--md-sys-color-on-surface);
+}
+
+.mainmenu_Item_2w9Tp.gpfocus,
+.mainmenu_Item_2w9Tp:focus:hover {
+    background: var(--md-sys-color-secondary);
+    animation: none;
+}
+
+.mainmenu_Item_2w9Tp.gpfocus .marquee_Content_2ADpT, 
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z,
+.mainmenu_Item_2w9Tp:focus:hover .marquee_Content_2ADpT, 
+.mainmenu_Item_2w9Tp:focus:hover .mainmenu_ItemIcon_3xZ3Z
+{
+    color: var(--md-sys-color-on-secondary);
+}
+
+.mainmenu_Menu_23IDi {
+    background: var(--md-sys-color-surface-container);
+}
+
+.mainmenu_RunnningAppSeparator_33RkH {
+    margin-bottom: 10px;
+}
+
+.mainmenu_ActiveDot_1uLVH,
+.mainmenu_FooterBoxShadow_3kHmf {
+    display: none;
+}

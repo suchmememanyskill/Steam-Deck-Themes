@@ -1,0 +1,47 @@
+{
+    "name": "Material You",
+    "author": "SuchMeme",
+    "version": "v1.0",
+    "manifest_version": 8,
+    "target": "System-Wide",
+    "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI",
+    "tabs": {
+        "all": ["bigpicture", "bigpictureoverlay"]
+    },
+    "dependencies": {
+        "Focus Highlight Color": {},
+        "No Home Edge Fade": {}
+    },
+    "inject": {
+        "quickaccess.css": ["all"],
+        "modals.css": ["bigpicture"],
+        "menu.css": ["bigpicture"],
+        "bars.css": ["bigpicture"],
+        "home.css": ["bigpicture"],
+        "mainmenu.css": ["bigpictureoverlay"]
+    },
+    "patches": {
+        "Dark Mode": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "dark.css": ["all"]
+                },
+                "No": {
+                    "light.css": ["all"]
+                }
+            }
+        },
+        "Color": {
+            "type": "dropdown",
+            "values": {
+                "Orange": {
+                    "palettes/orange.css": ["all"]
+                },
+                "Blue": {
+                    "palettes/blue.css": ["all"]
+                }
+            }
+        }
+    }
+}

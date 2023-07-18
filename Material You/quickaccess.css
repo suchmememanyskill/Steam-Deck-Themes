@@ -1,0 +1,247 @@
+
+/* QAM Background */
+.quickaccessmenu_Tabs_3Ag1w,
+.quickaccessmenu_Title_34nl5,
+.quickaccessmenu_PanelOuterNav_2BB6u {
+    background: var(--md-sys-color-surface-container);
+}
+
+.quickaccessmenu_Tab_1S76C {
+    background: transparent;
+}
+
+.quickaccessmenu_Tabs_3Ag1w::after {
+    display: none;
+}
+
+.quickaccessmenu_Title_34nl5 {
+    box-shadow: none;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
+    background: var(--md-sys-color-surface);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top-left-radius: 10px;
+}
+
+.quickaccessmenu_Tab_1S76C {
+    margin: 4px;
+    height: 40px;
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
+    background: var(--md-sys-color-inverse-surface) !important;
+    color: var(--md-sys-color-inverse-on-surface) !important;
+}
+
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+    background: var(--md-sys-color-primary-container) !important;
+    color: var(--md-sys-color-on-primary-container) !important;
+}
+
+.quickaccessmenu_FooterBoxShadow_ISUYE {
+    display: none;
+}
+
+/* QAM Text */
+
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
+.quickaccesscontrols_BatteryProjectedLabel_4hS40,
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+.gamepaddialog_FieldDescription_2OJfk,
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+
+.quickaccesscontrols_BatteryIcon_39aNh > div:first-child {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+
+.quickaccesscontrols_Text_1hJkB,
+.gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_FieldLabel_3b0U-,
+.perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
+.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
+    color: var(--md-sys-color-on-surface);
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_Disabled_1pmyx .gamepaddialog_FieldLabel_3b0U- 
+{
+    color: var(--md-sys-color-outline);
+}
+
+.quickaccesscontrols_PanelSectionRow_2VQ88 {
+    padding: 5px 0;
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
+    display: none;
+}
+
+.gamepaddialog_Field_S-_La.gpfocus,
+.gamepaddialog_Field_S-_La.gpfocuswithin,
+.soundtrackcontrols_QuickAccess_3_y7M.gpfocuswithin {
+    background: var(--md-sys-color-surface-container-highest) !important;
+    /* background: var(--md-sys-color-inverse-surface) !important; */
+}
+
+.gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-
+ {
+    color: var(--md-sys-color-on-surface) !important;
+    /* color: var(--md-sys-color-inverse-on-surface) !important; */
+}
+
+/* Components */
+
+/* Component Toggle */
+
+.gamepaddialog_ToggleSwitch_3__OD {
+    height: 14px;
+    width: 14px;
+    margin: 4px !important;
+    background: var(--md-sys-color-on-primary-fixed);
+}
+
+.gamepaddialog_On_3ld7T > .gamepaddialog_ToggleSwitch_3__OD {
+    height: 18px;
+    width: 18px;
+    margin: 2px !important;
+    background: var(--md-sys-color-on-primary);
+}
+
+.gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD {
+    border: none;
+}
+
+.gamepaddialog_ToggleRail_2JtC3::before {
+    display: none;
+}
+
+.gamepaddialog_ToggleRail_2JtC3,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_ToggleRail_2JtC3 {
+    background: var(--md-sys-color-primary-fixed);
+}
+
+.gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_On_3ld7T > .gamepaddialog_ToggleRail_2JtC3 {
+    background: var(--md-sys-color-primary);
+}
+
+/* Component Button */
+
+button.gamepaddialog_Button_1kn70.DialogButton,
+button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border-radius: 50px;
+}
+
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:not(.gamepaddropdown_DropDownControlButton_28bny),
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropdown_DropDownControlButton_28bny) {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+/* Component Dropdown */
+button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny,
+button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:enabled {
+    background: transparent !important;
+    border: 2px solid var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-surface) !important;
+    border-radius: 5px;
+}
+
+.dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.dropdownlabel_DropDownLabelDescription_1JPcb {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+
+.dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-on-surface) !important;
+}
+
+button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus,
+button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus:enabled {
+    background: var(--md-sys-color-surface-container-lowest) !important;
+}
+
+/* Component Slider */
+
+.gamepadslider_SliderNotchTick_Fv1Ht {
+    height: 3px;
+    width: 3px;
+    min-width: 3px;
+    margin-top: -13.5px;
+    z-index: 100;
+    border-radius: 25px;
+    background: var(--md-sys-color-outline) !important;
+}
+
+.gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background: var(--md-sys-color-outline-variant) !important;
+}
+
+.gamepadslider_SliderNotchLabel_u_sH1,
+.gamepadslider_DefaultValueTickContainer_23F6A {
+    color: var(--md-sys-color-on-surface);
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+    background: var(--md-sys-color-primary-fixed);
+}
+
+.gamepadslider_SliderTrack_Mq25N::before {
+    background: var(--md-sys-color-primary);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.gamepadslider_SliderTrack_Mq25N  {
+    border-radius: 50px;
+}
+
+.gamepadslider_SliderHandleContainer_1pQZi {
+    z-index: 150;
+}
+
+.gamepadslider_SliderHandle_2yVKj {
+    background: var(--md-sys-color-primary);
+}
+
+.gamepadslider_SliderNotchContainer_2N-a5 {
+    padding: 0 1px;
+}
+
+.gamepaddialog_Field_S-_La.gpfocus .gamepadslider_SliderTrack_Mq25N ,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepadslider_SliderTrack_Mq25N  {
+    border: 2px solid var(--md-sys-color-outline);
+}
+
+/* Textinput Component */
+
+.DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi::placeholder {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi {
+    border: 2px solid var(--md-sys-color-primary);
+    background: transparent;
+    color: var(--md-sys-color-on-surface);
+    border-radius: 5px;
+}
+
+.DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi.gpfocus {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+
+.appproperties_Title_3zuIC {
+    color: var(--md-sys-color-on-surface);
+}

@@ -1,0 +1,10 @@
+.header_Header_1E_SL::before,
+#Footer {
+    background: var(--md-sys-color-surface-container);
+}
+
+#header .header_HeaderItem_2HnVd,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+    color: var(--md-sys-color-on-surface);
+}
