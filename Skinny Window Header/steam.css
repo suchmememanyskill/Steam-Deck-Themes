@@ -21,6 +21,7 @@
 .rootmenu_RootMenuBar_1Ky59.steamdesktop_RootMenuBar_3s0lk {
     width: 35px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .rootmenu_RootMenuBar_1Ky59.steamdesktop_RootMenuBar_3s0lk:hover {
