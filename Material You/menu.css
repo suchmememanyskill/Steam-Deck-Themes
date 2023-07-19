@@ -32,7 +32,8 @@
     background: var(--md-sys-color-surface-container-highest);
 }
 
-.gamepadpagedsettings_PageListItem_Title_2PPLv {
+.gamepadpagedsettings_PageListItem_Title_2PPLv,
+.gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
     color: var(--md-sys-color-on-surface-variant);
 }
 

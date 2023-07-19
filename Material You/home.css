@@ -1,5 +1,6 @@
-.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8,
-.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8, /* Game Background */
+.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf, /* Game Glow */
+.recentlycompleted_PatchNotes_2_b6L /* Recently Updated Text */ {
     display: none;
 }
 
@@ -169,4 +170,101 @@
 
 .recentlycompleted_RecentlyCompletedCarousel_2jcru {
     height: 55px !important;
+}
+
+
+
+/* Update Card */
+
+.gamepadhomewhatsnew_EventImage_116GS {
+    border-radius: 20px 20px 0 0;
+}
+
+.gamepadhomewhatsnew_EventType_1f0dZ {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    z-index: 1;
+    width: fit-content;
+    background: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary) !important;
+    padding: 3px 10px 9px 10px;
+    border-radius: 20px;
+}
+.gamepadhomewhatsnew_EventInfo_6TGe7 .partnereventdisplay_EventDetailTimeInfo_3Z41s {
+    order: 2;
+}
+.gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_Title_1QLHG {
+    order: 3;
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7 .gamepadhomewhatsnew_GameIconAndName_1jXSh {
+    order: 1;
+}
+
+.partnereventdisplay_VerticalLocalDateAndTime_1QFMN {
+    flex-direction: row;
+}
+
+.gamepadhomewhatsnew_Inner_3Rfji {
+    color: var(--md-sys-color-on-surface);
+}
+
+.localdateandtime_ShortDateAndTime_4K3Bl {
+    color: var(--md-sys-color-secondary);
+}
+
+.localdateandtime_RightSideTitles_3sPON {
+    color: var(--md-sys-color-on-surface-variant);
+    font-weight: bold;
+}
+
+.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
+    color: var(--md-sys-color-primary);
+    font-weight: bold;
+}
+
+.localdateandtime_ActiveEvent_2ZcVE .localdateandtime_ActiveEventCallOut__y2DQ {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_Inner_3Rfji {
+    font-size: 0.75em;
+    white-space: nowrap;
+}
+
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY {
+    background: var(--md-sys-color-surface-container-highest);
+    border-radius: 20px;
+    height: 93%;
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7 {
+    background: transparent !important;
+}
+
+.gamepadhomewhatsnew_EventPreviewContainer_1ltOY.gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
+    margin-top: -80px;
+    transition: 300ms;
+    transition-property: all;
+}
+
+.gamepadhomewhatsnew_Darkener_1n_1X {
+    background: var(--md-sys-color-surface-container-lowest);
+    mix-blend-mode: difference;
+}
+
+.gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_Darkener_1n_1X, .gpfocus .gamepadhomewhatsnew_Darkener_1n_1X {
+    opacity: 0.7;
+}
+
+.gamepadhomewhatsnew_EventImageWrapper_XLJ9p {
+    overflow: visible;
+}
+
+.gamepadhomewhatsnew_EventSummary_UE_Ms {
+    color: var(--md-sys-color-on-surface);
+    margin-top: 165px;
+    font-size: 0.95em;
 }
