@@ -108,6 +108,8 @@
     height: 14px;
     width: 14px;
     margin: 4px !important;
+    transition-property: all;
+    transition-duration: 100ms;
     background: var(--md-sys-color-on-primary-fixed);
 }
 
@@ -150,6 +152,29 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropd
     background: var(--md-sys-color-inverse-surface);
     color: var(--md-sys-color-inverse-on-surface);
 }
+
+button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw,
+button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y,
+button.accountpanel_FatButton_TEWms svg {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
+}
+
+button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Label_3wadw,
+button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k svg,
+button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Details_3Wb9y,
+button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpanel_Highlight_35ztZ {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.accountpanel_Details_3Wb9y > .accountpanel_Highlight_35ztZ {
+    color: var(--md-sys-color-inverse-primary);
+}
+
+.gamepaddialog_Field_S-_La .accountpanel_Highlight_35ztZ {
+    color: var(--md-sys-color-primary);
+}
+
 
 /* Component Dropdown */
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny,
@@ -280,4 +305,35 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
     border-left: 2px solid var(--md-sys-color-outline);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+/* QAM Notification */
+
+.standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:focus)+div:not(:focus):before {
+    display: none;
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Header_39ZAW > div {
+    color: var(--md-sys-color-on-surface);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1,
+.notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1,
+.notificationcontent_MessageBody_289EA .notificationcontent_Sender_19K6y {
+    color: var(--md-sys-color-primary);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2,
+.BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G,
+.notificationcontent_MessageBody_289EA .notificationcontent_Dash_1ETCz, .notificationcontent_MessageBody_289EA .notificationcontent_Body_2RpDR {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2 .notificationcontent_FriendInGameAppColor_3uw_G,
+.notificationcontent_FriendName_3BGvp {
+    color: var(--md-sys-color-tertiary);
 }

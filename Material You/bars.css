@@ -1,4 +1,5 @@
 .header_Header_1E_SL::before,
+.header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before,
 #Footer {
     background: var(--md-sys-color-surface-container);
 }

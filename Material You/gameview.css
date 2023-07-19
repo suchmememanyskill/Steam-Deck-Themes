@@ -1,0 +1,88 @@
+.appdetailsoverview_BackdropGlass_Jbe-- {
+    display: none;
+}
+
+.appdetailsoverview_Backdrop_1Qa-A {
+    background: var(--md-sys-color-surface);
+}
+
+.BasicUI .appdetailsplaysection_CloudStatusLabel_fUTbl,
+.appdetailsplaysection_CloudStatusIcon_1Prjv {
+    color: var(--md-sys-color-on-surface-variant);
+    z-index: 10;
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky:before, .appdetailsplaysection_CloudStatusRow_QvHky:after {
+    background: var(--md-sys-color-outline);
+}
+
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus{
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+.BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus .appactionbutton_ButtonText_33cnX  {
+    color: var(--md-sys-color-on-primary);
+}
+
+.appactionbutton_PlayButton_3ydig {
+    border-radius: 5px !important;
+}
+
+.BasicUI .basicappdetailssectionstyler_AppActionButton_QsZdW:not(.gpfocuswithin) {
+    background: transparent;
+    position: relative;
+}
+
+.BasicUI .basicappdetailssectionstyler_AppActionButton_QsZdW:not(.gpfocuswithin)::before {
+    border: 2px solid var(--md-sys-color-outline);
+    position: absolute;
+    content: ' ';
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border-radius: 5px;
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ {
+    border-radius: 5px;
+    background: transparent;
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ svg,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX svg,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX {
+    color: var(--md-sys-color-on-surface);
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus {
+    background: var(--md-sys-color-primary);
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ:focus svg {
+    color: var(--md-sys-color-on-primary);
+}
+
+.appdetailsplaysection_DetailsProgressContainer_25YVD {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
+    background: var(--md-sys-color-primary);
+}
+
+.BasicUI .appdetailsplaysection_PlayBarLabel_34lrt,
+.BasicUI .appdetailssectionheader_Label_1SQ30 .appdetailssectionheader_LabelText_3i0ko {
+    color: var(--md-sys-color-on-surface);
+}
+
+.appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .BasicUI .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN {
+    color: var(--md-sys-color-primary);
+}
+
+.appdetailsoverview_Glassy_2OOzY>.appdetailsoverview_Backdrop_1Qa-A {
+    z-index: 0;
+}

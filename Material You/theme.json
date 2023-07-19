@@ -18,7 +18,8 @@
         "menu.css": ["bigpicture"],
         "bars.css": ["bigpicture"],
         "home.css": ["bigpicture"],
-        "mainmenu.css": ["bigpictureoverlay"]
+        "mainmenu.css": ["bigpictureoverlay"],
+        "gameview.css": ["bigpicture"]
     },
     "patches": {
         "Dark Mode": {

@@ -115,7 +115,8 @@
 }
 
 .DialogHeader,
-.notificationssettings_NotificationDescription_1ifM6 {
+.notificationssettings_NotificationDescription_1ifM6,
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
     color: var(--md-sys-color-on-surface);
 }
 
