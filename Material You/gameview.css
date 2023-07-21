@@ -2,21 +2,27 @@
     display: none;
 }
 
-.appdetailsoverview_Backdrop_1Qa-A {
-    background: var(--md-sys-color-surface);
-}
-
 .BasicUI .appdetailsplaysection_CloudStatusLabel_fUTbl,
 .appdetailsplaysection_CloudStatusIcon_1Prjv {
     color: var(--md-sys-color-on-surface-variant);
     z-index: 10;
 }
 
+.BasicUI .basicappdetailssectionstyler_AppActionButton_QsZdW {
+    background: transparent;
+}
+
+.BasicUI .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg {
+    color: var(--md-sys-color-on-surface);
+}
+
 .appdetailsplaysection_CloudStatusRow_QvHky:before, .appdetailsplaysection_CloudStatusRow_QvHky:after {
     background: var(--md-sys-color-outline);
 }
 
-.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus{
+.BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus,
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
     background: var(--md-sys-color-primary);
     color: var(--md-sys-color-on-primary);
 }
@@ -25,8 +31,9 @@
     color: var(--md-sys-color-on-primary);
 }
 
-.appactionbutton_PlayButton_3ydig {
+.BasicUI .appactionbutton_ButtonChild_2AzIX {
     border-radius: 5px !important;
+    color: var(--md-sys-color-on-surface);
 }
 
 .BasicUI .basicappdetailssectionstyler_AppActionButton_QsZdW:not(.gpfocuswithin) {
@@ -43,22 +50,26 @@
     border-radius: 5px;
 }
 
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ {
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ,
+.appactionbutton_ShutdownAppButton_1WVYD {
     border-radius: 5px;
     background: transparent;
 }
 
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ svg,
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX svg,
-.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX {
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX,
+.appactionbutton_ShutdownAppButton_1WVYD {
     color: var(--md-sys-color-on-surface);
 }
 
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus {
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus,
+.appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
     background: var(--md-sys-color-primary);
 }
 
-.BasicUI .appdetailsplaysection_MenuButton_3qDWQ:focus svg {
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ:focus svg,
+.appactionbutton_ShutdownAppButton_1WVYD.gpfocus {
     color: var(--md-sys-color-on-primary);
 }
 
@@ -79,10 +90,79 @@
     color: var(--md-sys-color-on-surface-variant);
 }
 
-.BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .BasicUI .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN {
+.BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .BasicUI .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN{
     color: var(--md-sys-color-primary);
 }
 
-.appdetailsoverview_Glassy_2OOzY>.appdetailsoverview_Backdrop_1Qa-A {
-    z-index: 0;
+.BasicUI .sharedappdetailsheader_SVGTitle_2w_Zq text  {
+    fill: var(--md-sys-color-primary);
+}
+
+.basicappdetailssectionstyler_PlaySection_3scbH.Panel,
+.appdetailsplaysection_CloudStatusRow_QvHky {
+    background: var(--md-sys-color-surface);
+}
+
+.sharedappdetailsheader_TopCapsule_2meE3 {
+    background: var(--md-sys-color-surface-container);
+}
+
+/* Stuff for Game Info tab */
+
+.BasicUI .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1,
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Association_-9icu .appdetailsgameinfopanel_Name_2j8Xh,
+.appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Date_izVv8,
+.appdetailsgameinfopanel_CompatToolContainer_2UN73,
+.basicappdetailssectionstyler_CollectionsHeader_3hW5F {
+    color: var(--md-sys-color-on-surface);
+}
+
+.appdetailsgameinfopanel_AssociationList_2ZcNQ .appdetailsgameinfopanel_Label_1vYL2,
+.appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
+    color: var(--md-sys-color-secondary);
+}
+
+.appdetailsfeatureicon_Label_1VoVz {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_Floating_3I3IM::after {
+    display: none;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-radius: 25px;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+    background: transparent;
+}
+
+.appdetailsgameinfopanel_DeckVerifiedInfo_IIJei .appdetailsgameinfopanel_Details_3sfpA,
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border-radius: 25px;
+}
+
+.BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {
+    color: var(--md-sys-color-on-primary);
+}
+
+/* Game Cover Sorting Sets */
+
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-radius: 25px;
+}
+
+.appgrid_AppGridSectionLabel_2hvQb {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
+    background: var(--md-sys-color-outline);
 }

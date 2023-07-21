@@ -88,10 +88,29 @@
     right: 0;
 }
 
+.gamepaddialog_LabelFieldValue_5Mylh,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_LabelFieldValue_5Mylh {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+    border: none;
+}
+
+.networkconnectiondialog_ConnectingProgressIconContainer_2QaJd,
+.networkconnectiondialog_ConnectingThrobberContainer_2bTNE {
+    color: var(--md-sys-color-secondary);
+}
+
+.networkconnectiondialog_ConnectionStatusText_ZHuww {
+    color: var(--md-sys-color-on-surface);
+}
+
 /* Yes/No Prompts */
 
-.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
-    background: var(--md-sys-color-surface-container-high);
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk,
+.steamdeckcompatfilter_CompatFilterDialog_21qvB {
+    background: var(--md-sys-color-surface-container);
     border: none;
     border-radius: 20px;
 }
@@ -116,11 +135,43 @@
 
 .DialogHeader,
 .notificationssettings_NotificationDescription_1ifM6,
-.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader,
+.steamdeckcompatfilter_CompatFilterDialogTitle_6J6XV {
     color: var(--md-sys-color-on-surface);
 }
 
 .DialogBodyText,
-.gamepaddialog_GamepadDialogContent_3joNk .DialogBodyText {
+.gamepaddialog_GamepadDialogContent_3joNk .DialogBodyText,
+.steamdeckcompatfilter_CompatFilterDialogDescription_1yY7h,
+.appfilterpane_SearchBucketLabel_EbQQN {
     color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Filter Modal */
+
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3 {
+    background: var(--md-sys-color-primary-container);
+}
+
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus {
+    background: var(--md-sys-color-inverse-surface);
+}
+
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3,
+.steamdeckcompatfilter_CompatFilterDescription_1Fjvh {
+    color: var(--md-sys-color-on-primary-container);
+}
+
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus,
+.steamdeckcompatfilter_CompatFilterDialogRow_O7cW3.gpfocus .steamdeckcompatfilter_CompatFilterDescription_1Fjvh {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.steamdeckcompatfilter_RadioButton_10D3Y,
+.steamdeckcompatfilter_Active_2wFsa .steamdeckcompatfilter_RadioButton_10D3Y, .steamdeckcompatfilter_Active_2wFsa .steamdeckcompatfilter_RadioButton_10D3Y:hover {
+    background: var(--md-sys-color-surface);
+}
+
+.steamdeckcompatfilter_Active_2wFsa .steamdeckcompatfilter_RadioButton_10D3Y, .steamdeckcompatfilter_Active_2wFsa .steamdeckcompatfilter_RadioButton_10D3Y:hover {
+    box-shadow: inset 0px 0px 0px 4px var(--md-sys-color-primary);
 }

@@ -38,6 +38,101 @@
 }
 
 .mainmenu_ActiveDot_1uLVH,
-.mainmenu_FooterBoxShadow_3kHmf {
+.mainmenu_FooterBoxShadow_3kHmf,
+.mainmenu_RunnningAppSeparator_33RkH,
+.mainmenuapprunning_ActiveDot_13YbV {
     display: none;
+}
+
+.mainmenuapprunning_NavigationColumn_27FEg {
+    justify-content: flex-start;
+    border-image-source: none;
+    background: var(--md-sys-color-surface);
+    border-radius: 20px;
+    border: none;
+    margin: 0 10px;
+}
+
+.mainmenuapprunning_MainMenuAppRunning_1wiEs {
+    background: var(--md-sys-color-surface-container);
+}
+
+/* Weird Glowing Elements */
+.libraryassetimage_Container_1R9r2::before,
+.mainmenuapprunning_NavigationColumn_27FEg:before {
+    display: none;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus {
+    animation: none;
+    transform: none;   
+    background: var(--md-sys-color-secondary);
+    color: var(--md-sys-color-on-secondary);
+    margin: 0 10px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.mainmenuapprunning_NavigationBox_36vNU {
+    margin: 10px;
+    padding: 10px 0;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4,
+.mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i:not(.gpfocus) {
+    color: var(--md-sys-color-on-surface);
+    mix-blend-mode: normal !important;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i {
+    transform: none;
+}
+
+.controllerconfiguratorsummary_TitleLabel_3ViNI {
+    color: var(--md-sys-color-primary);
+}
+
+.mainmenuapprunning_AppColumn_3FAI9 {
+    background: var(--md-sys-color-surface);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+img.mainmenuapprunning_CurrentGameLogo_3V3VK {
+    width: 240px;
+}
+
+.mainmenuapprunning_AppColumn_3FAI9.mainmenuapprunning_FocusedColumn_lz9Db {
+    background: var(--md-sys-color-surface);
+}
+
+.controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs {
+    border: 2px solid var(--md-sys-color-outline);
+    background: transparent;
+    color: var(--md-sys-color-primary);
+    border-radius: 25px;
+}
+
+.controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs.gpfocus {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+
+.controllerconfiguratorsummary_ControlsListSection_nnOTT .marquee_Content_2ADpT,
+.controllerconfiguratorsummary_ControlContainer_1KA4m .marquee_Content_2ADpT {
+    color: var(--md-sys-color-on-surface);
+}
+
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV .controllerconfiguratorsummary_DirectAccessButton_QAVEl:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_Title_12Taa,
+.controllerconfiguratorsummary_ControllerInputDisplay_27Q1T,
+.controllerconfiguratorsummary_DirectAccessButton_QAVEl,
+.controllerconfiguratorsummary_ControlContainer_1KA4m .controllerconfiguratorsummary_ActivatorText_2BHzj {
+    color: var(--md-sys-color-on-surface-variant);
 }

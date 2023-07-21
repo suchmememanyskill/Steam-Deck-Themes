@@ -1,11 +1,50 @@
 .header_Header_1E_SL::before,
 .header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before,
-#Footer {
+#Footer,
+#QuickAccess-Menu {
     background: var(--md-sys-color-surface-container);
 }
 
 #header .header_HeaderItem_2HnVd,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
-.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn,
+.BasicUI .header_Header_1E_SL .searchbar_SearchContainer_161Tj {
     color: var(--md-sys-color-on-surface);
+}
+
+.header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+
+.header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
+    background: var(--md-sys-color-primary);
+}
+
+#header .header_HeaderItem_2HnVd.gpfocus, #header .header_HeaderItem_2HnVd.gpfocuswithin {
+    color: var(--md-sys-color-inverse-on-surface);
+    background: var(--md-sys-color-inverse-surface);
+}
+
+.searchbar_SearchContainer_161Tj.gpfocuswithin, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ {
+    border-bottom: 2px solid var(--md-sys-color-outline);
+    height: -webkit-fill-available;
+    color: var(--md-sys-color-on-surface);
+}
+
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ:not(.gpfocuswithin) .searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
+    background: transparent;
+}
+
+.searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.searchbar_SearchBox_2a1-s::placeholder {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s,
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js {
+    caret-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-primary);
 }

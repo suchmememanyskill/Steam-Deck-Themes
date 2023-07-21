@@ -24,6 +24,7 @@
     margin-top: 8px;
     padding-top: 8px;
     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .quickaccessmenu_Tab_1S76C {
@@ -100,6 +101,13 @@
     /* color: var(--md-sys-color-inverse-on-surface) !important; */
 }
 
+
+/* When ingame, this removes the top and bottom borders in QAM separating the header, QAM and footer */
+.quickaccessmenu_Menu_1gJzx::before, .quickaccessmenu_Menu_1gJzx::after {
+    display: none;
+}
+
+
 /* Components */
 
 /* Component Toggle */
@@ -141,7 +149,9 @@
 /* Component Button */
 
 button.gamepaddialog_Button_1kn70.DialogButton,
-button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+button.gamepaddialog_Button_1kn70.DialogButton:enabled,
+button.gamepaddialog_Button_1kn70.DialogButton.Primary,
+button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled {
     background: var(--md-sys-color-primary);
     color: var(--md-sys-color-on-primary);
     border-radius: 50px;
@@ -185,12 +195,16 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:en
     border-radius: 5px;
 }
 
-.dropdownlabel_DropDownLabelUpperDescription_2_JN3,
-.dropdownlabel_DropDownLabelDescription_1JPcb {
+.gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelDescription_1JPcb,
+.gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelUpperDescription_2_JN3,
+.gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelDescription_1JPcb 
+{
     color: var(--md-sys-color-on-surface-variant) !important;
 }
 
-.dropdownlabel_DropDownLabelTitle_uDBZW {
+.gamepaddropdown_DropDownControlButton_28bny .dropdownlabel_DropDownLabelTitle_uDBZW,
+.gamepadcontextmenu_contextMenuItem_1sdvo .dropdownlabel_DropDownLabelTitle_uDBZW {
     color: var(--md-sys-color-on-surface) !important;
 }
 

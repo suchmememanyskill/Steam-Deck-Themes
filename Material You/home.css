@@ -268,3 +268,7 @@
     margin-top: 165px;
     font-size: 0.95em;
 }
+
+.loadingthrobber_ContainerBackground_2ngG3 {
+    background: var(--md-sys-color-surface);
+}

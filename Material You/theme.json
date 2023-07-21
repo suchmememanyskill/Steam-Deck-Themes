@@ -10,13 +10,14 @@
     },
     "dependencies": {
         "Focus Highlight Color": {},
-        "No Home Edge Fade": {}
+        "No Home Edge Fade": {},
+        "Library Move Extra Info": {}
     },
     "inject": {
         "quickaccess.css": ["all"],
         "modals.css": ["bigpicture"],
         "menu.css": ["bigpicture"],
-        "bars.css": ["bigpicture"],
+        "bars.css": ["all"],
         "home.css": ["bigpicture"],
         "mainmenu.css": ["bigpictureoverlay"],
         "gameview.css": ["bigpicture"]
