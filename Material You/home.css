@@ -1,4 +1,4 @@
-.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8, /* Game Background */
+
 .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf, /* Game Glow */
 .recentlycompleted_PatchNotes_2_b6L /* Recently Updated Text */ {
     display: none;
@@ -87,10 +87,6 @@
     color: var(--md-sys-color-on-primary);
 }
 
-.gamepadtabbedpage_TabContentsScroll_1X4dt {
-    background: var(--md-sys-color-surface);
-}
-
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
     color: var(--md-sys-color-primary) !important;
     text-shadow: none;
@@ -123,15 +119,15 @@
     color: var(--md-sys-color-on-tertiary);
 }
 
-.gamepadtabbedpage_TabContents_WDa0_ {
-    background: var(--md-sys-color-surface);
-}
 /*
 .gamepadhomewhatsnew_EventCarousel_2GBhv .ReactVirtualized__Grid__innerScrollContainer > div {
     background: var(--md-sys-color-surface-container);
 }
 */
 
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc {
+    background: var(--md-sys-color-surface);
+}
 
 /* Recently Used On This Device */
 .recentlycompleted_RecentlyCompletedItem_3OC7i {

@@ -1,3 +1,4 @@
+/* Settings Menu */
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o,
 .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK,
 .gamepadui_OpaqueBackground_b084m .gamepadui_Content_1FxmN {
@@ -133,4 +134,91 @@
 .controllerconfigurator_TopSectionHeader_1a_D6,
 .controllerconfigurator_CommunityConfigsCallout_1xfC8 .controllerconfigurator_Description_38ea5 .controllerconfigurator_SubTitle_2-E4i {
     color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Storage Menu */
+
+/* Top Drive Select */
+.BasicUI .contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
+    background: transparent;
+    color: var(--md-sys-color-on-surface);
+    border-bottom: 4px solid var(--md-sys-color-primary);
+}
+
+.contentmanagement_DriveName_1rihl,
+.contentmanagement_DriveSize_5bG9I,
+.contentmanagement_InstallFolder_12aBP,
+.contentmanagement_IsSelected_3VQeL svg,
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+    color: var(--md-sys-color-on-surface);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP {
+    border-radius: 0;
+    border-bottom: 2px solid var(--md-sys-color-outline);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, 
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, 
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
+    color: var(--md-sys-color-on-surface);
+}
+
+
+/* Other */
+
+.contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO {
+    position: absolute;
+    top: 107px;
+    right: 33px;
+    margin: 0;
+    height: 10px;
+    border-radius: 25px;
+    width: 25px;
+    background: var(--md-sys-color-tertiary);
+    color: vaR(--md-sys-color-on-tertiary);
+}
+
+.contentmanagement_DriveUsageText_1DFCG,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6,
+.contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
+    color: var(--md-sys-color-on-surface);
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.contentmanagement_DriveUsageNumber_181OY,
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9
+{
+    color: var(--md-sys-color-primary);
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
+    background: var(--md-sys-color-tertiary);
+    color: var(--md-sys-color-on-tertiary);
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
+    background: var(--md-sys-color-surface-container-highest);
 }

@@ -9,7 +9,7 @@
     --md-sys-color-on-primary-fixed-variant: var(--md-sys-color-on-primary-fixed-variant-dark);
     --md-sys-color-secondary: var(--md-sys-color-secondary-dark);
     --md-sys-color-on-secondary: var(--md-sys-color-on-secondary-dark);
-    --md-sys-color-secondary-container: var(--md-sys-color-secondary-container);
+    --md-sys-color-secondary-container: var(--md-sys-color-secondary-container-dark);
     --md-sys-color-on-secondary-container: var(--md-sys-color-on-secondary-container-dark);
     --md-sys-color-secondary-fixed: var(--md-sys-color-secondary-fixed-dark);
     --md-sys-color-on-secondary-fixed: var(--md-sys-color-on-secondary-fixed-dark);

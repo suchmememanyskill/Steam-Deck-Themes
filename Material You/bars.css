@@ -40,7 +40,7 @@
 }
 
 .searchbar_SearchBox_2a1-s::placeholder {
-    color: var(--md-sys-color-on-surface-variant);
+    color: var(--md-sys-color-on-surface-variant) !important;
 }
 
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s,

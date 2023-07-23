@@ -6,21 +6,24 @@
     "target": "System-Wide",
     "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI",
     "tabs": {
-        "all": ["bigpicture", "bigpictureoverlay"]
+        "all": ["bigpicture", "bigpictureoverlay", "notificationtoasts.*"]
     },
     "dependencies": {
         "Focus Highlight Color": {},
         "No Home Edge Fade": {},
-        "Library Move Extra Info": {}
+        "Library Move Extra Info": {},
+        "BPM Settings Storage No Padding": {}
     },
     "inject": {
-        "quickaccess.css": ["all"],
+        "quickaccess.css": ["bigpicture", "bigpictureoverlay"],
         "modals.css": ["bigpicture"],
         "menu.css": ["bigpicture"],
-        "bars.css": ["all"],
+        "bars.css": ["bigpicture", "bigpictureoverlay"],
         "home.css": ["bigpicture"],
         "mainmenu.css": ["bigpictureoverlay"],
-        "gameview.css": ["bigpicture"]
+        "gameview.css": ["bigpicture"],
+        "volume.css": ["bigpicture"],
+        "notification.css": ["notificationtoasts.*"]
     },
     "patches": {
         "Dark Mode": {
@@ -36,12 +39,34 @@
         },
         "Color": {
             "type": "dropdown",
+            "default": "Blue",
             "values": {
+                "Pink": {
+                    "palettes/pink.css": ["all"]
+                },
                 "Orange": {
                     "palettes/orange.css": ["all"]
                 },
+                "Yellow": {
+                    "palettes/yellow.css": ["all"]
+                },
+                "Green": {
+                    "palettes/green.css": ["all"]
+                },
+                "Mint": {
+                    "palettes/mint.css": ["all"]
+                },
+                "Cyan": {
+                    "palettes/cyan.css": ["all"]
+                },
                 "Blue": {
                     "palettes/blue.css": ["all"]
+                },
+                "Purple": {
+                    "palettes/purple.css": ["all"]
+                },
+                "Custom Slot": {
+                    "palettes/custom_slot.css": ["all"]
                 }
             }
         }
