@@ -8,7 +8,9 @@
 #header .header_HeaderItem_2HnVd,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
 .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn,
-.BasicUI .header_Header_1E_SL .searchbar_SearchContainer_161Tj {
+.BasicUI .header_Header_1E_SL .searchbar_SearchContainer_161Tj,
+.searchbar_SearchContainer_161Tj.gpfocuswithin .searchbar_SearchIconLeft_2Ya83, 
+.searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchIconLeft_2Ya83 {
     color: var(--md-sys-color-on-surface);
 }
 
@@ -46,5 +48,10 @@
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js {
     caret-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-primary);
+}
+
+.mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
+    background: var(--md-sys-color-surface-container);
     color: var(--md-sys-color-primary);
 }

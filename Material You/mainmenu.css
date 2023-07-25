@@ -122,7 +122,9 @@ img.mainmenuapprunning_CurrentGameLogo_3V3VK {
 }
 
 .controllerconfiguratorsummary_ControlsListSection_nnOTT .marquee_Content_2ADpT,
-.controllerconfiguratorsummary_ControlContainer_1KA4m .marquee_Content_2ADpT {
+.controllerconfiguratorsummary_ControlContainer_1KA4m .marquee_Content_2ADpT,
+.controllerconfiguratorsummary_ControllerInputDisplay_27Q1T .controllerconfiguratorsummary_StandardControl_pywHI,
+.controllerconfiguratorsummary_ControlsListSection_nnOTT .controllerconfiguratorsummary_StandardControl_pywHI {
     color: var(--md-sys-color-on-surface);
 }
 

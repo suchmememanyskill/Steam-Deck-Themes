@@ -4,7 +4,7 @@
     "version": "v1.0",
     "manifest_version": 8,
     "target": "System-Wide",
-    "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI",
+    "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI. See ~/homebrew/themes/Material You/palettes/custom_slot.css to make your own color scheme",
     "tabs": {
         "all": ["bigpicture", "bigpictureoverlay", "notificationtoasts.*"]
     },
@@ -23,7 +23,8 @@
         "mainmenu.css": ["bigpictureoverlay"],
         "gameview.css": ["bigpicture"],
         "volume.css": ["bigpicture"],
-        "notification.css": ["notificationtoasts.*"]
+        "notification.css": ["notificationtoasts.*"],
+        "downloads.css": ["bigpicture"]
     },
     "patches": {
         "Dark Mode": {

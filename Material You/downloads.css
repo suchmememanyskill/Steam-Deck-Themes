@@ -1,0 +1,104 @@
+.downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
+    background: transparent;
+}
+
+.downloadgraph_GraphAndStats_3KDkL,
+.downloads_DownloadsPage_1bq4x {
+    background: var(--md-sys-color-surface-container);
+}
+
+.downloads_ItemListScrollWrapper_Z6wLC,
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    background: var(--md-sys-color-surface);
+    border-radius: 25px;
+    margin: 10px 10px 0 10px;
+}
+
+.downloads_TopBar_SEmVp {
+    display: none;
+}
+
+
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW,
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 svg {
+    /* Disk Usage Graph */
+    stroke: var(--md-sys-color-tertiary);
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
+    background: var(--md-sys-color-tertiary);
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC,
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarDownload_OS07N {
+    /* Network Graph */
+    color: var(--md-sys-color-primary);
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x,
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC,
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv, 
+.downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv,
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj,
+.downloads_ProgressDetails_sv3ZH,
+.downloadgraph_Throttle_38T9T,
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
+    color: var(--md-sys-color-on-surface);
+}
+
+.downloadgraph_Label_34H1w,
+.downloads_SectionTitle_qq2xI .downloads_Count_1CGnw,
+.downloads_SectionList_OINnO,
+.downloads_AutoUpdateHours_117rQ,
+.downloads_SectionItemStatus_1Sygg,
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_InProgress_3Wavc,
+.downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah,
+.downloads_ContentType_Rgy-7 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+    color: var(--md-sys-color-primary);
+}
+
+.downloads_Rule_1CTr1 {
+    opacity: 0;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
+.BasicUI .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled,
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border-radius: 25px;
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+    background: var(--md-sys-color-inverse-surface);
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY,
+.downloads_SectionItemWrapper_21P7c .downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    animation: none;
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.BasicUI .downloads_Active_IbePL .downloads_SectionList_OINnO,
+.BasicUI .downloads_Active_IbePL.gpfocuswithin .downloads_SectionList_OINnO {
+    border: none;
+    animation: none;
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 {
+    background: var(--md-sys-color-surface-container-highest);
+}
+
+.BasicUI .downloads_SectionList_OINnO {
+    margin: 0;
+    border: 0;
+}

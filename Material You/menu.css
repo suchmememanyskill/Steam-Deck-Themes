@@ -106,14 +106,20 @@
     color: var(--md-sys-color-on-surface-variant);
 }
 
-.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN {
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
     background: var(--md-sys-color-primary-container);
     color: var(--md-sys-color-on-primary-container);
 }
 
-.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus {
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus,
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG.gpfocus {
     background: var(--md-sys-color-inverse-surface);
     color: var(--md-sys-color-inverse-on-surface);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
+    border-left-color: var(--md-sys-color-primary);
 }
 
 .controllerconfiguratorchooseconfiguration_Author_1dzOH,
@@ -121,6 +127,14 @@
 .controllerconfiguratorchooseconfiguration_Title_EI1IQ,
 .controllerconfiguratorchooseconfiguration_Description_3XAvq {
     color: var(--md-sys-color-on-primary-container);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-on-primary);
+}
+
+.controllerconfigurator_CurrentConfigurationButton_3lO3w.gpfocus .dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--md-sys-color-inverse-on-surface);
 }
 
 .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.gpfocus .controllerconfiguratorchooseconfiguration_Author_1dzOH,
