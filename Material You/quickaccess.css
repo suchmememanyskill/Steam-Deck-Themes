@@ -185,6 +185,10 @@ button.accountpanel_FatButton_TEWms.accountpanel_FatButtonFocus_2rd6k .accountpa
     color: var(--md-sys-color-primary);
 }
 
+.gamepaddialog_Field_S-_La .accountpanel_FatButton_TEWms .accountpanel_Highlight_35ztZ {
+    color: var(--md-sys-color-on-primary);
+}
+
 
 /* Component Dropdown */
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny,

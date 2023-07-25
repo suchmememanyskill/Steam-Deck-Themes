@@ -138,7 +138,7 @@
 
 /* Storage Menu */
 
-/* Top Drive Select */
+/* Storage Menu Top Drive Select */
 .BasicUI .contentmanagement_InstallFolder_12aBP.contentmanagement_IsSelected_3VQeL {
     background: transparent;
     color: var(--md-sys-color-on-surface);
@@ -169,7 +169,7 @@
 }
 
 
-/* Other */
+/* Storage Menu Other */
 
 .contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
     background: var(--md-sys-color-inverse-surface);
@@ -221,4 +221,42 @@
 
 .BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:focus {
     background: var(--md-sys-color-surface-container-highest);
+}
+
+/* Add a friend */
+
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Title_1ZEdD,
+.friendinvites_FriendCodeSection_39nte .friendinvites_Caption__XK9j  {
+    color: var(--md-sys-color-on-surface);
+}
+
+.friendinvites_AddFriendSection_3BjIx .friendinvites_Description_KI_gF {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.friendinvites_InvitesList_3i8Fo {
+    background: var(--md-sys-color-surface);
+}
+
+.friendinvites_FriendCodeSection_39nte .friendinvites_FriendCode_27408 {
+    background: var(--md-sys-color-primary);
+}
+
+.friendinvites_FriendCodeSection_39nte .friendinvites_Code_1-bTQ {
+    color: var(--md-sys-color-on-primary);
+}
+
+.friendinvites_TopSection_2uvvl {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.friendinvites_AddFriendSection_3BjIx,
+.friendinvites_FriendCodeSection_39nte {
+    margin: 0 auto;
+}
+
+.friendinvites_FriendCodeSection_39nte {
+    flex-direction: column-reverse;
+    gap: 4px;
 }

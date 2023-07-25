@@ -12,34 +12,6 @@
     background: transparent;
 }
 
-/*
-.gamepadtabbedpage_Tab_3eEbS {
-    border-radius: 5px;
-}
-
-.gamepadtabbedpage_Tab_3eEbS.gpfocus {
-    position: relative;
-}
-
-.gamepadtabbedpage_Tab_3eEbS.gpfocus::before {
-    content: ' ';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: var(--md-sys-color-surface-container-highest);
-    z-index: -1;
-    margin-left: -21px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
-    background: var(--md-sys-color-secondary);
-    color: var(--md-sys-color-on-secondary);
-}
-
-*/
-
 .gamepadtabbedpage_Tab_3eEbS {
     color: var(--md-sys-color-on-surface);
     border-radius: 0;
@@ -82,7 +54,8 @@
 }
 
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl,
-.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj- {
+.appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj-,
+.appportrait_AppPortraitBanner_N8aJr {
     background: var(--md-sys-color-primary);
     color: var(--md-sys-color-on-primary);
 }
@@ -96,13 +69,6 @@
     color: var(--md-sys-color-on-surface) !important;
     text-shadow: none;
 }
-/*
-.basicgamecarousel_CarouselGameLabel_3CKji > .appportrait_PortraitMessage_3gwMk {
-    background: var(--md-sys-color-secondary);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-*/
 
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
     box-shadow: none;
@@ -118,12 +84,6 @@
     background: var(--md-sys-color-tertiary);
     color: var(--md-sys-color-on-tertiary);
 }
-
-/*
-.gamepadhomewhatsnew_EventCarousel_2GBhv .ReactVirtualized__Grid__innerScrollContainer > div {
-    background: var(--md-sys-color-surface-container);
-}
-*/
 
 .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
     background: var(--md-sys-color-surface);
