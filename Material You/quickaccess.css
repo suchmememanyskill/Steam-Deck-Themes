@@ -50,6 +50,21 @@
     display: none;
 }
 
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined {
+    padding-top: 0;
+    margin-top: 0;
+    background: var(--md-sys-color-surface-container);
+}
+
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined .quickaccessmenu_Title_34nl5 {
+    padding-bottom: 0px;
+}
+
+.tab_undefined .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
 /* QAM Text */
 
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
