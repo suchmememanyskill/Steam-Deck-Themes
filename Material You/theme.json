@@ -1,10 +1,10 @@
 {
     "name": "Material You",
     "author": "SuchMeme",
-    "version": "v1.0",
+    "version": "v1.1",
     "manifest_version": 8,
     "target": "System-Wide",
-    "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI. See ~/homebrew/themes/Material You/palettes/custom_slot.css to make your own color scheme",
+    "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI. Has both a light and a dark mode. See ~/homebrew/themes/Material You/palettes/custom_slot.css to make your own color scheme",
     "tabs": {
         "all": ["bigpicture", "bigpictureoverlay", "notificationtoasts.*"]
     },
