@@ -5,6 +5,7 @@
     border-radius: 20px;
     background: var(--md-sys-color-surface-container-high);
     margin-top: 5px;
+    filter: none;
 }
 
 .gamepadcontextmenu_BasicContextMenuContainer_2ZDB6:not(:first-child) .gamepadcontextmenu_contextMenuContents_sIgB-:only-child {
@@ -57,6 +58,7 @@
     padding: 10px 20px 3px 20px;
     margin-top: 5px;
     width: 280px;
+    
 
     /* text-align: left; */
     /* margin-left: calc(50% - 126px); */

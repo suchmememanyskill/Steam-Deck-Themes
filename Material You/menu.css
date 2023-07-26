@@ -274,3 +274,9 @@
     flex-direction: column-reverse;
     gap: 4px;
 }
+
+/* Library Tab Settings */ 
+
+.BasicUI .librarysettings_LibrarySettings_2nsOY {
+    background: transparent;
+}
