@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1570px) {
-    #game_area_purchase {
+    .game_page_background.game #game_area_purchase {
         position: fixed;
         top: 0;
         left: calc((100vw - 940px - 550px) / 2 + 940px + 5px);
@@ -11,17 +11,17 @@
         max-height: 100vh;
     }
 
-    #game_area_purchase::-webkit-scrollbar {
+    .game_page_background.game #game_area_purchase::-webkit-scrollbar {
         display: none;
       }
 
-    .page_content_ctn {
+    .game_page_background.game .page_content_ctn {
         width: fit-content;
         margin-right: auto;
         margin-left: calc((100vw - 940px - 550px) / 2 - 5px);
     }
 
-    .game #store_header {
+    .game_page_background.game #store_header {
         width: fit-content;
         margin-left: calc((100vw - 940px - 550px) / 2);
     }
