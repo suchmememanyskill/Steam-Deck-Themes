@@ -1,6 +1,6 @@
 {
     "name": "Colored Toggles",
-    "version": "v1.5",
+    "version": "v1.6",
     "author": "SuchMeme",
     "target": "System-Wide",
     "description": "Colors all toggles, sliders and progress bars in the system ui to a specified color or gradient",
