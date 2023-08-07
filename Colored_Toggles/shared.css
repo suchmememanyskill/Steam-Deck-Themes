@@ -113,3 +113,9 @@ div .downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_S
 .progressbar_Percent_2_0Jo {
 	animation: var(--colored-toggles-animation);
 }
+
+/*power memu*/
+.basiccontextmenu_contextMenuItem_3PqLg.contextMenuItem.basiccontextmenu_Destructive_Uob7D.Panel.Focusable.basiccontextmenu_Focused_3t3Zg.gpfocus.gpfocuswithin {
+    background: var(--colored-toggles-main-color);
+    animation: var(--colored-toggles-animation);
+}
