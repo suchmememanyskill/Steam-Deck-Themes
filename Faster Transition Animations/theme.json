@@ -2,6 +2,7 @@
     "name": "Faster Transition Animations",
     "author": "SuchMeme",
     "manifest_version": 3,
+    "version": "v1.1",
     "target": "Tweak",
     "inject": {
         "shared.css": ["SP"]
