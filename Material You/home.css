@@ -36,7 +36,7 @@
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
     border-bottom: 4px solid var(--md-sys-color-primary);
     color: var(--md-sys-color-primary);
-    background: var(--md-sys-color-surface-container);
+    background: var(--md-sys-color-surface-container-highest);
     padding-bottom: 6px;
 }
 

@@ -161,6 +161,10 @@
     background: var(--md-sys-color-primary);
 }
 
+.gamepaddialog_Toggle_24G4g.gpfocus:after {
+    background-color: var(--md-sys-color-inverse-primary);
+}
+
 /* Component Button */
 
 button.gamepaddialog_Button_1kn70.DialogButton,
@@ -230,6 +234,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny:en
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus,
 button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gpfocus:enabled {
     background: var(--md-sys-color-surface-container-lowest) !important;
+    border-color: var(--md-sys-color-inverse-surface);
 }
 
 /* Component Slider */
@@ -300,6 +305,7 @@ button.gamepaddialog_Button_1kn70.gamepaddropdown_DropDownControlButton_28bny.gp
 
 .DialogInput_Wrapper .gamepaddialog_BasicTextInput_3GCBi.gpfocus {
     background: var(--md-sys-color-surface-container-lowest);
+    border-color: var(--md-sys-color-inverse-surface);
 }
 
 .appproperties_Title_3zuIC {
