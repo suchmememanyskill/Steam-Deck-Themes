@@ -19,14 +19,19 @@
                 "No": {}
             }
         },
-        "Use Blur": {
-            "type": "checkbox",
-            "default": "No",
+        "Play Bar Style": {
+            "type": "dropdown",
+            "default": "Transparent",
             "values": {
-                "Yes": {
+                "Transparent": {
+                    "transparent.css": ["SP"]
+                },
+                "Blur": {
                     "blur.css": ["SP"]
                 },
-                "No": {}
+                "Connected with Body": {
+                    "connected.css": ["SP"]
+                }
             }
         },
         "Ignore Footer": {
