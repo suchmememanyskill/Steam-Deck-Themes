@@ -1,0 +1,7 @@
+.BasicUI .sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlurBackdrop_ooM_c {
+    margin-top: calc(0px - var(--CGV-play-bar-height));
+}
+
+.BasicUI .sharedappdetailsheader_ImgContainer_3VFZB {
+    -webkit-mask-image: linear-gradient(0, transparent var(--CGV-play-bar-height), black var(--CGV-play-bar-height));
+}
