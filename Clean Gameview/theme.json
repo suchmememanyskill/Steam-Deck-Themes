@@ -2,7 +2,7 @@
     "name": "Clean Gameview",
     "author": "SuchMeme",
     "target": "Library",
-    "version": "v1.4",
+    "version": "v1.5",
     "manifest_version": 8,
     "description": "Makes the game view less cluttered, and shows more of the game's art",
     "inject": {
@@ -45,6 +45,25 @@
                 "No": {
                     "--CGV-footer-height": ["40px", "SP"],
                     "--CGV-play-anim-height": ["58vw", "SP"]
+                }
+            }
+        },
+        "Alignment": {
+            "type": "dropdown",
+            "default": "Zoom-Center",
+            "values": {
+                "Zoom-Center": {},
+                "Zoom-Left": {
+                    "alignments/left.css": ["SP"]
+                },
+                "Zoom-Right": {
+                    "alignments/right.css": ["SP"]
+                },
+                "Contain": {
+                    "alignments/contain.css": ["SP"]
+                },
+                "Stretch": {
+                    "alignments/stretch.css": ["SP"]
                 }
             }
         }
