@@ -1,0 +1,37 @@
+:root {
+    --QAMHIDE-1: flex;
+    --QAMHIDE-2: flex;   
+    --QAMHIDE-3: flex;
+    --QAMHIDE-4: flex;
+    --QAMHIDE-5: flex;
+    --QAMHIDE-6: flex;
+    --QAMHIDE-KEYBOARD: flex;
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(1) {
+    display: var(--QAMHIDE-1);
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(2) {
+    display: var(--QAMHIDE-2);
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(3) {
+    display: var(--QAMHIDE-3);
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(4) {
+    display: var(--QAMHIDE-4);
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(5) {
+    display: var(--QAMHIDE-5);
+}
+
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:nth-child(6) {
+    display: var(--QAMHIDE-6);
+}
+
+.quickaccessmenu_Tabs_3Ag1w .quickaccessmenu_KeyboardButton_1RN_U {
+    display: var(--QAMHIDE-KEYBOARD);
+}

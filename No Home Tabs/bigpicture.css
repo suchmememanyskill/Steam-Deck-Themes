@@ -1,0 +1,8 @@
+.gamepadpage_GamepadPage_2FqpD .gamepadtabbedpage_GamepadTabbedPage_3IBLc div,
+.gamepadpage_GamepadPage_2FqpD .gamepadtabbedpage_GamepadTabbedPage_3IBLc button {
+    display: none !important;
+}
+
+.gamepadpage_GamepadPage_2FqpD .gamepadhome_TabbedContent_cE1Sa {
+    display: none;
+}

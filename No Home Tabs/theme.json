@@ -1,0 +1,13 @@
+{
+    "name": "no_home_tabs",
+    "display_name": "No Home Tabs",
+    "description": "For use with themes that do not show the home tabs. Removes the 'What's New', 'Friends' and 'Recommended' tabs from the home page and also disables navigation to them.",
+    "version": "v1.0",
+    "target": ["Home", "Tweak"],
+    "author": "SuchMeme",
+    "manifest_version": 9,
+    "flags": ["REQUIRE_NAV_PATCH"],
+    "inject": {
+        "bigpicture.css": ["bigpicture"]
+    }
+}

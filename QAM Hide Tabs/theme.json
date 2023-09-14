@@ -1,0 +1,77 @@
+{
+    "name": "QAM Hide Tabs",
+    "author": "SuchMeme",
+    "manifest_version": 9,
+    "version": "v1.0",
+    "description": "Selectively hide tabs from the Quick Access Menu",
+    "target": ["Tweak"],
+    "flags": ["REQUIRE_NAV_PATCH"],
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    },
+    "patches": {
+        "Notifications": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-1": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Friends": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-2": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Settings": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-3": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Performance": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-4": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Soundtrack": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-5": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Help": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-6": ["none", "QuickAccess"]
+                }
+            }
+        },
+        "Keyboard": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-KEYBOARD": ["none", "QuickAccess"]
+                }
+            }
+        }
+    }
+}
