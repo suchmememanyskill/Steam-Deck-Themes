@@ -37,7 +37,8 @@
     padding-right: 10px;
 }
 
-.audio_VolumePopin_2iUUM .gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi {
+.audio_VolumePopin_2iUUM .gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi,
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68 {
     display: none;
 }
 
