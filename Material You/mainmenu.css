@@ -11,8 +11,9 @@
 
 .mainmenu_Item_2w9Tp .marquee_Content_2ADpT, 
 .mainmenu_Item_2w9Tp .mainmenu_ItemIcon_3xZ3Z,
-.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--md-sys-color-on-surface);
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, 
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
+    color: var(--md-sys-color-on-surface) !important;
 }
 
 .mainmenu_Item_2w9Tp.gpfocus,
@@ -26,7 +27,7 @@
 .mainmenu_Item_2w9Tp:focus:hover .marquee_Content_2ADpT, 
 .mainmenu_Item_2w9Tp:focus:hover .mainmenu_ItemIcon_3xZ3Z
 {
-    color: var(--md-sys-color-on-secondary);
+    color: var(--md-sys-color-on-secondary) !important;
 }
 
 .mainmenu_Menu_23IDi {
