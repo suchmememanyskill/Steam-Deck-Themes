@@ -21,11 +21,6 @@
     height: var(--CGV-play-anim-height);
 }
 
-.sharedappdetailsheader_BoxSizer_30GVp {
-    top: 80% !important;
-    max-height: 120px;
-}
-
 .sharedappdetailsheader_TitleSection_1P_tv {
     padding: 0;
 }
