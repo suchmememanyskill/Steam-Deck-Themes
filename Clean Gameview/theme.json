@@ -9,6 +9,16 @@
         "shared.css": ["SP"]
     },
     "patches": {
+        "Smaller Logo": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": {
+                    "smallerlogo.css": ["SP"]
+                },
+                "No": {}
+            }
+        },
         "Show Steam Cloud": {
             "type": "checkbox",
             "default": "No",
