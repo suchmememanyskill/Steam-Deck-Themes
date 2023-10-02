@@ -2,7 +2,7 @@
     "name": "QAM Hide Tabs",
     "author": "SuchMeme",
     "manifest_version": 9,
-    "version": "v1.0",
+    "version": "v1.1",
     "description": "Selectively hide tabs from the Quick Access Menu",
     "target": ["Tweak"],
     "flags": ["REQUIRE_NAV_PATCH"],
@@ -10,6 +10,15 @@
         "shared.css": ["QuickAccess"]
     },
     "patches": {
+        "Remote Play Together": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "--QAMHIDE-0": ["none", "QuickAccess"]
+                }
+            }
+        },
         "Notifications": {
             "type": "checkbox",
             "values": {
