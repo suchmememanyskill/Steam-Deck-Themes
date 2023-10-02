@@ -2,23 +2,13 @@
     "name": "Clean Gameview",
     "author": "SuchMeme",
     "target": "Library",
-    "version": "v1.5",
+    "version": "v1.6",
     "manifest_version": 8,
     "description": "Makes the game view less cluttered, and shows more of the game's art",
     "inject": {
         "shared.css": ["SP"]
     },
     "patches": {
-        "Show Steam Cloud": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {
-                    "steamcloud.css": ["SP"]
-                },
-                "No": {}
-            }
-        },
         "Play Bar Style": {
             "type": "dropdown",
             "default": "Transparent",
@@ -31,20 +21,6 @@
                 },
                 "Connected with Body": {
                     "connected.css": ["SP"]
-                }
-            }
-        },
-        "Ignore Footer": {
-            "type": "checkbox",
-            "default": "No",
-            "values": {
-                "Yes": {
-                    "--CGV-footer-height": ["0px", "SP"],
-                    "--CGV-play-anim-height": ["100vh", "SP"]
-                },
-                "No": {
-                    "--CGV-footer-height": ["40px", "SP"],
-                    "--CGV-play-anim-height": ["58vw", "SP"]
                 }
             }
         },
@@ -65,6 +41,40 @@
                 "Stretch": {
                     "alignments/stretch.css": ["SP"]
                 }
+            }
+        },
+        "Show Steam Cloud": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "steamcloud.css": ["SP"]
+                },
+                "No": {}
+            }
+        },
+        "Ignore Footer": {
+            "type": "checkbox",
+            "default": "No",
+            "values": {
+                "Yes": {
+                    "--CGV-footer-height": ["0px", "SP"],
+                    "--CGV-play-anim-height": ["100vh", "SP"]
+                },
+                "No": {
+                    "--CGV-footer-height": ["40px", "SP"],
+                    "--CGV-play-anim-height": ["58vw", "SP"]
+                }
+            }
+        },
+        "Lock Logo": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values": {
+                "Yes": {
+                    "lockedlogo.css": ["SP"]
+                },
+                "No": {}
             }
         }
     }
