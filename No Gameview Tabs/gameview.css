@@ -1,0 +1,18 @@
+.BasicUI .basicappdetailssectionstyler_AppDetailsContainer_2-ns_ {
+  display: none;
+  visibility: hidden;
+}
+
+.BasicUI .basicappdetailssectionstyler_AppDetailsContainer_2-ns_ .Focusable {
+  display: none;
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+  display: none;
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8
+  .gamepadhomerecentgames_RecentGamesBackground_1SRox {
+  filter: none;
+  opacity: 0.6;
+}

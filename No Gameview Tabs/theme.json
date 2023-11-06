@@ -1,0 +1,13 @@
+{
+    "name": "No Gameview Tabs",
+    "author": "derekss",
+    "manifest_version": 5,
+    "target": "Other",
+    "description": "Remove tabs from game view",
+    "inject": {
+        "gameview.css": ["bigpicture"]
+    },
+    "flags": [
+      "REQUIRE_NAV_PATCH"
+    ]
+}
