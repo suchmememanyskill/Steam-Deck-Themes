@@ -2,7 +2,3 @@
     /* Screen Height - (Header + Footer) - header padding */
     height: calc(100vh - 80px - 14px);
 }
-
-.gamepadhome_TabbedContent_cE1Sa {
-    margin-top: 0;
-}
