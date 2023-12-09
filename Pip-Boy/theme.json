@@ -1,7 +1,7 @@
 {
     "name": "Pip-Boy",
     "author": "SuchMeme, Emerson-Biggons",
-    "version": "v1.2",
+    "version": "v1.3",
     "manifest_version": 4,
     "target": "System-Wide",
     "inject": {

@@ -1,5 +1,10 @@
 .header_HeaderItem_2HnVd,
-.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
+.searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T,
+.header_HeaderItem_2HnVd.header_Clock_1HhLU {
+    color: var(--pip-boy-accent);
+}
+
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
     color: var(--pip-boy-accent);
 }
 
