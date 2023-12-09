@@ -1,7 +1,7 @@
 {
     "name": "Material You",
     "author": "SuchMeme",
-    "version": "v1.2",
+    "version": "v1.3",
     "manifest_version": 8,
     "target": "System-Wide",
     "description": "Google's Material Design 3 (Material You) implemented in the Steam Deck UI. Has both a light and a dark mode. See ~/homebrew/themes/Material You/palettes/custom_slot.css to make your own color scheme",
@@ -68,6 +68,15 @@
                 },
                 "Custom Slot": {
                     "palettes/custom_slot.css": ["all"]
+                }
+            }
+        },
+        "Invert SVG": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "invertsvg.css": ["all"]
                 }
             }
         }

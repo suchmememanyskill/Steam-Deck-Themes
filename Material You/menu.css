@@ -280,3 +280,14 @@
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
     background: transparent;
 }
+
+/* Library Tab */
+.gamepadtabbedpage_GamepadTabbedPage_3IBLc.gamepadtabbedpage_IsUnderHeader_31Zle .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::before, 
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs.gamepadtabbedpage_ScrolledDown_1jNhb::before {
+    box-shadow: none;
+    background: var(--md-sys-color-surface-container);
+}
+
+.gamepadtabbedpage_FixCenterAlignScroll_1CJeU {
+    padding-bottom: 0;
+}

@@ -67,6 +67,10 @@
     border-bottom-left-radius: 10px;
 }
 
+.quickaccessmenu_Container_3DHXr .GamepadMode.friendlist {
+    background: transparent;
+}
+
 /* QAM Text */
 
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
@@ -84,7 +88,7 @@
 
 .quickaccesscontrols_Text_1hJkB,
 .gamepaddialog_FieldLabel_3b0U-,
-.gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_FieldLabel_3b0U- > .DialogLabel,
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,
 .perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,
 .gamepadslider_Icon_21uKi {
@@ -112,8 +116,11 @@
 }
 
 .gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldLabel_3b0U-,
-.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-
- {
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldLabel_3b0U-,
+.gamepaddialog_Field_S-_La.gpfocus .gamepaddialog_FieldIcon_1sC68,
+.gamepaddialog_Field_S-_La.gpfocuswithin .gamepaddialog_FieldIcon_1sC68,
+.gamepaddialog_Field_S-_La .gamepaddialog_FieldIcon_1sC68
+{
     color: var(--md-sys-color-on-surface) !important;
     /* color: var(--md-sys-color-inverse-on-surface) !important; */
 }
