@@ -58,11 +58,20 @@
     background: var(--md-sys-color-surface-container);
 }
 
-.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined .quickaccessmenu_Title_34nl5 {
-    padding-bottom: 0px;
+/* Decky hotfix */
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div:last-child:not(.Panel),
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div.Panel:last-child > div:last-child {
+    background: var(--md-sys-color-surface);
 }
 
-.tab_undefined .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi {
+
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined .quickaccessmenu_Title_34nl5 {
+    padding-bottom: 10px;
+}
+
+.tab_undefined .quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi,
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div:last-child:not(.Panel),
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined > div.Panel:last-child > div:last-child {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }

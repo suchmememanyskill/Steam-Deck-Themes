@@ -5,6 +5,10 @@
     background: var(--md-sys-color-surface-container);
 }
 
+#Footer {
+    border: 0;
+}
+
 #header .header_HeaderItem_2HnVd,
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T,
 .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T,
