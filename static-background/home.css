@@ -4,6 +4,7 @@
     background-image: var(--sbg-global-img-filter), var(--sbg-home-background);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt > * {

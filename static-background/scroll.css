@@ -1,0 +1,49 @@
+.friendslist_FriendsChatsContainer_2Ze6b,
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt,
+.gamepadsearch_GamepadSearch_P_AlE .gamepadtabbedpage_GamepadTabbedPage_3IBLc,
+.gamepadlibrary_GamepadLibrary_ZBBhe .gamepadtabbedpage_GamepadTabbedPage_3IBLc
+{
+    animation: var(--sb-vertical-scroll);
+}
+
+@keyframes sb-vertical-scroll {
+    0% {
+        background-position: top center;
+    }
+
+    50% {
+        background-position: bottom center;
+    }
+
+    100% {
+        background-position: top center;
+    }
+}
+
+@keyframes sb-horizontal-scroll {
+    0% {
+        background-position: left center;
+    }
+
+    50% {
+        background-position: right center;
+    }
+
+    100% {
+        background-position: left center;
+    }
+}
+
+@keyframes sb-diagonal-scroll {
+    0% {
+        background-position: left top;
+    }
+
+    50% {
+        background-position: right bottom;
+    }
+
+    100% {
+        background-position: left top;
+    }
+}

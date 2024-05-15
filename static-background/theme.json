@@ -1,9 +1,9 @@
 {
     "name": "Static Background",
-    "version": "v2.0",
+    "version": "v2.1",
     "author": "SuchMeme",
     "target": "System-Wide",
-    "manifest_version": 4,
+    "manifest_version": 9,
     "description": "Injects custom backgrounds selectively into Home, Library, Search and Friends & Chat. You can select your own image via a file picker for each screen. Default image is sourced from https://unsplash.com/photos/NS0jhXpw2FM",
     "patches": {
         "Home": {
@@ -11,7 +11,9 @@
             "default": "No",
             "values": {
                 "Yes": {
-                    "home.css": ["SP"]
+                    "home.css": [
+                        "SP"
+                    ]
                 },
                 "No": {}
             },
@@ -22,7 +24,9 @@
                     "on": "Yes",
                     "default": "Static Background/background.jpg",
                     "css_variable": "sbg-home-background",
-                    "tabs": ["SP"]
+                    "tabs": [
+                        "SP"
+                    ]
                 }
             ]
         },
@@ -31,7 +35,9 @@
             "default": "No",
             "values": {
                 "Yes": {
-                    "library.css": ["SP"]
+                    "library.css": [
+                        "SP"
+                    ]
                 },
                 "No": {}
             },
@@ -42,7 +48,9 @@
                     "on": "Yes",
                     "default": "Static Background/background.jpg",
                     "css_variable": "sbg-library-background",
-                    "tabs": ["SP"]
+                    "tabs": [
+                        "SP"
+                    ]
                 }
             ]
         },
@@ -51,7 +59,9 @@
             "default": "No",
             "values": {
                 "Yes": {
-                    "search.css": ["SP"]
+                    "search.css": [
+                        "SP"
+                    ]
                 },
                 "No": {}
             },
@@ -62,7 +72,9 @@
                     "on": "Yes",
                     "default": "Static Background/background.jpg",
                     "css_variable": "sbg-search-background",
-                    "tabs": ["SP"]
+                    "tabs": [
+                        "SP"
+                    ]
                 }
             ]
         },
@@ -71,7 +83,9 @@
             "default": "No",
             "values": {
                 "Yes": {
-                    "friends.css": ["SP"]
+                    "friends.css": [
+                        "SP"
+                    ]
                 },
                 "No": {}
             },
@@ -82,7 +96,9 @@
                     "on": "Yes",
                     "default": "Static Background/background.jpg",
                     "css_variable": "sbg-friends-background",
-                    "tabs": ["SP"]
+                    "tabs": [
+                        "SP"
+                    ]
                 }
             ]
         },
@@ -91,34 +107,87 @@
             "default": ".5",
             "values": {
                 ".1": {
-                    "brightness/10.css": ["SP"]
+                    "brightness/10.css": [
+                        "SP"
+                    ]
                 },
                 ".2": {
-                    "brightness/20.css": ["SP"]
+                    "brightness/20.css": [
+                        "SP"
+                    ]
                 },
                 ".3": {
-                    "brightness/30.css": ["SP"]
+                    "brightness/30.css": [
+                        "SP"
+                    ]
                 },
                 ".4": {
-                    "brightness/40.css": ["SP"]
+                    "brightness/40.css": [
+                        "SP"
+                    ]
                 },
                 ".5": {
-                    "brightness/50.css": ["SP"]
+                    "brightness/50.css": [
+                        "SP"
+                    ]
                 },
                 ".6": {
-                    "brightness/60.css": ["SP"]
+                    "brightness/60.css": [
+                        "SP"
+                    ]
                 },
                 ".7": {
-                    "brightness/70.css": ["SP"]
+                    "brightness/70.css": [
+                        "SP"
+                    ]
                 },
                 ".8": {
-                    "brightness/80.css": ["SP"]
+                    "brightness/80.css": [
+                        "SP"
+                    ]
                 },
                 ".9": {
-                    "brightness/90.css": ["SP"]
+                    "brightness/90.css": [
+                        "SP"
+                    ]
                 },
                 "1": {
-                    "brightness/100.css": ["SP"]
+                    "brightness/100.css": [
+                        "SP"
+                    ]
+                }
+            }
+        },
+        "Scroll": {
+            "type": "dropdown",
+            "values": {
+                "None": {},
+                "Horizontal": {
+                    "scroll.css": [
+                        "SP"
+                    ],
+                    "--sb-vertical-scroll": [
+                        "sb-horizontal-scroll 240s ease infinite",
+                        "SP"
+                    ]
+                },
+                "Vertical": {
+                    "scroll.css": [
+                        "SP"
+                    ],
+                    "--sb-vertical-scroll": [
+                        "sb-vertical-scroll 240s ease infinite",
+                        "SP"
+                    ]
+                },
+                "Diagonal": {
+                    "scroll.css": [
+                        "SP"
+                    ],
+                    "--sb-vertical-scroll": [
+                        "sb-diagonal-scroll 240s ease infinite",
+                        "SP"
+                    ]
                 }
             }
         }

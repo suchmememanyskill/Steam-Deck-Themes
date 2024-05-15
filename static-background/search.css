@@ -2,4 +2,5 @@
     background-image: var(--sbg-global-img-filter), var(--sbg-search-background);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
