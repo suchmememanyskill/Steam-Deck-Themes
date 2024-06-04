@@ -1,0 +1,11 @@
+{
+    "name": "No Home Edge Fade",
+    "author": "SuchMeme, RasitAyaz",
+    "version": "v1.2",
+    "target": "Tweak",
+    "manifest_version": 9,
+    "description": "Removes the fading of the game cover image near the edges",
+    "inject": {
+        "shared.css": ["bigpicture"]
+    }
+}
