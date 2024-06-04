@@ -1,0 +1,50 @@
+/* Set the background to be the same color */
+.GamepadLibrary
+{
+    background: linear-gradient(120deg, #3d3f4b, 40%, #23262d);
+}
+
+/* Allow content overflow to be hidden */
+.GamepadLibrary .TabContentsScroll
+{
+    padding-top: 0 !important;
+    margin-top: 58px;
+}
+
+/* Pad whenever the top bar is passthrough */
+.GamepadLibrary .GamepadTabbedPage.IsUnderHeader .TabContentsScroll
+{
+    margin-top: calc( var(--basicui-header-height) + 58px );
+}
+
+/* Remove blur/shadow/background from library tabs */
+.GamepadLibrary .TabHeaderRowWrapper::before
+{
+    display: none;
+}
+
+/* Bring back the black top bar */
+.GamepadLibrary .TabHeaderRowWrapper::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: calc( 0px + var(--basicui-header-height, 0px) );
+    z-index: -1;
+    background: black;
+    margin-top: calc(-1 * var(--basicui-header-height));
+}
+
+/* Fix issues caused by the header not existing for the game list */
+.GamepadLibrary .GamepadTabbedPage.IsUnderHeader .TabHeaderRowWrapper::after
+{
+    margin-top: 0;
+}
+
+/* Remove blur */
+.GamepadLibrary .LibraryImageBackgroundGlow
+{
+    display: none;
+}

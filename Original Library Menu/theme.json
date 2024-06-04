@@ -1,0 +1,11 @@
+{
+    "name": "Original Library Menu",
+    "author": "Sims",
+    "version": "v1.0",
+    "description": "Reverts the library menu to how it looked in 2023",
+    "manifest_version": 9,
+    "target": "Library",
+    "inject": {
+        "shared.css": ["bigpicture"]
+    }
+}
