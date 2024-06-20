@@ -8,7 +8,7 @@
     "inject": {
         "shared.css": [
             "SP"
-        ] 
+        ]
     },
     "patches": {
         "No Friends": {
@@ -18,6 +18,45 @@
                 "No": {},
                 "Yes": {
                     "nofriends.css": [ "SP" ]
+                }
+            }
+        },
+        "Lift Hero": {
+            "default": "0",
+            "type": "slider",
+            "values": {
+                "0": {
+                    "--SLH-lift-hero-px": ["0", "SP"]
+                },
+                "1": {
+                    "--SLH-lift-hero-px": ["10px", "SP"]
+                },
+                "2": {
+                    "--SLH-lift-hero-px": ["20px", "SP"]
+                },
+                "3": {
+                    "--SLH-lift-hero-px": ["30px", "SP"]
+                },
+                "4": {
+                    "--SLH-lift-hero-px": ["40px", "SP"]
+                },
+                "5": {
+                    "--SLH-lift-hero-px": ["50px", "SP"]
+                },
+                "6": {
+                    "--SLH-lift-hero-px": ["60px", "SP"]
+                },
+                "7": {
+                    "--SLH-lift-hero-px": ["70px", "SP"]
+                },
+                "8": {
+                    "--SLH-lift-hero-px": ["80px", "SP"]
+                },
+                "9": {
+                    "--SLH-lift-hero-px": ["90px", "SP"]
+                },
+                "10": {
+                    "--SLH-lift-hero-px": ["100px", "SP"]
                 }
             }
         }
