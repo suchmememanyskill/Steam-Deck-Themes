@@ -2,8 +2,8 @@
     "name": "Clean Gameview",
     "author": "SuchMeme",
     "target": "Library",
-    "version": "v1.6",
-    "manifest_version": 8,
+    "version": "v1.7",
+    "manifest_version": 9,
     "description": "Makes the game view less cluttered, and shows more of the game's art",
     "inject": {
         "shared.css": ["SP"]
