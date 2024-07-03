@@ -29,3 +29,7 @@
 .gamepadhome_TabbedContent_cE1Sa {
     margin-top: 0px;
 }
+
+.RecentGamesBackgroundContainer, .RecentGamesBackgroundImages {
+    bottom: var(--SLH-lift-hero-px);
+}
