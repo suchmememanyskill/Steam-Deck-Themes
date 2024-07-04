@@ -3,7 +3,7 @@
     "manifest_version": 6,
     "author": "SuchMeme",
     "target": "Desktop",
-    "version": "v1.1",
+    "version": "v1.2",
     "description": "Change the background of the main steam window with an image!",
     "inject": {
         "library.css": ["SteamLibraryWindow|Steam"]
