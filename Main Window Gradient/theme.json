@@ -3,7 +3,7 @@
     "manifest_version": 6,
     "author": "SuchMeme",
     "target": "Desktop-Library",
-    "version": "v1.2",
+    "version": "v1.3",
     "description": "Change the background color of the main steam window! Gradient style is fully configurable",
     "inject": {
         "library.css": ["SteamLibraryWindow|Steam"]
