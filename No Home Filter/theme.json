@@ -4,7 +4,7 @@
 	"author": "SuchMeme, Met",
 	"target": "Tweak",
 	"description": "Removes the background filter on the home menu that desaturates images",
-	"version": "v1.2",
+	"version": "v1.3",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
