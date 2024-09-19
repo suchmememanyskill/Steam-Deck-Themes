@@ -1,0 +1,107 @@
+{
+    "name": "Top Bar Padding",
+    "description": "Adds a bit of padding around the top bar.",
+    "author": "SuchMeme",
+    "version": "v1.0",
+    "manifest_version": 9,
+    "target": "Home",
+    "inject": {
+        "theme.css": []
+    },
+    "tabs": {
+        "default": ["bigpicture"]
+    },
+    "patches": {
+        "Home Menu Top Padding": {
+            "type": "slider",
+            "default": "10px",
+            "values": {
+                "0px": {
+                    "--tbp-height": ["0px"]
+                },
+                "5px": {
+                    "--tbp-height": ["5px"]
+                },
+                "10px": {
+                    "--tbp-height": ["10px"]
+                },
+                "15px": {
+                    "--tbp-height": ["15px"]
+                },
+                "20px": {
+                    "--tbp-height": ["20px"]
+                },
+                "25px": {
+                    "--tbp-height": ["25px"]
+                },
+                "30px": {
+                    "--tbp-height": ["30px"]
+                }
+            }
+        },
+        "Sideways Padding": {
+            "type": "slider",
+            "default": "15px",
+            "values": {
+                "0px": {
+                    "--tbp-side": ["0px"]
+                },
+                "5px": {
+                    "--tbp-side": ["5px"]
+                },
+                "10px": {
+                    "--tbp-side": ["10px"]
+                },
+                "15px": {
+                    "--tbp-side": ["15px"]
+                },
+                "20px": {
+                    "--tbp-side": ["20px"]
+                },
+                "25px": {
+                    "--tbp-side": ["25px"]
+                },
+                "30px": {
+                    "--tbp-side": ["30px"]
+                }
+            }
+        },
+        "Only Show Sideways Padding On Home": {
+            "type": "checkbox",
+            "values": {
+                "No": {
+                    "always-side-spacing.css": []
+                },
+                "Yes": {}
+            }
+        },
+        "Left Side Profile": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "left-side-profile.css": []
+                }
+            }
+        },
+        "Left Side Time": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "left-side-time.css": []
+                }
+            }
+        },
+        "Left Side Battery": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "left-side-battery.css": []
+                }
+            }
+        }
+    }
+}

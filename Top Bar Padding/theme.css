@@ -1,0 +1,27 @@
+#header > :nth-child(1){ order: 1;}
+#header > :nth-child(2){ order: 2;}
+#header > :nth-child(3){ order: 3;}
+#header > :nth-child(4){ order: 4;}
+#header > :nth-child(5){ order: 5;}
+#header > :nth-child(6){ order: 6;}
+#header > :nth-child(7){ order: 7;}
+#header > :nth-child(8){ order: 8;}
+#header > :nth-child(9){ order: 9;}
+#header > :nth-child(10){ order: 10;}
+#header > :nth-child(11){ order: 11;}
+#header > :nth-child(12){ order: 12;}
+#header > :nth-child(13){ order: 13;}
+
+#header 
+{
+    transition: all 0.4s ease;
+}
+
+body:has(.RecentGamesContainer) #header.MS2nBlIVdD81RAR7q2avW:not(._3QJwUI_iW1UsvQP3i3qSTS):not([tabindex="-1"])
+{
+    padding: 0 var(--tbp-side);
+    padding-top: var(--tbp-height);
+    height: calc(40px + var(--tbp-height));
+    min-height: calc(40px + var(--tbp-height));
+    max-height: calc(40px + var(--tbp-height));
+}
