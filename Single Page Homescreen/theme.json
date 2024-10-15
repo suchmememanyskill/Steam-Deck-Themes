@@ -1,0 +1,89 @@
+{
+    "name": "Single Page Homescreen",
+    "description": "Shows all games on the home menu in 1 screen, no scrolling! Amount of games shown is configurable.",
+    "author": "SuchMeme",
+    "version": "v1.0",
+    "manifest_version": 9,
+    "target": "Home",
+    "flags": [
+        "REQUIRE_NAV_PATCH"
+    ],
+    "inject": {
+        "shared.css": []
+    },
+    "tabs": {
+        "default": ["bigpicture"]
+    },
+    "patches": {
+        "Style": {
+            "type": "dropdown",
+            "values": {
+                "Flat": {
+                    "flat.css": []
+                },
+                "WiiFlow (Tilted Home) Negative Values": {
+                    "tiltedhome.css": [],
+                    "tiltedhome-negative-fix.css": []
+                },
+                "WiiFlow (Tilted Home) Positive Values": {
+                    "tiltedhome.css": [],
+                    "tiltedhome-positive-fix.css": []
+                }
+            }
+        },
+        "Limit games": {
+            "type": "dropdown",
+            "values": {
+                "21": {},
+                "20": {
+                    "remove-last-game-n1.css": []
+                },
+                "19": {
+                    "remove-last-game-n2.css": []
+                },
+                "18": {
+                    "remove-last-game-n3.css": []
+                },
+                "17": {
+                    "remove-last-game-n4.css": []
+                },
+                "16": {
+                    "remove-last-game-n5.css": []
+                },
+                "15": {
+                    "remove-last-game-n6.css": []
+                },
+                "14": {
+                    "remove-last-game-n7.css": []
+                },
+                "13": {
+                    "remove-last-game-n8.css": []
+                },
+                "12": {
+                    "remove-last-game-n9.css": []
+                },
+                "11": {
+                    "remove-last-game-n10.css": []
+                },
+                "10": {
+                    "remove-last-game-n11.css": []
+                },
+                "9": {
+                    "remove-last-game-n12.css": []
+                },
+                "8": {
+                    "remove-last-game-n13.css": []
+                },
+                "7": {
+                    "remove-last-game-n14.css": []
+                },
+                "6": {
+                    "remove-last-game-n15.css": []
+                },
+                "5": {
+                    "remove-last-game-n16.css": []
+                }
+            }
+        }
+    }
+}

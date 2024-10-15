@@ -1,0 +1,14 @@
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:first-child ._1HIFNGSxh4-jOhPiDynR4C 
+{
+    width: 133px !important;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div.gpfocuswithin
+{
+    z-index: 0 !important;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer 
+{
+    max-width: calc(100% - var(--sph-width-offset)) !important;
+}

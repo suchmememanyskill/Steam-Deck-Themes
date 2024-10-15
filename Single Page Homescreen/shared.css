@@ -1,0 +1,49 @@
+:root {
+    --sph-width-offset: 105px;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:not(:last-child)
+{
+    margin-right: 5px;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div  
+{
+    position: relative !important; 
+    left: unset !important; 
+    width: unset !important;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 133px;
+    transition: min-width 0.2s ease;
+    transition-delay: 0.1s;
+    min-width: 2px;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid._3MdH5Czolhh5rC_nofUlcQ 
+{
+    overflow: visible !important;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer 
+{
+   display: flex;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .LandscapeImage 
+{
+    height: 100%;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .LibraryItemBox.gpfocus 
+{
+    transform: scale(1) !important;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:last-child:not(.gpfocuswithin) .BasicGameCarouselItemMediaContainer 
+{
+    writing-mode: vertical-rl;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

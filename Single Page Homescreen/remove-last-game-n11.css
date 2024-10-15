@@ -1,0 +1,9 @@
+:root {
+    --sph-width-offset: 59px;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:nth-last-child(-n+11),
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:nth-last-child(-n+11) *
+{
+    display: none;
+}
