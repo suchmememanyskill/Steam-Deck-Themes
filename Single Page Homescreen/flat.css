@@ -22,3 +22,14 @@
 {
     max-width: 100% !important;
 }
+
+._39tNvaLedsTrVh0fFsP4Jm .ReactVirtualized__Grid__innerScrollContainer > div:has(._1qOWMo-qOzCUkMGY4f_EP5)
+{
+    flex-basis: 10px !important;
+    flex-grow: 0 !important;
+}
+
+._39tNvaLedsTrVh0fFsP4Jm .RecentGamesInnerContainer ._3dncOt2dhpnFYQn-WYQ3Mb._1WWmQqppYq8c44A7nTMKUq
+{
+    flex-direction: column;
+}
