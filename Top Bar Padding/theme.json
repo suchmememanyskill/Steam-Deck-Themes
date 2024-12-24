@@ -2,7 +2,7 @@
     "name": "Top Bar Padding",
     "description": "Adds a bit of padding around the top bar.",
     "author": "SuchMeme",
-    "version": "v1.0",
+    "version": "v1.1",
     "manifest_version": 9,
     "target": "Home",
     "inject": {
