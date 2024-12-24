@@ -17,7 +17,7 @@
     transition: all 0.4s ease;
 }
 
-body:has(.RecentGamesContainer) #header.MS2nBlIVdD81RAR7q2avW:not(._3QJwUI_iW1UsvQP3i3qSTS):not([tabindex="-1"])
+body.WindowFocus:has(.RecentGamesContainer) #header.MS2nBlIVdD81RAR7q2avW:not(._3QJwUI_iW1UsvQP3i3qSTS):not([tabindex="-1"])
 {
     padding: 0 var(--tbp-side);
     padding-top: var(--tbp-height);
