@@ -63,7 +63,3 @@
     background: var(--md-sys-color-surface-container);
     color: var(--md-sys-color-primary);
 }
-
-.header_Header_1E_SL:not(.header_OverrideHeaderBackground_MS2nB)::before {
-    opacity: 1;
-}
