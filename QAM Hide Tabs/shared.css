@@ -9,37 +9,44 @@
     --QAMHIDE-KEYBOARD: flex;
 }
 
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8),
+#quickaccess_tab_1 {
     display: var(--QAMHIDE-0);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(2) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(2),
+#quickaccess_tab_0 {
     display: var(--QAMHIDE-1);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7) ~ .quickaccessmenu_Tab_1S76C:nth-child(2),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(3) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(3),
+#quickaccess_tab_3 {
     display: var(--QAMHIDE-2);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7) ~ .quickaccessmenu_Tab_1S76C:nth-child(3),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(4) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(4),
+#quickaccess_tab_4 {
     display: var(--QAMHIDE-3);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7) ~ .quickaccessmenu_Tab_1S76C:nth-child(4),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(5) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(5),
+#quickaccess_tab_5 {
     display: var(--QAMHIDE-4);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7) ~ .quickaccessmenu_Tab_1S76C:nth-child(5),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(6) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(6),
+#quickaccess_tab_7 {
     display: var(--QAMHIDE-5);
 }
 
 .quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(7) ~ .quickaccessmenu_Tab_1S76C:nth-child(6),
-.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(7) {
+.quickaccessmenu_TabContentColumn_2z5NL .quickaccessmenu_Tab_1S76C:first-child:nth-last-child(8) ~ .quickaccessmenu_Tab_1S76C:nth-child(7),
+#quickaccess_tab_6 {
     display: var(--QAMHIDE-6);
 }
 

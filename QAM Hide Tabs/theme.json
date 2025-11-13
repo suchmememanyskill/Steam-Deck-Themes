@@ -2,7 +2,7 @@
     "name": "QAM Hide Tabs",
     "author": "SuchMeme",
     "manifest_version": 9,
-    "version": "v1.1",
+    "version": "v1.2",
     "description": "Selectively hide tabs from the Quick Access Menu",
     "target": ["Tweak"],
     "flags": ["REQUIRE_NAV_PATCH"],
